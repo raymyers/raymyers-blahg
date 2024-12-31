@@ -1,4 +1,6 @@
-# Cassidy's blog template
+# Ray's Blog
+
+Based on Cassidy's blog template.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/eab04209-5f7f-41ed-a8dd-c45a9ebb1834/deploy-status)](https://app.netlify.com/sites/blahg/deploys)
 
