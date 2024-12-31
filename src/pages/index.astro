@@ -7,7 +7,7 @@ import HomePosts from "../components/HomePosts.astro";
 import ColorScript from "../components/ColorScript.astro";
 import Tags from "../components/Tags.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
-import { Content as About } from "./about.astro";
+import About from "./about.astro";
 import getTags from "../scripts/getTags";
 
 const posts = await getCollection("posts");
