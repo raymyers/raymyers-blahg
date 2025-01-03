@@ -1,23 +1,34 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
+import { Image } from "astro:assets";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import rayImage from "../../public/ray-gs.jpeg";
 ---
 
 <header>
-	<div class="header-section">
-		<div class="header-frame">
-			<h1>{SITE_TITLE}</h1>
-			<h2>{SITE_DESCRIPTION}</h2>
-		</div>
-	</div>
+  <div class="header-section">
+    <div class="header-frame">
+      <h1>{SITE_TITLE}</h1>
+      <h2>{SITE_DESCRIPTION}</h2>
+    </div>
+    <div class="img-frame">
+      <Image src={rayImage} alt="My photo" />
+    </div>
+  </div>
 </header>
 <nav>
-	<HeaderLink href="/">home</HeaderLink>
-	<HeaderLink href="/posts">posts</HeaderLink>
-	<HeaderLink href="/newsletter">etc</HeaderLink>
+  <HeaderLink href="/">home</HeaderLink>
+  <HeaderLink href="/posts">blog</HeaderLink>
+  <HeaderLink href="https://www.linkedin.com/in/cadrlife">linkedin</HeaderLink>
+  <HeaderLink href="https://www.youtube.com/channel/UC4nEbAo5xFsOZDk2v0RIGHA"
+    >youtube</HeaderLink
+  >
+  <HeaderLink href="https://github.com/raymyers">github</HeaderLink>
+  <HeaderLink href="https://raymyers.bsky.social">bluesky</HeaderLink>
+  <!-- <HeaderLink href="/newsletter">etc</HeaderLink> -->
 </nav>
 <style>
-	h2 {
-		margin: 0.5em 0;
-	}
+  h2 {
+    margin: 0.5em 0;
+  }
 </style>

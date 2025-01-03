@@ -16,28 +16,28 @@ const tags = getTags(posts);
 
 <!doctype html>
 <html lang="en-us">
-	<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	<body>
-		<Header title={SITE_TITLE} />
-		<main>
-			<About />
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <body>
+        <Header title={SITE_TITLE} />
+        <main>
+            <About />
 
-			<br />
+            <br />
 
-			<h3>Here's my most recent posts</h3>
+            <h3>Here are my most recent posts</h3>
 
-			<HomePosts allPosts={posts} />
+            <HomePosts allPosts={posts} />
 
-			<p class="center">
-				You can also <a href="https://blahg.netlify.app/rss.xml">
-					subscribe with RSS!
-				</a>
-			</p>
-			<br />
+            <p class="center">
+                You can also <a href="https://blahg.netlify.app/rss.xml">
+                    subscribe with RSS!
+                </a>
+            </p>
+            <br />
 
-			<Tags tags={tags} all />
-		</main>
-		<Footer />
-		<ColorScript />
-	</body>
+            <Tags tags={tags} all />
+        </main>
+        <Footer />
+        <ColorScript />
+    </body>
 </html>
