@@ -1,5 +1,5 @@
 ---
-title: Projects Are Agile Again!
+title: Projects Are Agile Again
 slug: projects-agile-again
 description: >-
   Agile Alliance is controversially joining PMI. Why was Agile allergic to
@@ -10,7 +10,7 @@ tags:
 added: 2025-01-04T18:55:30.703Z
 ---
 
-So Agile Alliance is [Project Management Institute (PMI)](https://www.agilealliance.org/agile-alliance-joins-project-management-institute-pmi/). I don't have a strong opinion on that. I like harmony… some see it as an abandonment of principles, or that the principles have long been abandoned.
+So Agile Alliance is joining [Project Management Institute (PMI)](https://www.agilealliance.org/agile-alliance-joins-project-management-institute-pmi/). I don't have a strong opinion on that. I like harmony, could this help? Some see it as an abandonment of principles, or think the principles have long been abandoned.
 
 Personally I’m just contemplating how I would describe to the uninitiated this allergy we’ve developed to the word “project”.
 
