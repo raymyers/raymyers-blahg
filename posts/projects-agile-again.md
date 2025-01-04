@@ -1,5 +1,5 @@
 ---
-title: Projects are Agile ... Again
+title: Projects are Agile Again
 slug: projects-agile-again
 description: >-
   Agile Alliance is controversially joining PMI. Why was Agile allergic to
