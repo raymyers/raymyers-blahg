@@ -9,9 +9,7 @@ tags:
 added: 2025-05-17T19:08:51.613Z
 ---
 
-There is currently no such thing as an "AI Software Engineer".
-
-Similarly, there are no AI Doctors or AI Lawyers.
+There is currently no such thing as an "AI Software Engineer". Similarly, there are no AI Doctors or AI Lawyers.
 
 I now work on AI agents full time, so obviously I feel this is a valuable direction. Still, I feel just as strongly as I did before that it's unethical to exaggerate what's been achieved and ultimately the hype will be self-defeating as early adopters are burnt by broken promises.
 
@@ -25,8 +23,8 @@ For discussion's sake, let's consider some basic necessary, though not sufficien
 
 * Is a [professional](https://jolt.law.harvard.edu/assets/articlePDFs/v33/33HarvJLTech557.pdf), having an obligation to uphold a standard of care
   * Therefore, has legal and moral agency typically associated with personhood
-* Is capable not only of solving small, predefined tasks in a codebase, but also 
+* Is capable not only of solving small, predefined tasks in a codebase, but also
   * Creating and maintaining a codebase of significant size over a period of time
   * Partnering to define the requirements to be done
 
-Without the supervision of a human programmer, every autonomous coding tool to date would fail these minimal prerequisites. That's before any consideration of the actual engineering discipline as currently understood, see Dave Farley's recent book [Modern Software Engineering](https://www.davefarley.net/?p=352) for a nice formulation.
+Without the supervision of a human programmer, every autonomous coding tool to date would fail these minimal prerequisites. That's before any consideration of the actual engineering discipline as currently understood, see Dave Farley's recent book [Modern Software Engineering](https://www.davefarley.net?p=352) for a nice formulation.
