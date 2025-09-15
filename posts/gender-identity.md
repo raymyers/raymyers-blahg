@@ -80,7 +80,7 @@ You'll notice the trend here is that categories are usually imperfect. We need l
 
 ## Identity
 
-Those terms all get used as descriptors but also identities. Someone's identity is like their evolving description of how they understand themselves. It usually makes sense to take people at their word on what their identity is, because it's a statement about their own self-image. Only they know what's in their mind. The way our identities coexist is like a social lubricant.
+We use these terms as descriptors but also as identities. Someone's identity is like their evolving description of how they understand themselves. It usually makes sense to take people at their word on what their identity is, because it's a statement about their own self-image. Only they know what's in their mind. The way our identities coexist is like a social lubricant.
 
 As an example of failing to exercise this principle, imagine you said something like:
 
