@@ -68,7 +68,7 @@ Sexual orientation is an umbrella term about the categories of people we tend to
 
 Commonly known orientations include Heterosexual, Homosexual, Bisexual, and Asexual. These have been observed throughout the animal kingdom and human history.
 
-Sexual orientation is a spectrum because people may be attracted outside their main orientation to various degrees. It can be fluid if attraction changes over time, but more often it's stable with the change being how someone describes themself as they learn their needs grapple with social pressures. This is why we would say someone "came out as gay" rather than "turned gay".
+Sexual orientation is a spectrum because people may be attracted outside their main orientation to various degrees. It can be fluid if attraction changes over time, but more often it's stable with the change being how someone describes themself as they learn their needs and grapple with social pressures. This is why we would say someone "came out as gay" rather than "turned gay".
 
 The attempt to turn someone from gay to straight is called Conversation Therapy which is a form of torture and has otherwise no effect.
 
