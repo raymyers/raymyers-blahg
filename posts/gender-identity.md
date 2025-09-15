@@ -54,19 +54,19 @@ When done on animals, the skill of reading the available indicators is called "s
 
 Biological sex is non-binary.
 
-It's non-binary because the indicators don't always line up, AND because they don't all have 2 answers. For instance. If you wanted to make this simpler by saying chromosomes should be the sole indicators of sex, you still have many other configurations to account for besides XX, XY. People that don't fall into biological binary have what is sometimes called DSD (Differences in Sex Development). Intersex is an older term that's no longer the technical jargon but still often used to self-identify.
+It's non-binary because the indicators don't always line up, AND because they don't all have 2 answers. For instance. If you wanted to make this simpler by saying chromosomes should be the sole indicators of sex, you still have many other configurations to account for besides XX, XY. When people's biological sex indicators don't align into the binary, that is sometimes called DSD (Differences in Sex Development). Intersex is an older term that's no longer the technical jargon but still often used to self-identify.
 
-It's estimated DSD represents of the order of 1 in 2,000 people. That's likely been similar throughout all of human history, what's changed is mostly our knowledge of it.
+It's estimated DSD represents of the order of 1 in 2,000 people. That's likely been similar throughout all of human history, what's changed is mainly our knowledge of it.
 
-If any of this is news to you it's probably because it doesn't affect you and it doesn't need to. It's fine to stop at "it's complicated". But to say "Everyone's biological sex is either male or female" is incoherent. It's a generalization of the same kind as "People are always right handed", "Nobody has naturally red hair", or "Hydrogen and Helium are the only two elements in the universe".
+If any of this is news to you, it's probably because it doesn't affect you and it doesn't need to. It's fine to stop at "it's complicated". But to say "Everyone's biological sex is either male or female" is incoherent. It's a generalization of the same kind as "People are always right handed", "Nobody has naturally red hair", or "Hydrogen and Helium are the only two elements in the universe".
 
-Is biological sex fluid? I'm not sure that's a useful distinction. You could take it indicator by indicator. My assumption is that if I had a testosterone deficiency I could get that addressed that (would that be unnatural?), but if I wanted to change my chromosome that's staying put.
+Is biological sex fluid? I'm not sure that's a useful distinction. You could take it indicator by indicator. My assumption is that if I had a testosterone deficiency I could get that addressed (would that be "unnatural"?), but if I wanted to change my chromosome that's staying put.
 
 ## Orientation
 
 Sexual orientation is an umbrella term about the categories of people we tend to be physically attracted to, and sometimes other details like how and when.
 
-Commonly known orientations include Heterosexual, Homosexual, Bisexual, and Asexual. These have been observed throughout the animal kingdom and all of human history.
+Commonly known orientations include Heterosexual, Homosexual, Bisexual, and Asexual. These have been observed throughout the animal kingdom and human history.
 
 Sexual orientation is a spectrum because people some people are attracted outside their main orientation to various degrees. It can be fluid if attraction changes over time, but more often it's stable with the change being how someone describes themself as they learn their needs grapple with social pressures. This is why we would say someone "came out as gay" rather than "turned gay".
 
