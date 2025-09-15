@@ -9,22 +9,22 @@ tags:
 added: 2025-09-15T14:58:29.545Z
 ---
 
-Gender, Sex, and Sexual Orientation are categories of identities which haver been repeatedly vilified throughout my lifetime in various ways.
+Gender, Sex, and Sexual Orientation are categories of identities which have been repeatedly vilified throughout my lifetime in various ways.
 
 When we express acceptance of these groups in various innocuous and undemanding ways such as "let people get married" or "call people their name" or the dreaded "there's tampons in the bathroom" a vocal section of people get quite angry.
 
 What I think is happening here is simply scapegoating. There's no placating the dominant class. No end-game. Never has been.
 
-**The heteros are upsettero**.
+**The heteros are upsetero**.
 
 But that's not everyone. Some people are genuinely curious and on the fence. Maybe some of the rhetoric sounds reasonable but you can tell something is... off. For those interested, I'll unpack my mental model on some of these topics.
 
 Here it is:
 
-* Chromosomes mostly dictate biological sex.
-* Biological sex mostly dictates sexual orientation.
-* Biological sex mostly dictates our relationship with gender.
-* All the mostly's are tenuous and have meaningful exceptions.
+* Chromosomes *mostly* dictate biological sex.
+* Biological sex *mostly* dictates sexual orientation.
+* Biological sex *mostly* dictates our relationship with gender.
+* All these *mostly's* are tenuous and have meaningful exceptions.
 
 Further,
 
@@ -74,7 +74,7 @@ The attempt to turn someone from gay to straight is called Conversation Therapy 
 
 Now, is orientation about being sexual attracted to a certain sex or to a gender? Probably either/or. Our original framing of orientations formed under the assumption that gender and sex were equivalent and binary, which they are not. I figure people do what they do and call it what they call it. It doesn't matter to me whether a cis persons and a trans person are considered to be in a heterosexual relationship, a homosexual one, both, or neither. That's a question for the couple, if anything.
 
-As an aside, there has been some difference of opinion on whether the newer term Pansexual means something different than Bisexual. "Pan" means all, where "Bi" literally means two. However, the "Bi" in Bisexual is arguably just a historical quirk. It was meant to be the inclusive label, not to exclude. I bring this up as an example of intersectionality and the fact that labels are forever in a state of gradual renegotiation.
+As an aside, there has been difference of opinion on whether the newer term Pansexual means something different than Bisexual. "Pan" means all, where "Bi" literally means two. However, the "Bi" in Bisexual is arguably just a historical quirk. It was meant to be the inclusive label, not to exclude. I bring this up as an example of intersectionality and the fact that labels are forever in a state of gradual renegotiation.
 
 You'll notice the trend here is that categories are usually imperfect. We need labels to understand the world, but they only go so far.
 
