@@ -80,9 +80,9 @@ You'll notice the trend here is that categories are usually imperfect. We need l
 
 ## Identity
 
-Those terms all get used as descriptors but also identities. Someone's identity is like their evolving description of how they understand themselves. It usually makes sense to take people at their word on what that identity is, because it's a statement about their own self-image, only they know what's in their mind. The way our identities coexist is like a social lubricant.
+Those terms all get used as descriptors but also identities. Someone's identity is like their evolving description of how they understand themselves. It usually makes sense to take people at their word on what their identity is, because it's a statement about their own self-image. Only they know what's in their mind. The way our identities coexist is like a social lubricant.
 
-As an example of failing to exercise this, imagine you said something like:
+As an example of failing to exercise this principle, imagine you said something like:
 
 > Jay-Z's mother isn't a real lesbian, she had a child.
 
@@ -102,6 +102,6 @@ The only time where it would seem justified to argue someone's conception of the
 
 # Conclusion
 
-With this understanding, the approach to even highly-contentious issues should be fairly obvious. Forget the click bait. Accept that the distinctions are imperfect. Consider if they need to carry weight in the first place, and how. When distinctions need to be made, they will naturally be at odds with reality some of the time. Listen to people's needs and use your best judgement.
+With this understanding, the approach to even highly-contentious issues should be fairly obvious. Forget the click bait. Accept that the distinctions are imperfect. Consider whether they need to carry weight in the first place, and how. When distinctions need to be made, they will naturally be at odds with reality some of the time. Listen to people's needs and use your best judgement.
 
 Reduce harm, respect agency, and don't feed the trolls.
