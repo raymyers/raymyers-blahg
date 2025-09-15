@@ -50,7 +50,7 @@ It's usually enough to understand that almost all of us have some psychological 
 
 The trait of sex is biological. It is expressed by roughly 5 kinds of indicators in humans, which usually agree but not always. Some indicators most of us are familiar with are chromosomal, hormonal, external genitalia, and other reproductive organs.
 
-When done on animals, the skill of reading an available indicators is called "sexing", as in "a trained individual can sex a baby chicken with 95% accuracy." When done on humans, this reading is what we'd call things like "assigned male at birth".
+When done on animals, the skill of reading the available indicators is called "sexing", as in "a trained individual can sex a baby chicken with 95% accuracy." When done on humans, this reading is what we'd call things like "assigned male at birth".
 
 Biological sex is non-binary.
 
