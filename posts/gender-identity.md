@@ -60,7 +60,7 @@ It's estimated DSD represents of the order of 1 in 2,000 people. That's likely b
 
 If any of this is news to you, it's probably because it doesn't affect you and it doesn't need to. It's fine to stop at "it's complicated". But to say "Everyone's biological sex is either male or female" is incoherent. It's a generalization of the same kind as "People are always right handed", "Nobody has naturally red hair", or "Hydrogen and Helium are the only two elements in the universe".
 
-Is biological sex fluid? I'm not sure that's a useful distinction. You could take it indicator by indicator. My assumption is that if I had a testosterone deficiency I could get that addressed (would that be "unnatural"?), but if I wanted to change my chromosome that's staying put.
+Is biological sex fluid? I'm not sure that's a useful distinction. You could consider each indicator separately. Presumably I could naturally develop a testosterone deficiency affecting my hormonal sex, and artificially correct it, but if I wanted to change my chromosome that's staying put.
 
 ## Orientation
 
