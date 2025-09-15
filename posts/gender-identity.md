@@ -68,11 +68,11 @@ Sexual orientation is an umbrella term about the categories of people we tend to
 
 Commonly known orientations include Heterosexual, Homosexual, Bisexual, and Asexual. These have been observed throughout the animal kingdom and human history.
 
-Sexual orientation is a spectrum because people may be attracted outside their main orientation to various degrees. It can be fluid if attraction changes over time, but more often it's stable with the change being how someone describes themself as they learn their needs and grapple with social pressures. This is why we would say someone "came out as gay" rather than "turned gay".
+Sexual orientation is a spectrum because people may be attracted outside their main orientation to various degrees. It can be fluid if attraction changes over time, but more often it's stable with the change being how someone describes themself as they learn their needs and grapple with social pressures. Thus, if someone "came out as gay" this does not mean that they "turned gay" at some point. It's more like at some point they came to understand what had always  been different about them, and probably also kept that information hidden for some time due for fear of their communities reaction. Having seen some of those reactions, I find that fear extremely well founded.
 
 The attempt to turn someone from gay to straight is called Conversation Therapy which is a form of torture and has otherwise no effect.
 
-Now, given we've established sex isn't gender, which one one does orientation mean attraction to? Probably either/or. We're attracted to people not to categories at the end of the day. People do what they do and call it what they call it. It doesn't matter to me whether a cis persons and a trans person are considered to be in a heterosexual relationship, a homosexual one, both, or neither. That's a question for the couple, if anything.
+Now, given we've established sex and gender are different, which one does orientation mean attraction to? Probably either/or. We're attracted to people not to categories at the end of the day. People do what they do and call it what they call it. It doesn't matter to me whether a cis persons and a trans person are considered to be in a heterosexual relationship, a homosexual one, both, or neither. That's a question for the couple, if anything.
 
 As an aside, there has been difference of opinion on whether the newer term Pansexual means something different than Bisexual. "Pan" means all, where "Bi" literally means two. However, the "Bi" in Bisexual is arguably just a historical quirk. It was meant to be the inclusive label, not to exclude. I bring this up as an example of intersectionality and the fact that labels are forever in a state of gradual renegotiation.
 
