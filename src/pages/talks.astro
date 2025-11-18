@@ -1,0 +1,50 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import ColorScript from "../components/ColorScript.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+
+// Videos list - add your video entries here
+const videos = [
+  // { title: "Video Title", url: "https://youtube.com/...", date: "2024-01-01" },
+];
+---
+
+<!doctype html>
+<html lang="en-us">
+  <BaseHead title={`Talks - ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+  <body>
+    <Header />
+    <main>
+      <h1>Talks</h1>
+
+      <section>
+        <h2>Slides</h2>
+        <p>
+          Check out my presentation slides on <a href="https://github.com/raymyers/Talks" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Videos</h2>
+        {videos.length > 0 ? (
+          <ul>
+            {videos.map((video) => (
+              <li>
+                <a href={video.url} target="_blank" rel="noopener noreferrer">
+                  {video.title}
+                </a>
+                {video.date && <span> - {video.date}</span>}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>Videos coming soon!</p>
+        )}
+      </section>
+    </main>
+    <Footer />
+    <ColorScript />
+  </body>
+</html>
