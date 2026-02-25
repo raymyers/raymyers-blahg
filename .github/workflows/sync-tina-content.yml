@@ -1,0 +1,44 @@
+name: Sync TinaCMS Content
+
+# Temporary workflow to pull posts from Tina Cloud into the repo.
+# Intended to run once (or a few times) during the migration away
+# from Tina-managed content.  Delete this workflow after migration.
+
+on:
+  workflow_dispatch: # manual trigger from the Actions tab
+
+jobs:
+  sync:
+    name: Fetch & commit TinaCMS posts
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Fetch content from TinaCMS
+        env:
+          TINA_CLIENT_ID: ${{ secrets.TINACLIENTID }}
+          TINA_TOKEN: ${{ secrets.TINATOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node .github/scripts/sync-tina-content.mjs
+
+      - name: Commit & push changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add posts/
+          if git diff --staged --quiet; then
+            echo "No content changes detected."
+          else
+            git commit -m "chore: sync posts from TinaCMS Cloud"
+            git push
+          fi
