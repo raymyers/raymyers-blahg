@@ -5,7 +5,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import ColorScript from "../components/ColorScript.astro";
 import Tags from "../components/Tags.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import { title as SITE_TITLE, subtitle as SITE_DESCRIPTION } from "../settings/settings.json";
 import getTags from "../scripts/getTags";
 
 const posts = await getCollection("posts");

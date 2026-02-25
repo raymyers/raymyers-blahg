@@ -20,7 +20,8 @@ pnpm-debug.log*
 
 node_modules
 
-.astro/**
+# generated types
+/.astro/
 
 # Stakpak local files
 .stakpak
