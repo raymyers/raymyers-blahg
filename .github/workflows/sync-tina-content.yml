@@ -5,7 +5,8 @@ name: Sync TinaCMS Content
 # from Tina-managed content.  Delete this workflow after migration.
 
 on:
-  workflow_dispatch: # manual trigger from the Actions tab
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   sync:
@@ -15,8 +16,11 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout PR branch
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
