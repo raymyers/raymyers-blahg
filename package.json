@@ -3,9 +3,9 @@
 	"version": "0.0.5",
 	"private": true,
 	"scripts": {
-		"dev": "npx tinacms dev -c \"astro dev\"",
+		"dev": "astro dev",
 		"start": "astro dev",
-		"build": "tinacms build && astro build",
+		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro"
 	},
@@ -15,9 +15,5 @@
 		"astro": "^5.17.3",
 		"prettier": "^3.8.1",
 		"prettier-plugin-astro": "^0.14.1"
-	},
-	"dependencies": {
-		"@tinacms/cli": "^2.1.7",
-		"tinacms": "^3.5.1"
 	}
 }
