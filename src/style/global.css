@@ -129,6 +129,7 @@ a {
   text-decoration-color: var(--link-underline);
   text-decoration-thickness: 0.15ex;
   text-underline-offset: 0.3ex;
+  transition: background-color 0.15s ease;
 }
 a:hover {
   background-color: rgba(196, 100, 74, 0.1);
