@@ -116,7 +116,7 @@ header {
 }
 
 a {
-  color: var(--red);
+  color: var(--gray);
   text-decoration-thickness: 0.15ex;
   text-underline-offset: 0.3ex;
 }
