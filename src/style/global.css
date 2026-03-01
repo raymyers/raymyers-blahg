@@ -223,7 +223,7 @@ blockquote {
   border: none;
   border-left: 3px solid var(--accent);
   color: var(--black);
-  padding: 2px 0px 2px 20px;
+  padding: 0 0 0 20px;
   margin: 0px;
   font-style: italic;
 }
