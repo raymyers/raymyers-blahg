@@ -12,8 +12,8 @@
   --moretransblack: rgba(58, 52, 48, 0.1);
   --gray: #8b7d76;
   --link: var(--black);
-  --red: #c4644a;
-  --link-underline: var(--red);
+  --accent: #8b6b7f;
+  --link-underline: var(--accent);
   --highlight: #e5ffc3;
 }
 
@@ -80,7 +80,7 @@ body.dark-mode nav {
   :root {
     --gray: #a4a4a4;
     --link: var(--white);
-    --link-underline: #d4745a;
+    --link-underline: #a88899;
   }
   html,
   body,
@@ -132,7 +132,7 @@ a {
   transition: background-color 0.15s ease;
 }
 a:hover {
-  background-color: color-mix(in srgb, var(--red) 10%, transparent);
+  background-color: color-mix(in srgb, var(--accent) 10%, transparent);
   border-radius: 2px;
 }
 nav a:hover {
@@ -221,7 +221,7 @@ pre > code {
 }
 blockquote {
   border: none;
-  border-left: 3px solid var(--red);
+  border-left: 3px solid var(--accent);
   color: var(--black);
   padding: 2px 0px 2px 20px;
   margin: 0px;
