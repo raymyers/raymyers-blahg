@@ -177,7 +177,6 @@ img {
 code {
   padding: 2px 5px;
   background-color: var(--moretransblack);
-  font-weight: bold;
 }
 pre {
   padding: 1rem;
