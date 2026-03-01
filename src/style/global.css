@@ -142,7 +142,7 @@ nav a:hover {
 nav {
   position: sticky;
   top: 0;
-  text-align: center;
+  text-align: left;
   background: var(--transwhite);
   -webkit-backdrop-filter: blur(1px);
   backdrop-filter: blur(1px);
@@ -247,18 +247,19 @@ h3 {
 .header-section {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  gap: 1.25rem;
 }
 
 .header-frame {
-  max-width: 300px;
+  max-width: none;
 }
 .img-frame {
   position: relative;
-  width: 200px;
-  height: 200px;
-  margin: 10px 0;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
   border-radius: 50%;
   overflow: hidden;
 }

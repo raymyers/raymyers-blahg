@@ -7,12 +7,12 @@ import rayImage from "../../public/ray-gs.jpeg";
 
 <header>
   <div class="header-section">
+    <div class="img-frame">
+      <Image src={rayImage} alt="My photo" />
+    </div>
     <div class="header-frame">
       <h1>{SITE_TITLE}</h1>
       <h2>{SITE_DESCRIPTION}</h2>
-    </div>
-    <div class="img-frame">
-      <Image src={rayImage} alt="My photo" />
     </div>
   </div>
 </header>
@@ -24,7 +24,26 @@ import rayImage from "../../public/ray-gs.jpeg";
   <!-- <HeaderLink href="/newsletter">etc</HeaderLink> -->
 </nav>
 <style>
+  .header-section {
+    justify-content: flex-start;
+    gap: 1.25rem;
+  }
+  .img-frame {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+  }
+  .header-frame {
+    max-width: none;
+  }
+  h1 {
+    margin: 0;
+  }
   h2 {
-    margin: 0.5em 0;
+    margin: 0.25em 0 0 0;
+    font-size: 0.9em;
+  }
+  nav {
+    text-align: left;
   }
 </style>
