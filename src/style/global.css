@@ -129,6 +129,9 @@ a:hover {
   background-color: rgba(196, 100, 74, 0.1);
   border-radius: 2px;
 }
+nav a:hover {
+  background-color: transparent;
+}
 
 nav {
   position: sticky;
