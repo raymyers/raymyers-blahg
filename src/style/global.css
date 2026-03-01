@@ -54,61 +54,27 @@ b {
   color: var(--black);
 }
 
-body.dark-mode,
-body.dark-mode button,
-body.dark-mode h1,
-body.dark-mode .go-home,
-button.dark-mode,
-button.dark-mode button {
-  background: var(--black);
-  color: var(--white);
-}
-body.dark-mode nav {
-  background: var(--transblack);
-}
-
 .tag-title {
   font-weight: 400;
   color: var(--black);
 }
 
-@media (prefers-color-scheme: dark) {
-  ::selection {
-    background-color: var(--moretransblack);
-    color: var(--white);
-  }
-  :root {
-    --gray: #a4a4a4;
-    --link: var(--white);
-    --link-underline: #a88899;
-  }
-  html,
-  body,
-  body button,
-  body h1,
-  body strong,
-  body b,
-  body em,
-  body blockquote,
-  body .go-home {
-    background: var(--black);
-    color: var(--white);
-  }
-  body nav {
-    background: var(--transblack);
-  }
-  body code {
-    background-color: var(--moretranswhite);
-  }
-  body a {
-    color: var(--link);
-  }
-  body .tag {
-    color: var(--gray);
-  }
-  .tag-title {
-    color: var(--white);
-  }
+[data-theme="dark"] {
+  --white: #232127;
+  --transwhite: rgba(35, 33, 39, 0.7);
+  --moretranswhite: rgba(35, 33, 39, 0.1);
+  --black: #ddd8e0;
+  --transblack: rgba(221, 216, 224, 0.7);
+  --moretransblack: rgba(221, 216, 224, 0.1);
+  --gray: #9990a0;
+  --link-underline: #9a7088;
+}
+[data-theme="dark"] ::selection {
+  background-color: rgba(221, 216, 224, 0.15);
+  color: #ddd8e0;
+}
+[data-theme="dark"] code {
+  background-color: rgba(221, 216, 224, 0.1);
 }
 
 h2,
@@ -288,6 +254,23 @@ time {
 
 ul li time {
   white-space: nowrap;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0;
+  line-height: 1;
+  color: var(--gray);
+  transition: color 0.15s ease;
+}
+.theme-toggle:hover {
+  color: var(--black);
+}
+[data-theme="dark"] .theme-toggle:hover {
+  color: var(--white);
 }
 
 @media (max-width: 600px) {

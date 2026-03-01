@@ -22,7 +22,17 @@ import rayImage from "../../public/ray-gs.jpeg";
   <HeaderLink href="/talks">talks</HeaderLink>
   <HeaderLink href="/socials">socials</HeaderLink>
   <!-- <HeaderLink href="/newsletter">etc</HeaderLink> -->
+  <button class="theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
 </nav>
+<script is:inline>
+  document.querySelector('.theme-toggle').addEventListener('click', function() {
+    var html = document.documentElement;
+    var current = html.getAttribute('data-theme');
+    var next = current === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
 <style>
   .header-section {
     justify-content: flex-start;
