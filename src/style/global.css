@@ -15,10 +15,6 @@
   --link-underline: #c4644a;
   --highlight: #e5ffc3;
   --red: #c4644a;
-  --green: #5a8f6f;
-  --pink: #b85a7a;
-  --blue: #6b7f96;
-  --yellow: #d4a574;
 }
 
 ::selection {
@@ -223,7 +219,8 @@ pre > code {
   all: unset;
 }
 blockquote {
-  border: 1px solid var(--gray);
+  border: none;
+  border-left: 3px solid var(--red);
   color: var(--black);
   padding: 2px 0px 2px 20px;
   margin: 0px;
@@ -293,6 +290,6 @@ ul li time {
 
 @media (max-width: 600px) {
   nav a:not(:last-child) {
-    padding: 0;
+    padding: 0 8px 0 0;
   }
 }
