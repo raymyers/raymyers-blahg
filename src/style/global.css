@@ -11,6 +11,8 @@
   --transblack: rgba(58, 52, 48, 0.7);
   --moretransblack: rgba(58, 52, 48, 0.1);
   --gray: #8b7d76;
+  --link: var(--black);
+  --link-underline: #c4644a;
   --highlight: #e5ffc3;
   --red: #c4644a;
   --green: #5a8f6f;
@@ -72,6 +74,8 @@ body.dark-mode nav {
   }
   :root {
     --gray: #a4a4a4;
+    --link: var(--white);
+    --link-underline: #d4745a;
   }
   html,
   body,
@@ -92,7 +96,7 @@ body.dark-mode nav {
     background-color: var(--moretranswhite);
   }
   body a {
-    color: var(--white);
+    color: var(--link);
   }
   body .tag {
     color: var(--gray);
@@ -116,9 +120,14 @@ header {
 }
 
 a {
-  color: var(--gray);
+  color: var(--link);
+  text-decoration-color: var(--link-underline);
   text-decoration-thickness: 0.15ex;
   text-underline-offset: 0.3ex;
+}
+a:hover {
+  background-color: rgba(196, 100, 74, 0.1);
+  border-radius: 2px;
 }
 
 nav {
