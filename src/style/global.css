@@ -4,19 +4,19 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 :root {
-  --white: #efefef;
-  --transwhite: rgba(239, 239, 239, 0.7);
-  --moretranswhite: rgba(239, 239, 239, 0.1);
-  --black: #252525;
-  --transblack: rgba(37, 37, 37, 0.7);
-  --moretransblack: rgba(37, 37, 37, 0.1);
-  --gray: #6b6b6b;
+  --white: #faf8f3;
+  --transwhite: rgba(250, 248, 243, 0.7);
+  --moretranswhite: rgba(250, 248, 243, 0.1);
+  --black: #3a3430;
+  --transblack: rgba(58, 52, 48, 0.7);
+  --moretransblack: rgba(58, 52, 48, 0.1);
+  --gray: #8b7d76;
   --highlight: #e5ffc3;
-  --red: #e4002b;
-  --green: #24d05a;
-  --pink: #eb4888;
-  --blue: #10a2f5;
-  --yellow: #e9bc3f;
+  --red: #c4644a;
+  --green: #5a8f6f;
+  --pink: #b85a7a;
+  --blue: #6b7f96;
+  --yellow: #d4a574;
 }
 
 ::selection {
@@ -35,7 +35,9 @@ body {
 }
 html,
 body,
-button,
+button {
+  font-family: "Lora", Georgia, serif;
+}
 code {
   font-family: "iA Writer Mono", monospace;
 }
@@ -114,8 +116,8 @@ header {
 }
 
 a {
-  color: var(--black);
-  text-decoration-thickness: 0.3ex;
+  color: var(--red);
+  text-decoration-thickness: 0.15ex;
   text-underline-offset: 0.3ex;
 }
 
