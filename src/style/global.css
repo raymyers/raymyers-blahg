@@ -44,6 +44,15 @@ code {
   font-family: "iA Writer Mono", monospace;
 }
 h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+  font-family: "iA Writer Mono", monospace;
+}
+h1,
 strong,
 b {
   color: var(--black);
