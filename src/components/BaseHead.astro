@@ -2,7 +2,7 @@
 import "../style/fonts.css";
 import "../style/global.css";
 
-import { title as SITE_TITLE } from "../settings/settings.json";
+import { title as SITE_TITLE, ahrefsAnalyticsKey as AHREFS_KEY } from "../settings/settings.json";
 
 const { title, description, image = "/weblog-card-1.png" } = Astro.props;
 ---
@@ -57,4 +57,14 @@ const { title, description, image = "/weblog-card-1.png" } = Astro.props;
 			}
 		})();
 	</script>
+
+	<!-- Ahrefs Web Analytics -->
+	{AHREFS_KEY && (
+		<script
+			is:inline
+			src="https://analytics.ahrefs.com/analytics.js"
+			data-key={AHREFS_KEY}
+			async
+		/>
+	)}
 </head>
