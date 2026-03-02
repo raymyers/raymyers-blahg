@@ -13,7 +13,7 @@ There is currently no such thing as an "AI Software Engineer". Similarly, there 
 
 I now work on AI agents full time, so obviously I feel this is a valuable direction. Still, I feel just as strongly as I did before that it's unethical to exaggerate what's been achieved and ultimately the hype will be self-defeating as early adopters are burnt by broken promises.
 
-If you've like to discuss recent details, I'm easy to reach on LinkedIn. For today, I'll reiterate my position from April 2024 in "[Devin Dissected](https://www.youtube.com/watch?v=jhkY_BUDVcU)".
+If you'd like to discuss recent details, I'm easy to reach on LinkedIn. For today, I'll reiterate my position from April 2024 in "[Devin Dissected](https://www.youtube.com/watch?v=jhkY_BUDVcU)".
 
 ## What is a Software Engineer?
 
