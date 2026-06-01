@@ -7,7 +7,9 @@
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"astro": "astro"
+		"astro": "astro",
+		"format": "prettier --ignore-unknown --write .",
+		"format:check": "prettier --ignore-unknown --check ."
 	},
 	"devDependencies": {
 		"@astrojs/rss": "^4.0.18",
