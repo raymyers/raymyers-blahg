@@ -6,33 +6,33 @@
     "colorMeta": {
       "paper": {
         "role": "neutral",
-        "displayName": "Paper",
-        "canonical": "#faf8f3",
-        "tonalRamp": ["#2a2926", "#4b4740", "#6e675e", "#91897e", "#b5ada3", "#d7d0c7", "#eee9e1", "#faf8f3"]
+        "displayName": "Proof Paper",
+        "canonical": "#fafafa",
+        "tonalRamp": ["#202020", "#3d3d3c", "#5d5d5a", "#7f7f7b", "#a3a39f", "#c9c9c5", "#eeeeeb", "#fafafa"]
       },
       "ink": {
         "role": "neutral",
-        "displayName": "Espresso Ink",
-        "canonical": "#3a3430",
-        "tonalRamp": ["#14110f", "#241f1c", "#3a3430", "#5d544e", "#837870", "#aaa19a", "#d1cbc6", "#f1eeeb"]
+        "displayName": "Dense Ink",
+        "canonical": "#252525",
+        "tonalRamp": ["#111111", "#252525", "#424241", "#61615f", "#83837f", "#a7a7a3", "#cececa", "#f2f2ef"]
       },
       "muted": {
         "role": "neutral",
-        "displayName": "Weathered Gray",
-        "canonical": "#8b7d76",
-        "tonalRamp": ["#1c1816", "#332c29", "#504640", "#6d615a", "#8b7d76", "#aea49e", "#d1cac6", "#f1eeeb"]
+        "displayName": "Printer's Gray",
+        "canonical": "#6f6f6a",
+        "tonalRamp": ["#171714", "#2e2e2a", "#494943", "#62625c", "#7e7e78", "#a2a29d", "#c9c9c5", "#eeeeeb"]
       },
       "accent": {
         "role": "primary",
-        "displayName": "Workshop Mauve",
-        "canonical": "#8b6b7f",
-        "tonalRamp": ["#1f141b", "#3a2532", "#57384b", "#744d64", "#8b6b7f", "#ad91a3", "#d0bac8", "#f0e6ed"]
+        "displayName": "Printer's Olive",
+        "canonical": "#67624a",
+        "tonalRamp": ["#17150c", "#302c1d", "#4a452e", "#67624a", "#878168", "#aaa58d", "#cecab7", "#f0eedf"]
       },
       "highlight": {
         "role": "secondary",
-        "displayName": "Curiosity Highlight",
-        "canonical": "#e5ffc3",
-        "tonalRamp": ["#1a230e", "#33451d", "#4f6b2e", "#6e9342", "#8fbd59", "#b5e578", "#d4f5a7", "#e5ffc3"]
+        "displayName": "Proof Highlight",
+        "canonical": "#e6f2a2",
+        "tonalRamp": ["#1d2208", "#394213", "#58651f", "#788b2d", "#9ab33f", "#bfdc5e", "#d6eb82", "#e6f2a2"]
       }
     },
     "typographyMeta": {
@@ -79,7 +79,7 @@
       "refersTo": "link",
       "description": "Default inline link with ink text, mauve underline, and a tiny hover tint.",
       "html": "<a class=\"ds-link\" href=\"#\">Read the essay</a>",
-      "css": ".ds-link { color: #3a3430; text-decoration-color: #8b6b7f; text-decoration-thickness: 0.15ex; text-underline-offset: 0.3ex; transition: background-color 0.15s ease; } .ds-link:hover { background-color: rgba(139, 107, 127, 0.1); border-radius: 2px; } .ds-link:focus-visible { outline: 2px solid #8b6b7f; outline-offset: 3px; }"
+      "css": ".ds-link { color: #252525; text-decoration-color: #67624a; text-decoration-thickness: 0.15ex; text-underline-offset: 0.3ex; transition: background-color 0.15s ease; } .ds-link:hover { background-color: rgba(103, 98, 74, 0.1); border-radius: 2px; } .ds-link:focus-visible { outline: 2px solid #67624a; outline-offset: 3px; }"
     },
     {
       "name": "Navigation",
@@ -87,7 +87,7 @@
       "refersTo": "navigation",
       "description": "Sticky lowercase text navigation with translucent paper backing.",
       "html": "<nav class=\"ds-nav\"><a href=\"#\">home</a><a href=\"#\">blog</a><a href=\"#\">talks</a><a href=\"#\">socials</a></nav>",
-      "css": ".ds-nav { position: sticky; top: 0; text-align: left; background: rgba(250, 248, 243, 0.7); -webkit-backdrop-filter: blur(1px); backdrop-filter: blur(1px); font-family: 'iA Writer Mono', monospace; } .ds-nav a { color: #3a3430; margin: 25px 0; padding-right: 12px; text-decoration-color: #8b6b7f; text-decoration-thickness: 0.15ex; text-underline-offset: 0.3ex; } .ds-nav a:hover { background-color: transparent; } .ds-nav a:focus-visible { outline: 2px solid #8b6b7f; outline-offset: 3px; }"
+      "css": ".ds-nav { position: sticky; top: 0; text-align: left; background: rgba(250, 250, 250, 0.7); -webkit-backdrop-filter: blur(1px); backdrop-filter: blur(1px); font-family: 'iA Writer Mono', monospace; } .ds-nav a { color: #252525; margin: 25px 0; padding-right: 12px; text-decoration-color: #67624a; text-decoration-thickness: 0.15ex; text-underline-offset: 0.3ex; } .ds-nav a:hover { background-color: transparent; } .ds-nav a:focus-visible { outline: 2px solid #67624a; outline-offset: 3px; }"
     },
     {
       "name": "Tag",
@@ -95,7 +95,7 @@
       "refersTo": "tag",
       "description": "Inline hash tag used for browsing posts by subject.",
       "html": "<a class=\"ds-tag\" href=\"#\">#refactoring</a>",
-      "css": ".ds-tag { display: inline-block; margin-right: 20px; color: #3a3430; font-family: 'iA Writer Mono', monospace; font-size: 0.8rem; text-decoration-color: #8b6b7f; text-underline-offset: 0.3ex; } .ds-tag:hover { cursor: pointer; font-weight: 700; } .ds-tag:focus-visible { outline: 2px solid #8b6b7f; outline-offset: 3px; }"
+      "css": ".ds-tag { display: inline-block; margin-right: 20px; color: #252525; font-family: 'iA Writer Mono', monospace; font-size: 0.8rem; text-decoration-color: #67624a; text-underline-offset: 0.3ex; } .ds-tag:hover { cursor: pointer; font-weight: 700; } .ds-tag:focus-visible { outline: 2px solid #67624a; outline-offset: 3px; }"
     },
     {
       "name": "Post List Item",
@@ -103,14 +103,14 @@
       "refersTo": "post-list-item",
       "description": "A document-like post entry that uses spacing and type instead of a card container.",
       "html": "<article class=\"ds-post\"><h2><a href=\"#\">AI Software Engineers Don't Exist</a></h2><time>June 1, 2026</time><p>A compact description of the post.</p></article>",
-      "css": ".ds-post { margin: 0 0 30px 0; color: #3a3430; font-family: 'Lora', Georgia, serif; } .ds-post h2 { margin: 0 0 0.25em; color: #8b7d76; font-family: 'iA Writer Mono', monospace; font-size: 1.3em; font-weight: 400; line-height: 1.1; } .ds-post a { color: #3a3430; text-decoration-color: #8b6b7f; text-decoration-thickness: 0.15ex; text-underline-offset: 0.3ex; } .ds-post time { font-style: italic; color: #8b7d76; white-space: nowrap; } .ds-post p { line-height: 1.6; margin: 0.5em 0 0; }"
+      "css": ".ds-post { margin: 0 0 30px 0; color: #252525; font-family: 'Lora', Georgia, serif; } .ds-post h2 { margin: 0 0 0.25em; color: #6f6f6a; font-family: 'iA Writer Mono', monospace; font-size: 1.3em; font-weight: 400; line-height: 1.1; } .ds-post a { color: #252525; text-decoration-color: #67624a; text-decoration-thickness: 0.15ex; text-underline-offset: 0.3ex; } .ds-post time { font-style: italic; color: #6f6f6a; white-space: nowrap; } .ds-post p { line-height: 1.6; margin: 0.5em 0 0; }"
     }
   ],
   "narrative": {
     "northStar": "The Marginalia Workshop",
     "overview": "This design system should feel like a personal notebook kept by a programmer who cares about craft: text-led, slightly old-world, technically literate, and more interested in durable thought than presentation fashion. The current site is intentionally compact, centered, and readable. It uses type, rhythm, and a small number of color decisions rather than layout spectacle.\n\nThe system rejects trend-chasing by staying close to the writing. It should not become a SaaS landing page, an influencer portfolio, a generic developer template, or a fashionable editorial costume. Polish is welcome when it sharpens the reading experience; decoration is suspect unless it helps curiosity.",
     "keyCharacteristics": [
-      "Warm paper and espresso ink, intentionally light-mode only.",
+      "Near-white proof paper and dense ink, intentionally light-mode only.",
       "Lora carries long-form prose; iA Writer Mono marks headings, navigation, code, and labels.",
       "Flat surfaces, no cards by default, no ambient shadows.",
       "Compact navigation and tag affordances that invite browsing without turning the site into an app shell.",
@@ -119,12 +119,12 @@
     "rules": [
       {
         "name": "The Accent Scarcity Rule",
-        "body": "Workshop Mauve should appear in small doses: link underlines, quotes, and state feedback. If it starts filling large panels, the system has become too designed.",
+        "body": "Printer's Olive should appear in small doses: link underlines, quotes, and state feedback. If it starts filling large panels, the system has become too designed.",
         "section": "colors"
       },
       {
         "name": "The Reading Contrast Rule",
-        "body": "Body text must stay high contrast against the active paper color. Never use Weathered Gray for paragraph text.",
+        "body": "Body text must stay high contrast against the active paper color. Never use Printer's Gray for paragraph text.",
         "section": "colors"
       },
       {
@@ -146,7 +146,7 @@
     "dos": [
       "Do keep the body column around 70ch and let the writing own the page.",
       "Do use Lora for prose and iA Writer Mono for headings, navigation, code, and compact labels.",
-      "Do keep Workshop Mauve scarce and purposeful.",
+      "Do keep Printer's Olive scarce and purposeful.",
       "Do keep the site light-mode only unless dark mode is deliberately reintroduced.",
       "Do use browsing paths such as posts, talks, tags, and RSS to encourage curiosity."
     ],
@@ -154,7 +154,7 @@
       "Don't make the site feel trendy, growth-hacked, SaaS-like, influencer-coded, or visually optimized for whatever design pattern is currently fashionable.",
       "Don't turn post lists into repeated marketing cards.",
       "Don't add purple gradients, glassmorphism, hero metrics, or generic developer-template ornament.",
-      "Don't use Weathered Gray for paragraph text.",
+      "Don't use Printer's Gray for paragraph text.",
       "Don't replace the handmade personal-site feeling with a product dashboard shell."
     ]
   }

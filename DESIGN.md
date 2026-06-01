@@ -2,11 +2,11 @@
 name: Ray Myers
 description: Retrofuturist Software Mender
 colors:
-  paper: "#faf8f3"
-  ink: "#3a3430"
-  muted: "#8b7d76"
-  accent: "#8b6b7f"
-  highlight: "#e5ffc3"
+  paper: "#fafafa"
+  ink: "#252525"
+  muted: "#6f6f6a"
+  accent: "#67624a"
+  highlight: "#e6f2a2"
 typography:
   display:
     fontFamily: "\"iA Writer Mono\", monospace"
@@ -72,7 +72,7 @@ This design system should feel like a personal notebook kept by a programmer who
 The system rejects trend-chasing by staying close to the writing. It should not become a SaaS landing page, an influencer portfolio, a generic developer template, or a fashionable editorial costume. Polish is welcome when it sharpens the reading experience; decoration is suspect unless it helps curiosity.
 
 **Key Characteristics:**
-- Warm paper and espresso ink, intentionally light-mode only.
+- Near-white proof paper and dense ink, intentionally light-mode only.
 - Lora carries long-form prose; iA Writer Mono marks headings, navigation, code, and labels.
 - Flat surfaces, no cards by default, no ambient shadows.
 - Compact navigation and tag affordances that invite browsing without turning the site into an app shell.
@@ -80,22 +80,22 @@ The system rejects trend-chasing by staying close to the writing. It should not 
 
 ## 2. Colors
 
-The palette is a restrained personal-site palette: warm paper, dark brown ink, weathered gray headings, and a muted mauve accent used mostly through links and quote structure.
+The palette is a restrained personal-site palette: near-white proof paper, dense ink, printer's gray headings, and a muted olive-drab accent used mostly through links and quote structure.
 
 ### Primary
-- **Workshop Mauve**: Primary accent. Use for link underlines, blockquote structure, and subtle hover tint. Its job is quiet emphasis, not decoration.
+- **Printer's Olive**: Primary accent. Use for link underlines, blockquote structure, and subtle hover tint. Its job is quiet emphasis, not decoration.
 
 ### Secondary
-- **Curiosity Highlight**: Selection highlight. Use only for text selection or rare inline attention states that should feel discovered rather than advertised.
+- **Proof Highlight**: Selection highlight. Use only for text selection or rare inline attention states that should feel discovered rather than advertised.
 
 ### Neutral
-- **Paper**: Light surface. Use as the default page background.
-- **Espresso Ink**: Primary light-mode text and link color. It should remain the dominant foreground.
-- **Weathered Gray**: Secondary text, heading color, timestamps, and inactive icon state.
+- **Proof Paper**: Light surface. Use as the default page background.
+- **Dense Ink**: Primary text and link color. It should remain the dominant foreground.
+- **Printer's Gray**: Secondary text, heading color, timestamps, and inactive icon state.
 ### Named Rules
-**The Accent Scarcity Rule.** Workshop Mauve should appear in small doses: link underlines, quotes, and state feedback. If it starts filling large panels, the system has become too designed.
+**The Accent Scarcity Rule.** Printer's Olive should appear in small doses: link underlines, quotes, and state feedback. If it starts filling large panels, the system has become too designed.
 
-**The Reading Contrast Rule.** Body text must stay high contrast against the active paper color. Never use Weathered Gray for paragraph text.
+**The Reading Contrast Rule.** Body text must stay high contrast against the active paper color. Never use Printer's Gray for paragraph text.
 
 ## 3. Typography
 
@@ -166,7 +166,7 @@ The author image is a 100px circular crop beside the site title. Treat it as a p
 ### Do:
 - **Do** keep the body column around 70ch and let the writing own the page.
 - **Do** use Lora for prose and iA Writer Mono for headings, navigation, code, and compact labels.
-- **Do** keep Workshop Mauve scarce and purposeful.
+- **Do** keep Printer's Olive scarce and purposeful.
 - **Do** keep the site light-mode only unless dark mode is deliberately reintroduced.
 - **Do** use browsing paths such as posts, talks, tags, and RSS to encourage curiosity.
 
@@ -174,5 +174,5 @@ The author image is a 100px circular crop beside the site title. Treat it as a p
 - **Don't** make the site feel trendy, growth-hacked, SaaS-like, influencer-coded, or visually optimized for whatever design pattern is currently fashionable.
 - **Don't** turn post lists into repeated marketing cards.
 - **Don't** add purple gradients, glassmorphism, hero metrics, or generic developer-template ornament.
-- **Don't** use Weathered Gray for paragraph text.
+- **Don't** use Printer's Gray for paragraph text.
 - **Don't** replace the handmade personal-site feeling with a product dashboard shell.
