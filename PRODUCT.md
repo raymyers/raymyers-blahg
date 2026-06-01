@@ -24,4 +24,4 @@ The site should not feel trendy, growth-hacked, SaaS-like, influencer-coded, or 
 - Preserve the handmade personal-site feeling while improving clarity and polish.
 
 ## Accessibility & Inclusion
-Target WCAG AA for contrast, keyboard access, readable type, and reduced-motion support. Preserve light and dark theme support.
+Target WCAG AA for contrast, keyboard access, readable type, and reduced-motion support. Keep the site light-mode only unless dark mode is deliberately reintroduced.

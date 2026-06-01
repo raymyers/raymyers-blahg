@@ -3,7 +3,6 @@ import { getCollection } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import ColorScript from "../components/ColorScript.astro";
 import Tags from "../components/Tags.astro";
 import getTags from "../scripts/getTags";
 
@@ -58,6 +57,5 @@ if (updated) {
 		</main>
 		<Tags tags={allTags} all />
 		<Footer />
-		<ColorScript />
 	</body>
 </html>

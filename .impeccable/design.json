@@ -33,30 +33,6 @@
         "displayName": "Curiosity Highlight",
         "canonical": "#e5ffc3",
         "tonalRamp": ["#1a230e", "#33451d", "#4f6b2e", "#6e9342", "#8fbd59", "#b5e578", "#d4f5a7", "#e5ffc3"]
-      },
-      "dark-paper": {
-        "role": "neutral",
-        "displayName": "Night Paper",
-        "canonical": "#232127",
-        "tonalRamp": ["#111014", "#232127", "#3d3943", "#585260", "#756e7e", "#978fa0", "#bbb4c2", "#e1dce6"]
-      },
-      "dark-ink": {
-        "role": "neutral",
-        "displayName": "Night Ink",
-        "canonical": "#ddd8e0",
-        "tonalRamp": ["#171419", "#302a34", "#4d4552", "#6b6171", "#8c8292", "#aea6b4", "#ccc6d1", "#ddd8e0"]
-      },
-      "dark-muted": {
-        "role": "neutral",
-        "displayName": "Night Gray",
-        "canonical": "#9990a0",
-        "tonalRamp": ["#19151c", "#312b36", "#4d4454", "#6a6072", "#887d91", "#a69dac", "#c7c0cc", "#ece8ef"]
-      },
-      "dark-accent": {
-        "role": "primary",
-        "displayName": "Night Mauve",
-        "canonical": "#9a7088",
-        "tonalRamp": ["#23131c", "#402434", "#60364e", "#804a69", "#9a7088", "#bb95ad", "#d8bdce", "#f2e6ee"]
       }
     },
     "typographyMeta": {
@@ -122,14 +98,6 @@
       "css": ".ds-tag { display: inline-block; margin-right: 20px; color: #3a3430; font-family: 'iA Writer Mono', monospace; font-size: 0.8rem; text-decoration-color: #8b6b7f; text-underline-offset: 0.3ex; } .ds-tag:hover { cursor: pointer; font-weight: 700; } .ds-tag:focus-visible { outline: 2px solid #8b6b7f; outline-offset: 3px; }"
     },
     {
-      "name": "Theme Toggle",
-      "kind": "button",
-      "refersTo": "theme-toggle",
-      "description": "Transparent icon-like control for switching light and dark mode.",
-      "html": "<button class=\"ds-theme-toggle\" type=\"button\" aria-label=\"Toggle dark mode\">☾</button>",
-      "css": ".ds-theme-toggle { background: none; border: none; cursor: pointer; font-family: 'Lora', Georgia, serif; font-size: 1.1rem; padding: 0; line-height: 1; color: #8b7d76; transition: color 0.15s ease; } .ds-theme-toggle:hover { color: #3a3430; } .ds-theme-toggle:focus-visible { outline: 2px solid #8b6b7f; outline-offset: 3px; }"
-    },
-    {
       "name": "Post List Item",
       "kind": "card",
       "refersTo": "post-list-item",
@@ -142,7 +110,7 @@
     "northStar": "The Marginalia Workshop",
     "overview": "This design system should feel like a personal notebook kept by a programmer who cares about craft: text-led, slightly old-world, technically literate, and more interested in durable thought than presentation fashion. The current site is intentionally compact, centered, and readable. It uses type, rhythm, and a small number of color decisions rather than layout spectacle.\n\nThe system rejects trend-chasing by staying close to the writing. It should not become a SaaS landing page, an influencer portfolio, a generic developer template, or a fashionable editorial costume. Polish is welcome when it sharpens the reading experience; decoration is suspect unless it helps curiosity.",
     "keyCharacteristics": [
-      "Warm paper and espresso ink in light mode, with a quiet violet-gray dark mode.",
+      "Warm paper and espresso ink, intentionally light-mode only.",
       "Lora carries long-form prose; iA Writer Mono marks headings, navigation, code, and labels.",
       "Flat surfaces, no cards by default, no ambient shadows.",
       "Compact navigation and tag affordances that invite browsing without turning the site into an app shell.",
@@ -179,7 +147,7 @@
       "Do keep the body column around 70ch and let the writing own the page.",
       "Do use Lora for prose and iA Writer Mono for headings, navigation, code, and compact labels.",
       "Do keep Workshop Mauve scarce and purposeful.",
-      "Do preserve light and dark theme support whenever changing tokens.",
+      "Do keep the site light-mode only unless dark mode is deliberately reintroduced.",
       "Do use browsing paths such as posts, talks, tags, and RSS to encourage curiosity."
     ],
     "donts": [

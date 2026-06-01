@@ -59,24 +59,6 @@ b {
   color: var(--black);
 }
 
-[data-theme="dark"] {
-  --white: #232127;
-  --transwhite: rgba(35, 33, 39, 0.7);
-  --moretranswhite: rgba(35, 33, 39, 0.1);
-  --black: #ddd8e0;
-  --transblack: rgba(221, 216, 224, 0.7);
-  --moretransblack: rgba(221, 216, 224, 0.1);
-  --gray: #9990a0;
-  --link-underline: #9a7088;
-}
-[data-theme="dark"] ::selection {
-  background-color: rgba(221, 216, 224, 0.15);
-  color: #ddd8e0;
-}
-[data-theme="dark"] code {
-  background-color: rgba(221, 216, 224, 0.1);
-}
-
 h2,
 h3,
 h4,
@@ -253,23 +235,6 @@ time {
 
 ul li time {
   white-space: nowrap;
-}
-
-.theme-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1.1rem;
-  padding: 0;
-  line-height: 1;
-  color: var(--gray);
-  transition: color 0.15s ease;
-}
-.theme-toggle:hover {
-  color: var(--black);
-}
-[data-theme="dark"] .theme-toggle:hover {
-  color: var(--white);
 }
 
 @media (max-width: 600px) {
