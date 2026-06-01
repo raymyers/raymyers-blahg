@@ -109,7 +109,7 @@ The palette is a restrained personal-site palette: near-white proof paper, dense
 - **Display** (400, clamp(1.65rem, 1.48rem + 0.85vw, 2.15rem), 1): Article titles and major page titles. Keep it plain and exact.
 - **Headline** (400, 1.3125rem, 1.15): Post list titles and prominent inline headings.
 - **Title** (400, 1.125rem, 1.1): Site subtitle and secondary headers.
-- **Body** (400, 1.0625rem, 1.6): Default prose. Keep the page width capped around 70ch.
+- **Body** (400, 1.0625rem, 1.6): Default prose. Keep the page width capped around 80ch.
 - **Long-form Body** (400, 1.0625rem, 1.8): Article content that benefits from slower reading rhythm.
 - **Label** (400, 0.8rem, normal letter spacing): Tags, navigation, and compact metadata.
 
@@ -164,7 +164,7 @@ The author image is a 100px circular crop beside the site title. Treat it as a p
 ## 6. Do's and Don'ts
 
 ### Do:
-- **Do** keep the body column around 70ch and let the writing own the page.
+- **Do** keep the body column around 80ch and let the writing own the page.
 - **Do** use Source Serif 4 for prose and iA Writer Mono for headings, navigation, code, and compact labels.
 - **Do** keep Printer's Olive scarce and purposeful.
 - **Do** keep the site light-mode only unless dark mode is deliberately reintroduced.
