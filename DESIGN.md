@@ -10,25 +10,25 @@ colors:
 typography:
   display:
     fontFamily: "\"iA Writer Mono\", monospace"
-    fontSize: "2em"
+    fontSize: "clamp(1.65rem, 1.48rem + 0.85vw, 2.15rem)"
     fontWeight: 400
-    lineHeight: 1.1
+    lineHeight: 1
     letterSpacing: "normal"
   headline:
     fontFamily: "\"iA Writer Mono\", monospace"
-    fontSize: "1.3em"
+    fontSize: "1.3125rem"
     fontWeight: 400
-    lineHeight: 1.1
+    lineHeight: 1.15
     letterSpacing: "normal"
   title:
     fontFamily: "\"iA Writer Mono\", monospace"
-    fontSize: "1.2em"
+    fontSize: "1.125rem"
     fontWeight: 400
     lineHeight: 1.1
     letterSpacing: "normal"
   body:
-    fontFamily: "\"Lora\", Georgia, serif"
-    fontSize: "clamp(1rem, 0.96rem + 0.22vw, 1.125rem)"
+    fontFamily: "\"Source Serif 4\", Georgia, serif"
+    fontSize: "1.0625rem"
     fontWeight: 400
     lineHeight: 1.6
     letterSpacing: "normal"
@@ -73,7 +73,7 @@ The system rejects trend-chasing by staying close to the writing. It should not 
 
 **Key Characteristics:**
 - Near-white proof paper and dense ink, intentionally light-mode only.
-- Lora carries long-form prose; iA Writer Mono marks headings, navigation, code, and labels.
+- Source Serif 4 carries long-form prose; iA Writer Mono marks headings, navigation, code, and labels.
 - Flat surfaces, no cards by default, no ambient shadows.
 - Compact navigation and tag affordances that invite browsing without turning the site into an app shell.
 - Small, handmade details are allowed; trendy visual systems are not.
@@ -100,17 +100,17 @@ The palette is a restrained personal-site palette: near-white proof paper, dense
 ## 3. Typography
 
 **Display Font:** iA Writer Mono with monospace fallback  
-**Body Font:** Lora with Georgia and serif fallbacks  
+**Body Font:** Source Serif 4 with Georgia and serif fallbacks  
 **Label/Mono Font:** iA Writer Mono
 
-**Character:** The pairing reads as literary prose annotated by a precise programmer. Lora gives essays a bookish cadence; iA Writer Mono adds mechanical labeling without turning the whole site into a terminal.
+**Character:** The pairing reads as printer's proof copy annotated by a precise programmer. Source Serif 4 gives essays a sharper, more rigorous text color than Lora; iA Writer Mono adds mechanical labeling without turning the whole site into a terminal.
 
 ### Hierarchy
-- **Display** (400, 2em, 1.1): Article titles and major page titles. Keep it plain and exact.
-- **Headline** (400, 1.3em, 1.1): Post list titles and prominent inline headings.
-- **Title** (400, 1.2em, 1.1): Site subtitle and secondary headers.
-- **Body** (400, clamp(1rem, 0.96rem + 0.22vw, 1.125rem), 1.6): Default prose. Keep the page width capped around 70ch.
-- **Long-form Body** (400, same size scale, 1.8): Article content that benefits from slower reading rhythm.
+- **Display** (400, clamp(1.65rem, 1.48rem + 0.85vw, 2.15rem), 1): Article titles and major page titles. Keep it plain and exact.
+- **Headline** (400, 1.3125rem, 1.15): Post list titles and prominent inline headings.
+- **Title** (400, 1.125rem, 1.1): Site subtitle and secondary headers.
+- **Body** (400, 1.0625rem, 1.6): Default prose. Keep the page width capped around 70ch.
+- **Long-form Body** (400, 1.0625rem, 1.8): Article content that benefits from slower reading rhythm.
 - **Label** (400, 0.8rem, normal letter spacing): Tags, navigation, and compact metadata.
 
 ### Named Rules
@@ -165,7 +165,7 @@ The author image is a 100px circular crop beside the site title. Treat it as a p
 
 ### Do:
 - **Do** keep the body column around 70ch and let the writing own the page.
-- **Do** use Lora for prose and iA Writer Mono for headings, navigation, code, and compact labels.
+- **Do** use Source Serif 4 for prose and iA Writer Mono for headings, navigation, code, and compact labels.
 - **Do** keep Printer's Olive scarce and purposeful.
 - **Do** keep the site light-mode only unless dark mode is deliberately reintroduced.
 - **Do** use browsing paths such as posts, talks, tags, and RSS to encourage curiosity.

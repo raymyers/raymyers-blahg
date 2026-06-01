@@ -103,7 +103,7 @@
       "refersTo": "post-list-item",
       "description": "A document-like post entry that uses spacing and type instead of a card container.",
       "html": "<article class=\"ds-post\"><h2><a href=\"#\">AI Software Engineers Don't Exist</a></h2><time>June 1, 2026</time><p>A compact description of the post.</p></article>",
-      "css": ".ds-post { margin: 0 0 30px 0; color: #252525; font-family: 'Lora', Georgia, serif; } .ds-post h2 { margin: 0 0 0.25em; color: #6f6f6a; font-family: 'iA Writer Mono', monospace; font-size: 1.3em; font-weight: 400; line-height: 1.1; } .ds-post a { color: #252525; text-decoration-color: #67624a; text-decoration-thickness: 0.15ex; text-underline-offset: 0.3ex; } .ds-post time { font-style: italic; color: #6f6f6a; white-space: nowrap; } .ds-post p { line-height: 1.6; margin: 0.5em 0 0; }"
+      "css": ".ds-post { margin: 0 0 30px 0; color: #252525; font-family: 'Source Serif 4', Georgia, serif; } .ds-post h2 { margin: 0 0 0.25em; color: #6f6f6a; font-family: 'iA Writer Mono', monospace; font-size: 1.3125rem; font-weight: 400; line-height: 1.15; } .ds-post a { color: #252525; text-decoration-color: #67624a; text-decoration-thickness: 0.15ex; text-underline-offset: 0.3ex; } .ds-post time { font-style: italic; color: #6f6f6a; white-space: nowrap; } .ds-post p { line-height: 1.6; margin: 0.5em 0 0; }"
     }
   ],
   "narrative": {
@@ -111,7 +111,7 @@
     "overview": "This design system should feel like a personal notebook kept by a programmer who cares about craft: text-led, slightly old-world, technically literate, and more interested in durable thought than presentation fashion. The current site is intentionally compact, centered, and readable. It uses type, rhythm, and a small number of color decisions rather than layout spectacle.\n\nThe system rejects trend-chasing by staying close to the writing. It should not become a SaaS landing page, an influencer portfolio, a generic developer template, or a fashionable editorial costume. Polish is welcome when it sharpens the reading experience; decoration is suspect unless it helps curiosity.",
     "keyCharacteristics": [
       "Near-white proof paper and dense ink, intentionally light-mode only.",
-      "Lora carries long-form prose; iA Writer Mono marks headings, navigation, code, and labels.",
+      "Source Serif 4 carries long-form prose; iA Writer Mono marks headings, navigation, code, and labels.",
       "Flat surfaces, no cards by default, no ambient shadows.",
       "Compact navigation and tag affordances that invite browsing without turning the site into an app shell.",
       "Small, handmade details are allowed; trendy visual systems are not."
@@ -145,7 +145,7 @@
     ],
     "dos": [
       "Do keep the body column around 70ch and let the writing own the page.",
-      "Do use Lora for prose and iA Writer Mono for headings, navigation, code, and compact labels.",
+      "Do use Source Serif 4 for prose and iA Writer Mono for headings, navigation, code, and compact labels.",
       "Do keep Printer's Olive scarce and purposeful.",
       "Do keep the site light-mode only unless dark mode is deliberately reintroduced.",
       "Do use browsing paths such as posts, talks, tags, and RSS to encourage curiosity."
