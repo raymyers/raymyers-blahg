@@ -7,6 +7,8 @@ description: >-
 tags:
   - work
   - musings
+  - ai
+  - coding-agents
 added: 2026-03-01T15:20:11.000Z
 ---
 

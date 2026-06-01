@@ -5,6 +5,8 @@ description: Some things I said before I started saying things here
 tags:
   - work
   - learning
+  - ai
+  - coding-agents
 added: 2025-01-03T20:39:03.571Z
 ---
 

@@ -6,6 +6,8 @@ description: >-
   as interchangeable with humans
 tags:
   - technical
+  - ai
+  - coding-agents
 added: 2025-05-17T19:08:51.613Z
 ---
 
