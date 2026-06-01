@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-01T13:00:10-05:00",
+  "title": "Design System: Ray Myers",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#faf8f3",
+        "tonalRamp": ["#2a2926", "#4b4740", "#6e675e", "#91897e", "#b5ada3", "#d7d0c7", "#eee9e1", "#faf8f3"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Espresso Ink",
+        "canonical": "#3a3430",
+        "tonalRamp": ["#14110f", "#241f1c", "#3a3430", "#5d544e", "#837870", "#aaa19a", "#d1cbc6", "#f1eeeb"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Weathered Gray",
+        "canonical": "#8b7d76",
+        "tonalRamp": ["#1c1816", "#332c29", "#504640", "#6d615a", "#8b7d76", "#aea49e", "#d1cac6", "#f1eeeb"]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Workshop Mauve",
+        "canonical": "#8b6b7f",
+        "tonalRamp": ["#1f141b", "#3a2532", "#57384b", "#744d64", "#8b6b7f", "#ad91a3", "#d0bac8", "#f0e6ed"]
+      },
+      "highlight": {
+        "role": "secondary",
+        "displayName": "Curiosity Highlight",
+        "canonical": "#e5ffc3",
+        "tonalRamp": ["#1a230e", "#33451d", "#4f6b2e", "#6e9342", "#8fbd59", "#b5e578", "#d4f5a7", "#e5ffc3"]
+      },
+      "dark-paper": {
+        "role": "neutral",
+        "displayName": "Night Paper",
+        "canonical": "#232127",
+        "tonalRamp": ["#111014", "#232127", "#3d3943", "#585260", "#756e7e", "#978fa0", "#bbb4c2", "#e1dce6"]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Night Ink",
+        "canonical": "#ddd8e0",
+        "tonalRamp": ["#171419", "#302a34", "#4d4552", "#6b6171", "#8c8292", "#aea6b4", "#ccc6d1", "#ddd8e0"]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Night Gray",
+        "canonical": "#9990a0",
+        "tonalRamp": ["#19151c", "#312b36", "#4d4454", "#6a6072", "#887d91", "#a69dac", "#c7c0cc", "#ece8ef"]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Night Mauve",
+        "canonical": "#9a7088",
+        "tonalRamp": ["#23131c", "#402434", "#60364e", "#804a69", "#9a7088", "#bb95ad", "#d8bdce", "#f2e6ee"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Article titles and major page titles."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Post titles and strong section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Site subtitle and local section headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Long-form reading and page prose."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Navigation, tags, compact metadata, and code-adjacent labels."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "state-fast",
+        "value": "0.15s ease",
+        "purpose": "Small hover color transitions on links and controls."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-nav",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "refersTo": "link",
+      "description": "Default inline link with ink text, mauve underline, and a tiny hover tint.",
+      "html": "<a class=\"ds-link\" href=\"#\">Read the essay</a>",
+      "css": ".ds-link { color: #3a3430; text-decoration-color: #8b6b7f; text-decoration-thickness: 0.15ex; text-underline-offset: 0.3ex; transition: background-color 0.15s ease; } .ds-link:hover { background-color: rgba(139, 107, 127, 0.1); border-radius: 2px; } .ds-link:focus-visible { outline: 2px solid #8b6b7f; outline-offset: 3px; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Sticky lowercase text navigation with translucent paper backing.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">home</a><a href=\"#\">blog</a><a href=\"#\">talks</a><a href=\"#\">socials</a></nav>",
+      "css": ".ds-nav { position: sticky; top: 0; text-align: left; background: rgba(250, 248, 243, 0.7); -webkit-backdrop-filter: blur(1px); backdrop-filter: blur(1px); font-family: 'iA Writer Mono', monospace; } .ds-nav a { color: #3a3430; margin: 25px 0; padding-right: 12px; text-decoration-color: #8b6b7f; text-decoration-thickness: 0.15ex; text-underline-offset: 0.3ex; } .ds-nav a:hover { background-color: transparent; } .ds-nav a:focus-visible { outline: 2px solid #8b6b7f; outline-offset: 3px; }"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Inline hash tag used for browsing posts by subject.",
+      "html": "<a class=\"ds-tag\" href=\"#\">#refactoring</a>",
+      "css": ".ds-tag { display: inline-block; margin-right: 20px; color: #3a3430; font-family: 'iA Writer Mono', monospace; font-size: 0.8rem; text-decoration-color: #8b6b7f; text-underline-offset: 0.3ex; } .ds-tag:hover { cursor: pointer; font-weight: 700; } .ds-tag:focus-visible { outline: 2px solid #8b6b7f; outline-offset: 3px; }"
+    },
+    {
+      "name": "Theme Toggle",
+      "kind": "button",
+      "refersTo": "theme-toggle",
+      "description": "Transparent icon-like control for switching light and dark mode.",
+      "html": "<button class=\"ds-theme-toggle\" type=\"button\" aria-label=\"Toggle dark mode\">☾</button>",
+      "css": ".ds-theme-toggle { background: none; border: none; cursor: pointer; font-family: 'Lora', Georgia, serif; font-size: 1.1rem; padding: 0; line-height: 1; color: #8b7d76; transition: color 0.15s ease; } .ds-theme-toggle:hover { color: #3a3430; } .ds-theme-toggle:focus-visible { outline: 2px solid #8b6b7f; outline-offset: 3px; }"
+    },
+    {
+      "name": "Post List Item",
+      "kind": "card",
+      "refersTo": "post-list-item",
+      "description": "A document-like post entry that uses spacing and type instead of a card container.",
+      "html": "<article class=\"ds-post\"><h2><a href=\"#\">AI Software Engineers Don't Exist</a></h2><time>June 1, 2026</time><p>A compact description of the post.</p></article>",
+      "css": ".ds-post { margin: 0 0 30px 0; color: #3a3430; font-family: 'Lora', Georgia, serif; } .ds-post h2 { margin: 0 0 0.25em; color: #8b7d76; font-family: 'iA Writer Mono', monospace; font-size: 1.3em; font-weight: 400; line-height: 1.1; } .ds-post a { color: #3a3430; text-decoration-color: #8b6b7f; text-decoration-thickness: 0.15ex; text-underline-offset: 0.3ex; } .ds-post time { font-style: italic; color: #8b7d76; white-space: nowrap; } .ds-post p { line-height: 1.6; margin: 0.5em 0 0; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Marginalia Workshop",
+    "overview": "This design system should feel like a personal notebook kept by a programmer who cares about craft: text-led, slightly old-world, technically literate, and more interested in durable thought than presentation fashion. The current site is intentionally compact, centered, and readable. It uses type, rhythm, and a small number of color decisions rather than layout spectacle.\n\nThe system rejects trend-chasing by staying close to the writing. It should not become a SaaS landing page, an influencer portfolio, a generic developer template, or a fashionable editorial costume. Polish is welcome when it sharpens the reading experience; decoration is suspect unless it helps curiosity.",
+    "keyCharacteristics": [
+      "Warm paper and espresso ink in light mode, with a quiet violet-gray dark mode.",
+      "Lora carries long-form prose; iA Writer Mono marks headings, navigation, code, and labels.",
+      "Flat surfaces, no cards by default, no ambient shadows.",
+      "Compact navigation and tag affordances that invite browsing without turning the site into an app shell.",
+      "Small, handmade details are allowed; trendy visual systems are not."
+    ],
+    "rules": [
+      {
+        "name": "The Accent Scarcity Rule",
+        "body": "Workshop Mauve should appear in small doses: link underlines, quotes, and state feedback. If it starts filling large panels, the system has become too designed.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Contrast Rule",
+        "body": "Body text must stay high contrast against the active paper color. Never use Weathered Gray for paragraph text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Prose First Rule",
+        "body": "Body copy is the authority. Do not let mono headings become oversized branding artifacts.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Costume Mono Rule",
+        "body": "Monospace is for structure and technical texture only. Do not use it as lazy shorthand for \"developer\".",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Reading Rule",
+        "body": "Do not add card shadows to make ordinary content feel important. If a surface needs emphasis, use hierarchy, spacing, or a stronger heading.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the body column around 70ch and let the writing own the page.",
+      "Do use Lora for prose and iA Writer Mono for headings, navigation, code, and compact labels.",
+      "Do keep Workshop Mauve scarce and purposeful.",
+      "Do preserve light and dark theme support whenever changing tokens.",
+      "Do use browsing paths such as posts, talks, tags, and RSS to encourage curiosity."
+    ],
+    "donts": [
+      "Don't make the site feel trendy, growth-hacked, SaaS-like, influencer-coded, or visually optimized for whatever design pattern is currently fashionable.",
+      "Don't turn post lists into repeated marketing cards.",
+      "Don't add purple gradients, glassmorphism, hero metrics, or generic developer-template ornament.",
+      "Don't use Weathered Gray for paragraph text.",
+      "Don't replace the handmade personal-site feeling with a product dashboard shell."
+    ]
+  }
+}
