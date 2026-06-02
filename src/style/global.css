@@ -129,9 +129,8 @@ nav {
   position: sticky;
   top: 0;
   text-align: left;
-  background: color-mix(in oklch, var(--paper-soft) 90%, transparent);
-  -webkit-backdrop-filter: blur(1px);
-  backdrop-filter: blur(1px);
+  background: transparent;
+  font-family: var(--font-heading);
 }
 
 nav a {
