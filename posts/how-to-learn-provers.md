@@ -6,16 +6,16 @@ tags:
   - technical
   - learning
   - formal-methods
-added: 2026-06-01T05:00:00.000Z
+added: 2026-06-02T05:00:00.000Z
 ---
 
 I love theorem provers, but their learning curve is notoriously steep. Here are the resources that helped make them click for me.
 
 # Start here
 
-One of my biggest hurdles getting started was simply understanding what proof tactics are.
+One of my biggest hurdles getting started was simply understanding what tactics are. They cannot be read like normal code because they are a product of interaction with the prover. Ok, let's back up...
 
-Most proof assistants work by running a series of "tactics" against a "proof state" until the goal is solved. If that sentence doesn't 100% make sense to you yet, play the [Natural Number Game](https://adam.math.hhu.de/).
+Most proof assistants work by running a series of "tactics" against a "proof state" until the goal is solved. If that sentence doesn't 100% make sense yet, play the [Natural Number Game](https://adam.math.hhu.de/).
 
 Seriously. Go beat 5 to 10 levels and come back.
 
@@ -23,7 +23,7 @@ Seriously. Go beat 5 to 10 levels and come back.
 
 Popular proof assistants include Lean, Rocq, Isabelle, ACL2, and Agda. [Lean](https://lean-lang.org/) is the easiest to get started with, as the community has invested heavily in developer experience and documentation.
 
-* [Let's Prove Leftpad](https://www.hillelwayne.com/post/lpl/) by Hillel Wayne is a collection showing the same simple function verified with many different tools.
+* [Let's Prove Leftpad](https://www.hillelwayne.com/post/lpl/) by Hillel Wayne is a collection showing the same simple function verified with many different tools. It's like a Rosetta stone.
 * [Logic for Programmers](https://leanpub.com/logic), also by Hillel Wayne, is a broader introduction to formal methods.
 * [Leslie Lamport's TLA+ video course](https://lamport.azurewebsites.net/video/videos.html) covers formal specification of distributed systems. If this style seems interesting, I recommend also trying [Quint](https://quint.sh/).
 
@@ -38,7 +38,7 @@ So you're ready to try formal verification? Take a deep breath and work through 
 
 # You're not dumb
 
-I put this list together hoping you'll find this journey *easier*, but it won't be easy. That's not your fault. You may struggle at times. I struggled. I gave up. I came back. I tried a different book. I tried a different prover. I gave up again, and came back again.
+I put this list together hoping you'll find the journey *easier*, but it won't be easy. That's not your fault. You may struggle at times. I struggled. I gave up. I came back. I tried a different book. I tried a different prover. I gave up again, and came back again.
 
 Finally I got it.
 
@@ -50,6 +50,6 @@ Finally I got it.
 
 See the [Learn-TT](https://github.com/jozefg/learn-tt) repo from Dr. Daniel Gratzer.
 
-You'll find that some provers use types in strange new ways. In industrial languages, we are accustomed to types that merely tell us the shape of data being passed around, and sometimes lie even at that. Types can do much more, even serving as a foundation for all mathematics. The provers Lean, Rocq, and Agda use a system called dependent types to encode their propositions.
+You'll find that provers use types in creative and exotic ways. In industrial languages, we are accustomed to types that merely tell us the shape of data being passed around, and sometimes lie even at that. Types can do much more, even serving as a foundation for all mathematics. The provers Lean, Rocq, and Agda use a system called dependent types to encode their propositions.
 
 Happy proving!
