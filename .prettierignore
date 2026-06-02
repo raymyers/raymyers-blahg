@@ -2,3 +2,5 @@ dist/
 node_modules/
 .impeccable/
 .github/skills/
+*.md
+*.json
