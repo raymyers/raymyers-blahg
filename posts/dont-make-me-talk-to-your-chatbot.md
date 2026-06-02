@@ -80,7 +80,7 @@ Another exception is when the change is completely routine. If you're bumping a 
 
 If you need precisely enforcable expectations, they won't be perfect wherever your draw the line. They're a best effort. Respect people's capacity and build habitable systems.
 
-## TLDR
+# TLDR
 
 The next time you `^V` paste, take a moment to ask yourself, "*Am I making someone else talk to my chatbot?*" A little consideration goes a long way.
 

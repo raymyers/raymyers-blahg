@@ -36,7 +36,7 @@ That is essentially my entire position. Is it clear?
 
 In the remainder I'll discuss what these terms mean in the way I use them.
 
-## Gender
+# Gender
 
 Gender is not biological. Gender is a social and psychological construct. That doesn't make it imaginary or trivial. Other examples of social and psychological constructs are language, laws, mathematics, and property.
 
@@ -62,7 +62,7 @@ If any of this is news to you, it's probably because it doesn't affect you and i
 
 Is biological sex fluid? I'm not sure that's a useful distinction. You could consider each indicator separately. Presumably I could naturally develop a testosterone deficiency affecting my hormonal sex, and artificially correct it, but if I wanted to change my chromosome that's staying put.
 
-## Orientation
+# Orientation
 
 Sexual orientation is an umbrella term about the categories of people we tend to be physically attracted to, and sometimes other details like how and when.
 
@@ -78,7 +78,7 @@ As an aside, there has been difference of opinion on whether the newer term Pans
 
 You'll notice the trend here is that categories are usually imperfect. We need labels to understand the world, but they only go so far.
 
-## Identity
+# Identity
 
 We use these terms as descriptors but also as identities. Someone's identity is like their evolving description of how they understand themselves. It usually makes sense to take people at their word on what their identity is, because it's a statement about their own self-image. Only they know what's in their mind. The way our identities coexist is like a social lubricant.
 
