@@ -149,13 +149,40 @@ ul.tags-list {
 }
 
 .post {
+  display: grid;
+  gap: 0.25rem;
   margin: 0 0 30px 0;
 }
 
+.post-heading {
+  line-height: 1.15;
+}
+
 .post .title {
+  display: inline;
   font-family: var(--font-structure);
   font-size: var(--text-headline);
   line-height: 1.15;
+}
+
+.post-heading time {
+  display: inline-block;
+  margin-inline-start: 0.35rem;
+}
+
+.post .excerpt {
+  margin: 0;
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.25rem;
+  row-gap: 0.1rem;
+}
+
+.post .tag {
+  margin-right: 0;
 }
 
 .tags {

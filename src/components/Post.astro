@@ -1,21 +1,21 @@
 ---
 const { slug, title, tags, description, date } = Astro.props;
+const postDate = new Date(date);
+const machineDate = postDate.toISOString().slice(0, 10);
+const readableDate = postDate.toLocaleDateString("en-us", {
+	year: "numeric",
+	month: "short",
+	day: "numeric",
+});
 ---
 
 <li class="post">
-	<a href={`/post/${slug}/`} class="title">{title}</a>
-	<time datetime={date}>
-		{
-			new Date(date).toLocaleDateString("en-us", {
-				year: "numeric",
-				month: "short",
-				day: "numeric",
-			})
-		}
-	</time>
-	<br />
-	{description && <span class="excerpt">{description}</span>}
-	<div>
+	<div class="post-heading">
+		<a href={`/post/${slug}/`} class="title">{title}</a>
+		<time datetime={machineDate}>{readableDate}</time>
+	</div>
+	{description && <p class="excerpt">{description}</p>}
+	<div class="post-tags" aria-label={`Tags for ${title}`}>
 		{
 			tags &&
 				tags.map((tag) => (
