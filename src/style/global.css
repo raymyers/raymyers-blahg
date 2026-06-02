@@ -11,6 +11,7 @@
   --moretranswhite: color-mix(in oklch, var(--white) 18%, transparent);
   --black: #252525;
   --transblack: rgba(37, 37, 37, 0.7);
+  --softblack: rgba(37, 37, 37, 0.82);
   --moretransblack: color-mix(in oklch, var(--black) 10%, transparent);
   --gray: oklch(43% 0.014 225);
   --link: var(--black);
@@ -72,14 +73,17 @@ code {
   font-family: var(--font-structure);
   font-variant-ligatures: none;
 }
+nav {
+  font-family: var(--font-structure);
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-nav {
-  font-family: var(--font-structure);
+h6 {
+  font-family: var(--font-body);
 }
 h1,
 strong,
@@ -90,6 +94,7 @@ b {
 .tag-title {
   font-weight: 400;
   color: var(--black);
+  text-align: left;
 }
 
 h2,
@@ -97,7 +102,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--gray);
+  color: var(--black);
   line-height: 1.1;
   text-wrap: balance;
 }
@@ -160,7 +165,7 @@ ul.tags-list {
 
 .post .title {
   display: inline;
-  font-family: var(--font-structure);
+  font-family: var(--font-body);
   font-size: var(--text-headline);
   line-height: 1.15;
 }
@@ -171,7 +176,7 @@ ul.tags-list {
 }
 
 .post .excerpt {
-  color: var(--transblack);
+  color: var(--softblack);
   margin: 0;
 }
 
