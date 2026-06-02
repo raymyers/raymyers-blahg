@@ -5,7 +5,10 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import HomePosts from "../components/HomePosts.astro";
 import Tags from "../components/Tags.astro";
-import { title as SITE_TITLE, subtitle as SITE_DESCRIPTION } from "../settings/settings.json";
+import {
+  title as SITE_TITLE,
+  subtitle as SITE_DESCRIPTION,
+} from "../settings/settings.json";
 import About from "./about.astro";
 import getTags from "../scripts/getTags";
 
@@ -15,25 +18,87 @@ const tags = getTags(posts);
 
 <!doctype html>
 <html lang="en-us">
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <body>
-        <Header title={SITE_TITLE} />
-        <main>
-            <About />
+  <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <section class="home-intro" aria-label="Introduction">
+        <About />
+      </section>
 
-            <br />
+      <section class="home-writing" aria-labelledby="recent-writing">
+        <div class="section-heading">
+          <h2 id="recent-writing">Recent writing</h2>
+        </div>
 
-            <h3>Here are my most recent posts</h3>
+        <HomePosts allPosts={posts} />
+      </section>
 
-            <HomePosts allPosts={posts} />
+      <div class="home-more">
+        <section class="home-follow" aria-labelledby="follow-writing">
+          <h2 id="follow-writing">Subscribe by RSS</h2>
+          <p>
+            Prefer a reader? <a href="/rss.xml">Subscribe to the RSS feed</a>.
+          </p>
+        </section>
 
-            <p class="center">
-                <a href="/rss.xml">RSS feed</a>
-            </p>
-            <br />
-
-            <Tags tags={tags} all />
-        </main>
-        <Footer />
-    </body>
+        <section class="home-tags" aria-label="Browse by tag">
+          <Tags tags={tags} all />
+        </section>
+      </div>
+    </main>
+    <Footer />
+  </body>
 </html>
+
+<style>
+  main {
+    --home-space-sm: clamp(0.9rem, 0.8rem + 0.5vw, 1.2rem);
+    --home-space-md: clamp(1.75rem, 1.42rem + 1.65vw, 2.75rem);
+    --home-space-lg: clamp(2rem, 1.68rem + 1.6vw, 3rem);
+  }
+
+  .home-intro {
+    margin-block-end: var(--home-space-lg);
+  }
+
+  .home-writing {
+    margin-block-end: var(--home-space-lg);
+  }
+
+  .home-more {
+    display: grid;
+    gap: var(--home-space-md);
+    margin-block-start: calc(var(--home-space-sm) * -1);
+  }
+
+  .home-follow {
+    max-width: 46ch;
+  }
+
+  .section-heading {
+    margin-block-end: var(--home-space-sm);
+  }
+
+  .section-heading h2,
+  .home-follow h2 {
+    margin: 0;
+    color: var(--black);
+    font-size: var(--text-headline);
+    line-height: 1.15;
+    text-align: left;
+  }
+
+  .home-follow p {
+    margin-block: 0.5rem 0;
+  }
+
+  .home-tags :global(.tag-title) {
+    margin-block: 0 1rem;
+  }
+
+  .home-tags :global(.tags) {
+    justify-content: flex-start;
+    row-gap: 0.45rem;
+  }
+</style>
