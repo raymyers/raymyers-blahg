@@ -29,6 +29,7 @@
   --text-title: 1.125rem;
   --text-headline: 1.3125rem;
   --text-display: clamp(1.65rem, 1.48rem + 0.85vw, 2.15rem);
+  --page-pad: clamp(1.25rem, 1.1rem + 0.95vw, 1.875rem);
 }
 
 ::selection {
@@ -49,7 +50,7 @@ html {
 body {
   min-height: 100vh;
   margin: 0 auto;
-  padding: 20px;
+  padding: var(--page-pad);
   max-width: 80ch;
   background-color: var(--paper-soft);
   box-shadow:

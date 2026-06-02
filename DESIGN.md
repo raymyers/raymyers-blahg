@@ -43,7 +43,7 @@ rounded:
   hover: "2px"
   avatar: "50%"
 spacing:
-  page-pad: "20px"
+  page-pad: "clamp(1.25rem, 1.1rem + 0.95vw, 1.875rem)"
   paragraph: "1em"
   nav-gap: "12px"
   nav-gap-mobile: "8px"
@@ -156,7 +156,7 @@ This system is flat by default. Depth comes from document structure, line-height
 - **Background:** Page background carries the whole surface.
 - **Shadow Strategy:** None.
 - **Border:** Use simple rules such as `hr` or a blockquote accent only when the content already has a document reason.
-- **Internal Padding:** Keep content rhythm prose-based: 20px page padding, 1em paragraph rhythm, and 30px post separation.
+- **Internal Padding:** Keep content rhythm prose-based: fluid page padding, 1em paragraph rhythm, and 30px post separation.
 
 ### Inputs / Fields
 
