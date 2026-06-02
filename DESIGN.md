@@ -2,38 +2,39 @@
 name: Ray Myers
 description: Retrofuturist Software Mender
 colors:
-  paper: "#fafafa"
+  paper: "oklch(96.1% 0.006 220)"
+  paperSoft: "oklch(98.5% 0.003 220)"
   ink: "#252525"
-  muted: "#6f6f6a"
-  accent: "#67624a"
-  highlight: "#e6f2a2"
+  muted: "oklch(43% 0.014 225)"
+  accent: "oklch(41% 0.04 238)"
+  highlight: "oklch(90.5% 0.04 215)"
 typography:
   display:
-    fontFamily: "\"iA Writer Mono\", monospace"
+    fontFamily: '"iA Writer Mono", monospace'
     fontSize: "clamp(1.65rem, 1.48rem + 0.85vw, 2.15rem)"
     fontWeight: 400
     lineHeight: 1
     letterSpacing: "normal"
   headline:
-    fontFamily: "\"iA Writer Mono\", monospace"
+    fontFamily: '"iA Writer Mono", monospace'
     fontSize: "1.3125rem"
     fontWeight: 400
     lineHeight: 1.15
     letterSpacing: "normal"
   title:
-    fontFamily: "\"iA Writer Mono\", monospace"
+    fontFamily: '"iA Writer Mono", monospace'
     fontSize: "1.125rem"
     fontWeight: 400
     lineHeight: 1.1
     letterSpacing: "normal"
   body:
-    fontFamily: "\"Source Serif 4\", Georgia, serif"
+    fontFamily: '"Source Serif 4", Georgia, serif'
     fontSize: "1.0625rem"
     fontWeight: 400
     lineHeight: 1.6
     letterSpacing: "normal"
   label:
-    fontFamily: "\"iA Writer Mono\", monospace"
+    fontFamily: '"iA Writer Mono", monospace'
     fontSize: "0.8rem"
     fontWeight: 400
     lineHeight: 1.1
@@ -56,7 +57,7 @@ components:
     textColor: "{colors.ink}"
     typography: "{typography.label}"
   navigation:
-    backgroundColor: "{colors.paper}"
+    backgroundColor: "color-mix(in oklch, {colors.paper} 82%, transparent)"
     textColor: "{colors.ink}"
     typography: "{typography.label}"
 ---
@@ -72,7 +73,8 @@ This design system should feel like a personal notebook kept by a programmer who
 The system rejects trend-chasing by staying close to the writing. It should not become a SaaS landing page, an influencer portfolio, a generic developer template, or a fashionable editorial costume. Polish is welcome when it sharpens the reading experience; decoration is suspect unless it helps curiosity.
 
 **Key Characteristics:**
-- Near-white proof paper and dense ink, intentionally light-mode only.
+
+- Pale blueprint-paper field and dense ink, intentionally light-mode only.
 - Source Serif 4 carries long-form prose; iA Writer Mono marks headings, navigation, code, and labels.
 - Flat surfaces, no cards by default, no ambient shadows.
 - Compact navigation and tag affordances that invite browsing without turning the site into an app shell.
@@ -80,20 +82,26 @@ The system rejects trend-chasing by staying close to the writing. It should not 
 
 ## 2. Colors
 
-The palette is a restrained personal-site palette: near-white proof paper, dense ink, printer's gray headings, and a muted olive-drab accent used mostly through links and quote structure.
+The palette is a restrained personal-site palette: cool gray paper, dense ink, slate headings, and a muted workbench-blue accent used mostly through links, rules, quotes, and state feedback. The background should feel less blank than browser white without becoming cream, sand, or a themed dark mode.
 
 ### Primary
-- **Printer's Olive**: Primary accent. Use for link underlines, blockquote structure, and subtle hover tint. Its job is quiet emphasis, not decoration.
+
+- **Workbench Blue**: Primary accent. Use for link underlines, blockquote structure, and subtle hover tint. Its job is quiet emphasis, not decoration.
 
 ### Secondary
+
 - **Proof Highlight**: Selection highlight. Use only for text selection or rare inline attention states that should feel discovered rather than advertised.
 
 ### Neutral
-- **Proof Paper**: Light surface. Use as the default page background.
+
+- **Blueprint Paper**: Very light gray surface with a cool cast. Use as the default page background.
+- **Soft Paper**: Near-white, brand-tinted surface. Use only where a subtle relief is needed, such as mixed quote or code backgrounds.
 - **Dense Ink**: Primary text and link color. It should remain the dominant foreground.
-- **Printer's Gray**: Secondary text, heading color, timestamps, and inactive icon state.
+- **Blue Gray**: Secondary text, heading color, timestamps, and inactive icon state.
+
 ### Named Rules
-**The Accent Scarcity Rule.** Printer's Olive should appear in small doses: link underlines, quotes, and state feedback. If it starts filling large panels, the system has become too designed.
+
+**The Accent Scarcity Rule.** Workbench Blue should appear in small doses: link underlines, quotes, and state feedback. If it starts filling large panels, the system has become too designed.
 
 **The Reading Contrast Rule.** Body text must stay high contrast against the active paper color. Never use Printer's Gray for paragraph text.
 
@@ -106,6 +114,7 @@ The palette is a restrained personal-site palette: near-white proof paper, dense
 **Character:** The pairing reads as printer's proof copy annotated by a precise programmer. Source Serif 4 gives essays a sharper, more rigorous text color than Lora; iA Writer Mono adds mechanical labeling without turning the whole site into a terminal.
 
 ### Hierarchy
+
 - **Display** (400, clamp(1.65rem, 1.48rem + 0.85vw, 2.15rem), 1): Article titles and major page titles. Keep it plain and exact.
 - **Headline** (400, 1.3125rem, 1.15): Post list titles and prominent inline headings.
 - **Title** (400, 1.125rem, 1.1): Site subtitle and secondary headers.
@@ -114,6 +123,7 @@ The palette is a restrained personal-site palette: near-white proof paper, dense
 - **Label** (400, 0.8rem, normal letter spacing): Tags, navigation, and compact metadata.
 
 ### Named Rules
+
 **The Prose First Rule.** Body copy is the authority. Do not let mono headings become oversized branding artifacts.
 
 **The No Costume Mono Rule.** Monospace is for structure and technical texture only. Do not use it as lazy shorthand for "developer".
@@ -123,21 +133,25 @@ The palette is a restrained personal-site palette: near-white proof paper, dense
 This system is flat by default. Depth comes from document structure, line-height, whitespace, text color, underline treatment, and the sticky navigation backdrop. Shadows are not part of the current vocabulary.
 
 ### Named Rules
+
 **The Flat Reading Rule.** Do not add card shadows to make ordinary content feel important. If a surface needs emphasis, use hierarchy, spacing, or a stronger heading.
 
 ## 5. Components
 
 ### Buttons
+
 - **Shape:** Unframed text button unless a real form action requires a stronger affordance.
 - **Primary:** No persistent global button exists in the main chrome. Prefer plain text links for navigation and actions.
 - **Hover / Focus:** Hover should stay quiet; focus states should be visible and high contrast.
 - **Secondary / Ghost / Tertiary:** Avoid filled marketing buttons unless a future workflow truly needs one.
 
 ### Chips
+
 - **Style:** Tags are text-first inline chips, prefixed with `#`, using the primary ink color and compact label scale.
 - **State:** Hover may increase weight or add subtle text emphasis. Do not wrap tags in pill backgrounds by default.
 
 ### Cards / Containers
+
 - **Corner Style:** No card containers by default. The avatar is circular; link hover rounds are tiny.
 - **Background:** Page background carries the whole surface.
 - **Shadow Strategy:** None.
@@ -145,32 +159,38 @@ This system is flat by default. Depth comes from document structure, line-height
 - **Internal Padding:** Keep content rhythm prose-based: 20px page padding, 1em paragraph rhythm, and 30px post separation.
 
 ### Inputs / Fields
+
 - **Style:** Bare form fields inherit the prose type scale and use full width where needed.
 - **Focus:** Use a visible outline or border shift that meets WCAG AA contrast.
 - **Error / Disabled:** Not currently defined. Add these deliberately if a form surface grows beyond the newsletter page.
 
 ### Navigation
+
 - **Style:** Sticky, left-aligned text navigation with translucent paper backing and a 1px backdrop blur.
 - **Typography:** iA Writer Mono at label scale, lowercase route names.
 - **Default / Hover / Active:** Links use ink text and mauve underline. Navigation hover should stay restrained and avoid filled backgrounds.
 - **Mobile:** Tighten horizontal spacing from 12px to 8px below 600px.
 
 ### Post List
+
 Post list items are plain document entries with title, date, description, and tags. Use spacing and type contrast instead of card borders.
 
 ### Avatar
+
 The author image is a 100px circular crop beside the site title. Treat it as a personal signature, not a brand logo.
 
 ## 6. Do's and Don'ts
 
 ### Do:
+
 - **Do** keep the body column around 80ch and let the writing own the page.
 - **Do** use Source Serif 4 for prose and iA Writer Mono for headings, navigation, code, and compact labels.
-- **Do** keep Printer's Olive scarce and purposeful.
+- **Do** keep Workbench Blue scarce and purposeful.
 - **Do** keep the site light-mode only unless dark mode is deliberately reintroduced.
 - **Do** use browsing paths such as posts, talks, tags, and RSS to encourage curiosity.
 
 ### Don't:
+
 - **Don't** make the site feel trendy, growth-hacked, SaaS-like, influencer-coded, or visually optimized for whatever design pattern is currently fashionable.
 - **Don't** turn post lists into repeated marketing cards.
 - **Don't** add purple gradients, glassmorphism, hero metrics, or generic developer-template ornament.

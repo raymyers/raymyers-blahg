@@ -4,17 +4,22 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 :root {
-  --white: #fafafa;
-  --transwhite: rgba(250, 250, 250, 0.7);
-  --moretranswhite: rgba(250, 250, 250, 0.1);
+  --white: oklch(96.1% 0.006 220);
+  --paper-soft: oklch(98.5% 0.003 220);
+  --transwhite: color-mix(in oklch, var(--white) 82%, transparent);
+  --moretranswhite: color-mix(in oklch, var(--white) 18%, transparent);
   --black: #252525;
   --transblack: rgba(37, 37, 37, 0.7);
-  --moretransblack: rgba(37, 37, 37, 0.1);
-  --gray: #6f6f6a;
+  --moretransblack: color-mix(in oklch, var(--black) 10%, transparent);
+  --gray: oklch(43% 0.014 225);
   --link: var(--black);
-  --accent: #67624a;
+  --accent: oklch(41% 0.04 238);
   --link-underline: var(--accent);
-  --highlight: #e6f2a2;
+  --highlight: oklch(90.5% 0.04 215);
+  --rule: oklch(73.5% 0.014 222);
+  --quote-bg: color-mix(in oklch, var(--paper-soft) 82%, var(--accent));
+  --quote-border: oklch(68.5% 0.02 228);
+  --code-bg: color-mix(in oklch, var(--paper-soft) 72%, var(--black));
   --font-body: "Source Serif 4", Georgia, serif;
   --font-structure: "iA Writer Mono", monospace;
   --text-body: 1.0625rem;
@@ -95,7 +100,7 @@ a {
   transition: background-color 0.15s ease;
 }
 a:hover {
-  background-color: color-mix(in srgb, var(--accent) 10%, transparent);
+  background-color: color-mix(in oklch, var(--accent) 12%, transparent);
   border-radius: 2px;
 }
 nav a:hover {
@@ -119,7 +124,7 @@ nav a:not(:last-child) {
 }
 
 hr {
-  border-top: 1px solid var(--gray);
+  border-top: 1px solid var(--rule);
   margin: 1rem 0;
 }
 
@@ -177,7 +182,7 @@ img {
 }
 code {
   padding: 2px 5px;
-  background-color: var(--moretransblack);
+  background-color: var(--code-bg);
 }
 pre {
   padding: 1rem;
@@ -186,10 +191,10 @@ pre > code {
   all: unset;
 }
 blockquote {
-  border: none;
-  border-left: 3px solid var(--accent);
+  border: 1px solid var(--quote-border);
+  background-color: var(--quote-bg);
   color: var(--black);
-  padding: 0 0 0 20px;
+  padding: 0.75rem 1rem;
   margin: 0px;
   font-style: italic;
 }
