@@ -171,6 +171,7 @@ ul.tags-list {
 }
 
 .post .excerpt {
+  color: var(--transblack);
   margin: 0;
 }
 
