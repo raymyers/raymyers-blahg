@@ -24,6 +24,9 @@
   --quote-border: oklch(68.5% 0.02 228);
   --code-bg: color-mix(in oklch, var(--paper-soft) 72%, var(--black));
   --font-body: "Source Serif 4", Georgia, serif;
+  --font-heading:
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
   --font-structure: "iA Writer Mono", monospace;
   --text-body: 1.0625rem;
   --text-label: 0.8125rem;
@@ -73,17 +76,13 @@ code {
   font-family: var(--font-structure);
   font-variant-ligatures: none;
 }
-nav {
-  font-family: var(--font-structure);
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
 }
 h1,
 strong,
@@ -165,7 +164,7 @@ ul.tags-list {
 
 .post .title {
   display: inline;
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
   font-size: var(--text-headline);
   line-height: 1.15;
 }
