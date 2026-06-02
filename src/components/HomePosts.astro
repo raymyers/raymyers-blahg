@@ -6,23 +6,30 @@ const { allPosts } = Astro.props;
 //.sort(() => 0.5 - Math.random()).slice(0, 3);
 
 let posts = allPosts
-	.sort(
-		(a, b) =>
-			new Date(b.data.updated || b.data.added).valueOf() -
-			new Date(a.data.updated || a.data.added).valueOf(),
-	)
-	.slice(0, 5);
+  .sort(
+    (a, b) =>
+      new Date(b.data.updated || b.data.added).valueOf() -
+      new Date(a.data.updated || a.data.added).valueOf(),
+  )
+  .slice(0, 5);
 ---
 
 <content>
-	<ul class="posts-list">
-		{
-			posts.map(
-				({
-					url,
-					data: { description, slug, title, tags, added: date },
-				}) => <Post {url} {description} {date} {slug} {title} {tags} />
-			)
-		}
-	</ul>
+  <ul class="posts-list">
+    {
+      posts.map(
+        ({ url, data: { description, slug, title, tags, added: date } }) => (
+          <Post
+            {url}
+            {description}
+            {date}
+            {slug}
+            {title}
+            {tags}
+            showTags={false}
+          />
+        ),
+      )
+    }
+  </ul>
 </content>

@@ -36,9 +36,9 @@ Simply:
 13. add arg --with-boost=/opt/homebrew/Cellar/boost/1.89.0/include/boost
 14. run configure script (fail)
 15. change arg to --with-boost=/opt/homebrew/Cellar/boost/1.89.0/include
-16. set LD\_LIBRARY\_PATH
+16. set LD_LIBRARY_PATH
 17. run configure script (fail)
-18. unset LD\_LIBRARY\_PATH
+18. unset LD_LIBRARY_PATH
 19. scroll through several hundred lines of config.log
 20. Notice a double "include" dir in path: /opt/homebrew/Cellar/boost/1.89.0/include/include/boost/version.hpp
 21. change arg to --with-boost=/opt/homebrew/Cellar/boost/1.89.0

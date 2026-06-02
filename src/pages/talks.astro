@@ -2,7 +2,10 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import { title as SITE_TITLE, subtitle as SITE_DESCRIPTION } from "../settings/settings.json";
+import {
+  title as SITE_TITLE,
+  subtitle as SITE_DESCRIPTION,
+} from "../settings/settings.json";
 
 // Videos list - add your video entries here
 const videos = [
@@ -19,26 +22,32 @@ const videos = [
       <section>
         <h2>Slides</h2>
         <p>
-          Check out my presentation slides on <a href="https://github.com/raymyers/Talks" target="_blank" rel="noopener noreferrer">GitHub</a>.
+          Check out my presentation slides on <a
+            href="https://github.com/raymyers/Talks"
+            target="_blank"
+            rel="noopener noreferrer">GitHub</a
+          >.
         </p>
       </section>
 
       <section>
         <h2>Videos</h2>
-        {videos.length > 0 ? (
-          <ul>
-            {videos.map((video) => (
-              <li>
-                <a href={video.url} target="_blank" rel="noopener noreferrer">
-                  {video.title}
-                </a>
-                {video.date && <span> - {video.date}</span>}
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p>Videos coming soon!</p>
-        )}
+        {
+          videos.length > 0 ? (
+            <ul>
+              {videos.map((video) => (
+                <li>
+                  <a href={video.url} target="_blank" rel="noopener noreferrer">
+                    {video.title}
+                  </a>
+                  {video.date && <span> - {video.date}</span>}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p>Videos coming soon!</p>
+          )
+        }
       </section>
     </main>
     <Footer />

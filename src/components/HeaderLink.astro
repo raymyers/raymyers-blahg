@@ -3,25 +3,24 @@ const { href, class: className, ...props } = Astro.props;
 let isActive;
 
 if (href === "/") {
-	isActive = Astro.url.pathname === href;
+  isActive = Astro.url.pathname === href;
 } else {
-	isActive = Astro.url.pathname.startsWith(href);
+  isActive = Astro.url.pathname.startsWith(href);
 }
-
 ---
 
 <a href={href} class:list={[className, { active: isActive }]} {...props}>
-	<slot />
+  <slot />
 </a>
 <style>
-	a {
-		display: inline-block;
-		text-decoration: none;
-	}
-	a.active {
-		font-weight: bolder;
-		text-decoration: underline;
-		text-decoration-thickness: 0.3ex;
-		text-underline-offset: 0.3ex;
-	}
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  a.active {
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-thickness: 0.3ex;
+    text-underline-offset: 0.3ex;
+  }
 </style>

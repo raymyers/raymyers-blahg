@@ -13,17 +13,17 @@ tags:
 added: 2026-06-01T05:00:00.000Z
 ---
 
-*This was my proposal for the [2026 MoonBit Software Synthesis Challenge](https://www.moonbitlang.com/2026-scc). The organizers gave a friendly and thoughtful response, but considered it out of scope for the competition.*
+_This was my proposal for the [2026 MoonBit Software Synthesis Challenge](https://www.moonbitlang.com/2026-scc). The organizers gave a friendly and thoughtful response, but considered it out of scope for the competition._
 
 MoonBit aims to provide strong assurances to its users. For instance, its website says it has a sound type system. But is that just a claim, or a real mathematical result?
 
 This project would formally define the operational semantics for the current MoonBit language. That would pave the way for further work, including:
 
-* Program logics for verifying MoonBit programs
-* Theorems about the language's properties
-* Verified reference interpreters
-* A verified compiler
-* Compiler testing oracles that compare the reference implementation with the production version
+- Program logics for verifying MoonBit programs
+- Theorems about the language's properties
+- Verified reference interpreters
+- A verified compiler
+- Compiler testing oracles that compare the reference implementation with the production version
 
 # Scope
 

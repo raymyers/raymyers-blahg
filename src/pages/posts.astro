@@ -5,40 +5,43 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Post from "../components/Post.astro";
 
-import { title as SITE_TITLE, subtitle as SITE_DESCRIPTION } from "../settings/settings.json";
+import {
+  title as SITE_TITLE,
+  subtitle as SITE_DESCRIPTION,
+} from "../settings/settings.json";
 
 let posts = await getCollection("posts");
 
 posts = posts.sort(
-	(a, b) =>
-		new Date(b.data.updated || b.data.added).valueOf() -
-		new Date(a.data.updated || a.data.added).valueOf(),
+  (a, b) =>
+    new Date(b.data.updated || b.data.added).valueOf() -
+    new Date(a.data.updated || a.data.added).valueOf(),
 );
 ---
 
 <!doctype html>
 <html lang="en-us">
-	<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	<body>
-		<Header />
-		<main>
-			<content>
-				<ul class="posts-list">
-					{
-						posts.map(
-							({
-								url,
-								data: { description, slug, title, tags, added: date },
-							}) => <Post {description} {date} {slug} {title} {tags} />
-						)
-					}
-				</ul>
-			</content>
+  <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  <body>
+    <Header />
+    <main>
+      <content>
+        <ul class="posts-list">
+          {
+            posts.map(
+              ({
+                url,
+                data: { description, slug, title, tags, added: date },
+              }) => <Post {description} {date} {slug} {title} {tags} />,
+            )
+          }
+        </ul>
+      </content>
 
-			<p class="center">
-				<a href="/rss.xml">RSS feed</a>
-			</p>
-		</main>
-		<Footer />
-	</body>
+      <p class="center">
+        <a href="/rss.xml">RSS feed</a>
+      </p>
+    </main>
+    <Footer />
+  </body>
 </html>

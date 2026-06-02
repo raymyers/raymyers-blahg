@@ -23,10 +23,10 @@ Software Engineer was a term introduced by Margaret Hamilton for the Apollo Moon
 
 For discussion's sake, let's consider some basic necessary, though not sufficient conditions. We might all agree that a Software Engineer:
 
-* Is a [professional](https://jolt.law.harvard.edu/assets/articlePDFs/v33/33HarvJLTech557.pdf), having an obligation to uphold a standard of care
-  * Therefore, has legal and moral agency typically associated with personhood
-* Is capable not only of solving small, predefined tasks in a codebase, but also
-  * Creating and maintaining a codebase of significant size over a period of time
-  * Partnering to define the requirements to be done
+- Is a [professional](https://jolt.law.harvard.edu/assets/articlePDFs/v33/33HarvJLTech557.pdf), having an obligation to uphold a standard of care
+  - Therefore, has legal and moral agency typically associated with personhood
+- Is capable not only of solving small, predefined tasks in a codebase, but also
+  - Creating and maintaining a codebase of significant size over a period of time
+  - Partnering to define the requirements to be done
 
 Without the supervision of a human programmer, every autonomous coding tool to date would fail these minimal prerequisites. That's before any consideration of the actual engineering discipline as currently understood, see Dave Farley's recent book [Modern Software Engineering](https://www.davefarley.net?p=352) for a nice formulation.

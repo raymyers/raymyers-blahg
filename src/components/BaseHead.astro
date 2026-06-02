@@ -2,56 +2,61 @@
 import "../style/fonts.css";
 import "../style/global.css";
 
-import { title as SITE_TITLE, ahrefsAnalyticsKey as AHREFS_KEY } from "../settings/settings.json";
+import {
+  title as SITE_TITLE,
+  ahrefsAnalyticsKey as AHREFS_KEY,
+} from "../settings/settings.json";
 
 const { title, description, image = "/weblog-card-1.png" } = Astro.props;
 ---
 
 <head>
-	<!-- Global Metadata -->
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-	<link rel="alternate icon" href="/favicon.ico" />
-	<meta name="generator" content={Astro.generator} />
+  <!-- Global Metadata -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="alternate icon" href="/favicon.ico" />
+  <meta name="generator" content={Astro.generator} />
 
-	<!-- Primary Meta Tags -->
-	<title>{title}</title>
-	<meta name="title" content={title} />
-	<meta name="description" content={description} />
+  <!-- Primary Meta Tags -->
+  <title>{title}</title>
+  <meta name="title" content={title} />
+  <meta name="description" content={description} />
 
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content={Astro.url} />
-	<meta property="og:title" content={title} />
-	<meta property="og:description" content={description} />
-	<meta property="og:image" content={new URL(image, Astro.url)} />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={Astro.url} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={new URL(image, Astro.url)} />
 
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content={Astro.url} />
-	<meta property="twitter:title" content={title} />
-	<meta property="twitter:description" content={description} />
-	<meta name="twitter:image" content={new URL(image, Astro.url)} />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content={Astro.url} />
+  <meta property="twitter:title" content={title} />
+  <meta property="twitter:description" content={description} />
+  <meta name="twitter:image" content={new URL(image, Astro.url)} />
 
-	<!-- RSS Link -->
-	<link
-		rel="alternate"
-		href="/rss.xml"
-		type="application/rss+xml"
-		title={SITE_TITLE}
-	/>
+  <!-- RSS Link -->
+  <link
+    rel="alternate"
+    href="/rss.xml"
+    type="application/rss+xml"
+    title={SITE_TITLE}
+  />
 
-	<!-- Sitemap -->
-	<link rel="sitemap" href="/sitemap-index.xml" />
+  <!-- Sitemap -->
+  <link rel="sitemap" href="/sitemap-index.xml" />
 
-	<!-- Ahrefs Web Analytics -->
-	{AHREFS_KEY && (
-		<script
-			is:inline
-			src="https://analytics.ahrefs.com/analytics.js"
-			data-key={AHREFS_KEY}
-			async
-		/>
-	)}
+  <!-- Ahrefs Web Analytics -->
+  {
+    AHREFS_KEY && (
+      <script
+        is:inline
+        src="https://analytics.ahrefs.com/analytics.js"
+        data-key={AHREFS_KEY}
+        async
+      />
+    )
+  }
 </head>

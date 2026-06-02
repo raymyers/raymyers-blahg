@@ -1,7 +1,7 @@
 ---
 title: On Gender Identity
 slug: gender-identity
-description: 'Gender, sex, identity, and acceptance.'
+description: "Gender, sex, identity, and acceptance."
 tags:
   - personal
   - advice
@@ -21,16 +21,16 @@ But that's not everyone. Some people are genuinely curious and on the fence. May
 
 Here it is:
 
-* Chromosomes *mostly* dictate biological sex.
-* Biological sex *mostly* dictates sexual orientation.
-* Biological sex *mostly* dictates our relationship with gender.
-* All these *mostly's* are tenuous and have meaningful exceptions.
+- Chromosomes _mostly_ dictate biological sex.
+- Biological sex _mostly_ dictates sexual orientation.
+- Biological sex _mostly_ dictates our relationship with gender.
+- All these _mostly's_ are tenuous and have meaningful exceptions.
 
 Further,
 
-* Our interests are not in conflict.
-* We can straightforwardly live together while having diverse identities.
-* Failing that, we can leave each other alone.
+- Our interests are not in conflict.
+- We can straightforwardly live together while having diverse identities.
+- Failing that, we can leave each other alone.
 
 That is essentially my entire position. Is it clear?
 
@@ -68,7 +68,7 @@ Sexual orientation is an umbrella term about the categories of people we tend to
 
 Commonly known orientations include Heterosexual, Homosexual, Bisexual, and Asexual. These have been observed throughout the animal kingdom and human history.
 
-Sexual orientation is a spectrum because people may be attracted outside their main orientation to various degrees. It can be fluid if attraction changes over time, but more often it's stable with the change being how someone describes themself as they learn their needs and grapple with social pressures. Thus, if someone "came out as gay" this does not mean that they "turned gay" at some point. It's more like at some point they came to understand what had always  been different about them, and probably also kept that information hidden for some time due for fear of their communities reaction. Having seen some of those reactions, I find that fear extremely well founded.
+Sexual orientation is a spectrum because people may be attracted outside their main orientation to various degrees. It can be fluid if attraction changes over time, but more often it's stable with the change being how someone describes themself as they learn their needs and grapple with social pressures. Thus, if someone "came out as gay" this does not mean that they "turned gay" at some point. It's more like at some point they came to understand what had always been different about them, and probably also kept that information hidden for some time due for fear of their communities reaction. Having seen some of those reactions, I find that fear extremely well founded.
 
 The attempt to turn someone from gay to straight is called Conversation Therapy which is a form of torture and has otherwise no effect.
 

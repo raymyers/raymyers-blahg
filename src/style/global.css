@@ -6,7 +6,7 @@
 :root {
   --white: oklch(96.1% 0.006 220);
   --paper-soft: oklch(98.5% 0.003 220);
-  --page-field: oklch(93.8% 0.012 238);
+  --page-field: oklch(98% 0.045 280);
   --transwhite: color-mix(in oklch, var(--white) 82%, transparent);
   --moretranswhite: color-mix(in oklch, var(--white) 18%, transparent);
   --black: #252525;
