@@ -126,11 +126,9 @@ nav a:hover {
 }
 
 nav {
-  position: sticky;
-  top: 0;
   text-align: left;
-  background: transparent;
   font-family: var(--font-heading);
+  padding-bottom: 0.1rem;
 }
 
 nav a {
