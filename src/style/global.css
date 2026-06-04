@@ -6,7 +6,9 @@
 :root {
   --white: oklch(96.1% 0.006 220);
   --paper-soft: oklch(98.5% 0.003 220);
-  --page-field: oklch(98% 0.045 280);
+  --page-field: oklch(36.5% 0.07 242);
+  --page-field-shade: oklch(26% 0.05 242);
+  --frame-gap: 12px;
   --transwhite: color-mix(in oklch, var(--white) 82%, transparent);
   --moretranswhite: color-mix(in oklch, var(--white) 18%, transparent);
   --black: #252525;
@@ -16,12 +18,11 @@
   --gray: oklch(43% 0.014 225);
   --link: var(--black);
   --accent: oklch(41% 0.04 238);
-  --accent-soft: oklch(84% 0.04 285);
   --link-underline: var(--accent);
   --highlight: oklch(90.5% 0.04 215);
-  --rule: oklch(73.5% 0.014 222);
+  --rule: oklch(72% 0.045 242);
   --quote-bg: color-mix(in oklch, var(--paper-soft) 82%, var(--accent));
-  --quote-border: oklch(68.5% 0.02 228);
+  --quote-border: oklch(68.5% 0.045 242);
   --code-bg: color-mix(in oklch, var(--paper-soft) 72%, var(--black));
   --font-body: "Source Serif 4", Georgia, serif;
   --font-heading:
@@ -53,14 +54,21 @@ html {
   background: var(--page-field);
 }
 body {
+  box-sizing: border-box;
   min-height: 100vh;
-  margin: 0 auto;
+  min-height: 100svh;
+  margin-block: 0;
+  margin-inline: auto;
   padding: var(--page-pad);
-  max-width: 80ch;
+  /* The frame-gap term keeps a sliver of the field visible on narrow
+     viewports, where the centered column would otherwise fill the screen. */
+  max-width: min(
+    calc(80ch + 2 * var(--page-pad)),
+    calc(100% - 2 * var(--frame-gap))
+  );
   background-color: var(--paper-soft);
-  box-shadow:
-    0 0 0 1px color-mix(in oklch, var(--accent-soft) 52%, transparent),
-    0 0 36px color-mix(in oklch, var(--accent-soft) 36%, transparent);
+  /* A close shadow seats the paper on the board. */
+  box-shadow: 0 2px 14px var(--page-field-shade);
 }
 html,
 body,

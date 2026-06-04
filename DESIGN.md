@@ -2,6 +2,7 @@
 name: Ray Myers
 description: Retrofuturist Software Mender
 colors:
+  board: "oklch(36.5% 0.07 242)"
   paper: "oklch(96.1% 0.006 220)"
   paperSoft: "oklch(98.5% 0.003 220)"
   ink: "#252525"
@@ -86,7 +87,7 @@ The system rejects trend-chasing by staying close to the writing. It should not 
 
 **Key Characteristics:**
 
-- Pale blueprint-paper field and dense ink, intentionally light-mode only.
+- A deep blueprint-blue drafting board frames a near-white paper column; dense ink carries the prose. Intentionally light-mode only; the color identity lives in the margins.
 - Source Serif 4 (lightened to weight 360 via the variable font) carries long-form prose; quiet system sans handles headings and navigation; iA Writer Mono marks code and tags.
 - Flat surfaces, no cards by default, no ambient shadows.
 - Compact navigation and tag affordances that invite browsing without turning the site into an app shell.
@@ -94,10 +95,12 @@ The system rejects trend-chasing by staying close to the writing. It should not 
 
 ## 2. Colors
 
-The palette is a restrained personal-site palette: cool gray paper, dense ink, slate headings, and a muted workbench-blue accent used mostly through links, rules, quotes, and state feedback. The background should feel less blank than browser white without becoming cream, sand, or a themed dark mode.
+The palette commits to one move: a deep blueprint-blue board owns the page margins, and a quiet paper column owns the reading. Inside the column the dosage stays restrained: dense ink, slate headings, and a muted workbench-blue accent through links, rules, quotes, and state feedback. The board and the accents share one cool blue family; nothing in the system drifts warm.
 
 ### Primary
 
+- **Drafting Board**: The committed surface. Deep blueprint blue (`oklch(36.5% 0.07 242)`, `#164260`) fills everything outside the reading column, flush to the viewport edges, with no outline or gap between board and paper; a close shadow of darkened board seats the column. On narrow viewports a 12px sliver of board stays visible on each side so the identity survives mobile. It never carries text.
+- **Board-Tinted Rules**: Structural lines inside the column (nav rule, `hr`, blockquote border) carry a hint of the board hue (`oklch(72% 0.045 242)` and kin) so the column's interior structure agrees with the frame.
 - **Workbench Blue**: Primary accent. Use for link underlines, blockquote structure, and subtle hover tint. Its job is quiet emphasis, not decoration.
 
 ### Secondary
@@ -113,7 +116,9 @@ The palette is a restrained personal-site palette: cool gray paper, dense ink, s
 
 ### Named Rules
 
-**The Accent Scarcity Rule.** Workbench Blue should appear in small doses: link underlines, quotes, and state feedback. If it starts filling large panels, the system has become too designed.
+**The Accent Scarcity Rule.** Inside the reading column, Workbench Blue should appear in small doses: link underlines, quotes, and state feedback. If it starts filling panels within the column, the system has become too designed. The Drafting Board is the one deliberate exception, and it lives entirely outside the column.
+
+**The Board Stays Outside Rule.** The Drafting Board color never enters the reading column and never carries text. Color identity comes from the margins; the reading surface stays paper.
 
 **The Reading Contrast Rule.** Body text must stay high contrast against the active paper color. Never use Printer's Gray for paragraph text.
 
@@ -144,7 +149,7 @@ The palette is a restrained personal-site palette: cool gray paper, dense ink, s
 
 ## 4. Elevation
 
-This system is flat by default. Depth comes from document structure, line-height, whitespace, text color, and underline treatment. Shadows are not part of the current vocabulary beyond the page frame's soft halo.
+This system is flat by default. Depth comes from document structure, line-height, whitespace, text color, and underline treatment. The one sanctioned shadow is the close shade that seats the paper column on the drafting board (`0 2px 14px` of darkened board); nothing inside the column casts a shadow.
 
 ### Named Rules
 
