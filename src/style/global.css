@@ -28,6 +28,7 @@
     ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
   --font-structure: "iA Writer Mono", monospace;
+  --weight-body: 360;
   --text-body: 1.0625rem;
   --text-label: 0.8125rem;
   --text-title: 1.125rem;
@@ -71,6 +72,7 @@ button {
 body,
 button {
   font-size: var(--text-body);
+  font-weight: var(--weight-body);
 }
 code {
   font-family: var(--font-structure);
@@ -88,6 +90,10 @@ h1,
 strong,
 b {
   color: var(--black);
+}
+strong,
+b {
+  font-weight: 700;
 }
 
 h2,

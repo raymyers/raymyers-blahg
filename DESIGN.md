@@ -10,19 +10,31 @@ colors:
   highlight: "oklch(90.5% 0.04 215)"
 typography:
   display:
-    fontFamily: '"iA Writer Mono", monospace'
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
     fontSize: "clamp(1.65rem, 1.48rem + 0.85vw, 2.15rem)"
     fontWeight: 400
     lineHeight: 1
     letterSpacing: "normal"
+  heading2:
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
+    fontSize: "1.5rem"
+    fontWeight: 500
+    lineHeight: 1.1
+    letterSpacing: "normal"
+  heading3:
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
+    fontSize: "1.25rem"
+    fontWeight: 500
+    lineHeight: 1.1
+    letterSpacing: "normal"
   headline:
-    fontFamily: '"iA Writer Mono", monospace'
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
     fontSize: "1.3125rem"
     fontWeight: 400
     lineHeight: 1.15
     letterSpacing: "normal"
   title:
-    fontFamily: '"iA Writer Mono", monospace'
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
     fontSize: "1.125rem"
     fontWeight: 400
     lineHeight: 1.1
@@ -30,12 +42,12 @@ typography:
   body:
     fontFamily: '"Source Serif 4", Georgia, serif'
     fontSize: "1.0625rem"
-    fontWeight: 400
+    fontWeight: 360
     lineHeight: 1.6
     letterSpacing: "normal"
   label:
     fontFamily: '"iA Writer Mono", monospace'
-    fontSize: "0.8rem"
+    fontSize: "0.8125rem"
     fontWeight: 400
     lineHeight: 1.1
     letterSpacing: "normal"
@@ -57,9 +69,9 @@ components:
     textColor: "{colors.ink}"
     typography: "{typography.label}"
   navigation:
-    backgroundColor: "color-mix(in oklch, {colors.paper} 82%, transparent)"
+    backgroundColor: "transparent"
     textColor: "{colors.ink}"
-    typography: "{typography.label}"
+    typography: "{typography.body} sized, heading family"
 ---
 
 # Design System: Ray Myers
@@ -75,7 +87,7 @@ The system rejects trend-chasing by staying close to the writing. It should not 
 **Key Characteristics:**
 
 - Pale blueprint-paper field and dense ink, intentionally light-mode only.
-- Source Serif 4 carries long-form prose; iA Writer Mono marks headings, navigation, code, and labels.
+- Source Serif 4 (lightened to weight 360 via the variable font) carries long-form prose; quiet system sans handles headings and navigation; iA Writer Mono marks code and tags.
 - Flat surfaces, no cards by default, no ambient shadows.
 - Compact navigation and tag affordances that invite browsing without turning the site into an app shell.
 - Small, handmade details are allowed; trendy visual systems are not.
@@ -107,20 +119,22 @@ The palette is a restrained personal-site palette: cool gray paper, dense ink, s
 
 ## 3. Typography
 
-**Display Font:** iA Writer Mono with monospace fallback  
-**Body Font:** Source Serif 4 with Georgia and serif fallbacks  
-**Label/Mono Font:** iA Writer Mono
+**Heading Font:** System sans stack (ui-sans-serif, system-ui)  
+**Body Font:** Source Serif 4 (variable, weight 360) with Georgia and serif fallbacks  
+**Label/Mono Font:** iA Writer Mono for code and tags
 
-**Character:** The pairing reads as printer's proof copy annotated by a precise programmer. Source Serif 4 gives essays a sharper, more rigorous text color than Lora; iA Writer Mono adds mechanical labeling without turning the whole site into a terminal.
+**Character:** Lightened Source Serif 4 gives essays an open, unhurried text color, closer to a well-set book page than a default web serif. The quiet system sans frames structure (headings, navigation) without competing with the prose; iA Writer Mono adds mechanical texture only where content is literally technical (code, tags).
 
 ### Hierarchy
 
 - **Display** (400, clamp(1.65rem, 1.48rem + 0.85vw, 2.15rem), 1): Article titles and major page titles. Keep it plain and exact.
-- **Headline** (400, 1.3125rem, 1.15): Post list titles and prominent inline headings.
+- **Heading 2** (500, 1.5rem, 1.1): Section headings in post bodies and pages.
+- **Heading 3** (500, 1.25rem, 1.1): Subsection headings.
+- **Headline** (400, 1.3125rem, 1.15): Post list titles.
 - **Title** (400, 1.125rem, 1.1): Site subtitle and secondary headers.
-- **Body** (400, 1.0625rem, 1.6): Default prose. Keep the page width capped around 80ch.
-- **Long-form Body** (400, 1.0625rem, 1.8): Article content that benefits from slower reading rhythm.
-- **Label** (400, 0.8rem, normal letter spacing): Tags, navigation, and compact metadata.
+- **Body** (360, 1.0625rem, 1.6): Default prose. Keep the page width capped around 80ch.
+- **Long-form Body** (360, 1.0625rem, 1.8): Article content that benefits from slower reading rhythm. Headings inside articles tighten to 1.25 with 1.5em space above.
+- **Label** (400, 0.8125rem, normal letter spacing): Tags and compact metadata.
 
 ### Named Rules
 
@@ -130,7 +144,7 @@ The palette is a restrained personal-site palette: cool gray paper, dense ink, s
 
 ## 4. Elevation
 
-This system is flat by default. Depth comes from document structure, line-height, whitespace, text color, underline treatment, and the sticky navigation backdrop. Shadows are not part of the current vocabulary.
+This system is flat by default. Depth comes from document structure, line-height, whitespace, text color, and underline treatment. Shadows are not part of the current vocabulary beyond the page frame's soft halo.
 
 ### Named Rules
 
@@ -149,6 +163,7 @@ This system is flat by default. Depth comes from document structure, line-height
 
 - **Style:** Tags are text-first inline chips, prefixed with `#`, using the primary ink color and compact label scale.
 - **State:** Hover may increase weight or add subtle text emphasis. Do not wrap tags in pill backgrounds by default.
+- **Tag index:** The site-wide tag list sits under a quiet italic "Read more:" lead-in, left-aligned, with the tags wrapping on their own line.
 
 ### Cards / Containers
 
@@ -166,8 +181,8 @@ This system is flat by default. Depth comes from document structure, line-height
 
 ### Navigation
 
-- **Style:** Sticky, left-aligned text navigation with translucent paper backing and a 1px backdrop blur.
-- **Typography:** iA Writer Mono at label scale, lowercase route names.
+- **Style:** Left-aligned text navigation that scrolls with the page, separated from content by a soft 1px rule.
+- **Typography:** Heading sans at body scale, lowercase route names.
 - **Default / Hover / Active:** Links use ink text and mauve underline. Navigation hover should stay restrained and avoid filled backgrounds.
 - **Mobile:** Tighten horizontal spacing from 12px to 8px below 600px.
 
@@ -184,7 +199,7 @@ The author image is a 100px circular crop beside the site title. Treat it as a p
 ### Do:
 
 - **Do** keep the body column around 80ch and let the writing own the page.
-- **Do** use Source Serif 4 for prose and iA Writer Mono for headings, navigation, code, and compact labels.
+- **Do** use Source Serif 4 (weight 360) for prose, the system sans for headings and navigation, and iA Writer Mono for code and tags.
 - **Do** keep Workbench Blue scarce and purposeful.
 - **Do** keep the site light-mode only unless dark mode is deliberately reintroduced.
 - **Do** use browsing paths such as posts, talks, tags, and RSS to encourage curiosity.
