@@ -4,7 +4,6 @@ slug: cpp-worse-every-year
 description: We don't need your stinking Cargo
 tags:
   - technical
-  - learning
   - musings
 added: 2025-10-26T12:55:51.831Z
 ---

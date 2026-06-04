@@ -9,11 +9,13 @@ tags:
 added: 2026-06-02T05:00:00.000Z
 ---
 
-I love theorem provers, but their learning curve is notoriously steep. Here are the resources that helped make them click for me.
+I love theorem provers, but the learning curve is notoriously steep. Here are the resources that helped make them click for me.
 
 ## Start here
 
-One of my biggest hurdles getting started was simply understanding what tactics are. They cannot be read like normal code because they are a product of interaction with the prover. Ok, let's back up...
+Play the [Natural Number Game](https://adam.math.hhu.de/).
+
+One of the biggest hurdles getting started is simply understanding what tactics are. Proof scripts cannot be read like normal code because they are a product of interaction with the prover. Ok, let's back up...
 
 Most proof assistants work by running a series of "tactics" against a "proof state" until the goal is solved. If that sentence doesn't 100% make sense yet, play the [Natural Number Game](https://adam.math.hhu.de/).
 
