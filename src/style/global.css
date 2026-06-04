@@ -90,12 +90,6 @@ b {
   color: var(--black);
 }
 
-.tag-title {
-  font-weight: 400;
-  color: var(--black);
-  text-align: left;
-}
-
 h2,
 h3,
 h4,
@@ -190,7 +184,15 @@ ul.tags-list {
 .tags {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  align-items: baseline;
+  margin-block: 1.5rem;
+  row-gap: 0.35rem;
+}
+
+.tags-label {
+  font-style: italic;
+  color: var(--gray);
+  flex-basis: 100%;
 }
 .tag {
   display: inline-block;
@@ -249,13 +251,13 @@ h1 {
 }
 
 h2 {
-  font-size: var(--text-title);
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 h3 {
-  font-size: var(--text-title);
-  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .center {
@@ -289,7 +291,7 @@ article :not(.article-title) {
 .article-title {
   font-size: var(--text-display);
   line-height: 1;
-  margin: 0.25em 0;
+  margin: 0.5em 0 0.25em;
 }
 
 .blog-post {
@@ -299,6 +301,13 @@ article :not(.article-title) {
 
 .blog-post > * + * {
   margin-block-start: 1em;
+}
+
+.blog-post h2,
+.blog-post h3,
+.blog-post h4 {
+  margin-block-start: 1.5em;
+  line-height: 1.25;
 }
 
 time {

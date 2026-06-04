@@ -2,8 +2,8 @@
 const { tags, all } = Astro.props;
 ---
 
-{all && <h3 class="tag-title">View posts by tag</h3>}
-<div class=`${all && "tags"}`>
+<div class:list={[all && "tags"]}>
+  {all && <span class="tags-label">Read more:</span>}
   {
     tags &&
       tags.map((tag) => (
