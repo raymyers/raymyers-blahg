@@ -294,6 +294,7 @@ article :not(.article-title) {
 
 .blog-post {
   font-size: var(--text-body);
+  margin-block-start: 1.5rem;
 }
 
 .blog-post > * + * {
