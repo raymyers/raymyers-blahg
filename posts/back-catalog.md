@@ -10,7 +10,7 @@ tags:
 added: 2025-01-03T20:39:03.571Z
 ---
 
-# 2024 - The Year of Formal Methods
+## 2024 - The Year of Formal Methods
 
 Formal Methods
 
@@ -31,21 +31,21 @@ Other
 
 - [Layoff Dodging 101](https://youtu.be/N4FjGRfVap0) (video)
 
-# 2023 - The Year of Generative AI
+## 2023 - The Year of Generative AI
 
 - [The Mechanized Mending Manifesto](https://mender.ai/docs/intro)
 - [Will AI Democratize Programming?](https://www.youtube.com/watch?v=7YxD8R9Q_Bo) (video)
 - [Turbo Refactoring](https://mender.ai/blog/turbo-refactoring)
 - [#FireAGI](https://mender.ai/blog/fire-agi)
 
-# 2022
+## 2022
 
 - [Herbie and The Goal](https://youtu.be/p3b7-U99UeA) (video)
 - [Conflicts Don't Exist](https://youtu.be/wP1vD2pguvs) (video)
 - [Preventing The Worst Bugs](https://youtu.be/HsKiaEMdwKM) (video)
 - [How Full is Full-Stack](https://youtu.be/4PR_Ljpc-io) (video)
 
-# 2020
+## 2020
 
 - [Tech Debt and Trust](https://youtu.be/EtTfG-JMTY4) (video)
 - [Refactoring a Donut](https://youtu.be/BXSZ4_DKCBw) (video)

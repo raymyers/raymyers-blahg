@@ -36,7 +36,7 @@ That is essentially my entire position. Is it clear?
 
 In the remainder I'll discuss what these terms mean in the way I use them.
 
-# Gender
+## Gender
 
 Gender is not biological. Gender is a social and psychological construct. That doesn't make it imaginary or trivial. Other examples of social and psychological constructs are language, laws, mathematics, and property.
 
@@ -46,7 +46,7 @@ I experience being a man, but I'd be hard-pressed to explain what exactly that e
 
 It's usually enough to understand that almost all of us have some psychological needs related to our gender, and like all psychology it varies.
 
-# Sex
+## Sex
 
 The trait of sex is biological. It is expressed by roughly 5 kinds of indicators in humans, which usually agree but not always. Some indicators most of us are familiar with are chromosomal, hormonal, external genitalia, and other reproductive organs.
 
@@ -62,7 +62,7 @@ If any of this is news to you, it's probably because it doesn't affect you and i
 
 Is biological sex fluid? I'm not sure that's a useful distinction. You could consider each indicator separately. Presumably I could naturally develop a testosterone deficiency affecting my hormonal sex, and artificially correct it, but if I wanted to change my chromosome that's staying put.
 
-# Orientation
+## Orientation
 
 Sexual orientation is an umbrella term about the categories of people we tend to be physically attracted to, and sometimes other details like how and when.
 
@@ -78,7 +78,7 @@ As an aside, there has been difference of opinion on whether the newer term Pans
 
 You'll notice the trend here is that categories are usually imperfect. We need labels to understand the world, but they only go so far.
 
-# Identity
+## Identity
 
 We use these terms as descriptors but also as identities. Someone's identity is like their evolving description of how they understand themselves. It usually makes sense to take people at their word on what their identity is, because it's a statement about their own self-image. Only they know what's in their mind. The way our identities coexist is like a social lubricant.
 
@@ -100,7 +100,7 @@ You are entitled to have whatever internal understanding of these labels, or hav
 
 The only time where it would seem justified to argue someone's conception of their own identity would be if someone else's rights are at stake. However for the identities discussed here, it's unlikely for that to genuinely be the case.
 
-# Conclusion
+## Conclusion
 
 With this understanding, the approach to even highly-contentious issues should be fairly obvious. Forget the click bait. Accept that the distinctions are imperfect. Consider whether they need to carry weight in the first place, and how. When distinctions need to be made, they will naturally be at odds with reality some of the time. Listen to people's needs and use your best judgement.
 

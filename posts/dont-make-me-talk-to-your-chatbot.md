@@ -18,13 +18,13 @@ Let's talk about that moment when AI output shows up unsolicited in a human inte
 
 It's fine that people talk to chatbots, but they should not expect me to listen to theirs. When I _want_ to talk to a chatbot, I have plenty of my own.
 
-# Why are we talking?
+## Why are we talking?
 
 When I talk to a person, I expect that they are telling me things out of their head — that they have _developed a belief_ and are trying to communicate it to me. As a result, the energy I spend trying to understand what they've written will give me insight into what they believe. That's my reason for showing up.
 
 They may have used a chatbot while arriving at that belief, which is fine. But their chatbot interaction was helpful to them in a context, and pasting from it doesn't reliably bring me there.
 
-# Is this controversial?
+## Is this controversial?
 
 Although I feel like I'm explaining common sense, I'll be as charitable as I can to potential pushback.
 
@@ -34,13 +34,13 @@ When we say bad communication, we mean bad for the purpose. A chatbot paste usua
 
 The effort I spend understanding someone should have some corresponding effort on their behalf to be understood. Lazy communication isn't new, but there's now this asymmetry of energy. Certain kinds of laziness that were at least brief before have now become long and distracting.
 
-## But what if you're good at it?
+### But what if you're good at it?
 
 I hear the objection that someone _could_ use AI to iterate, deliberately making good standalone communication. That's probably fine. That could be an exception to the "Don't make me talk to your chatbot" rule. If you keep your reader in mind and put that effort in, you probably aren't the problem that people complain about. The problem is nonetheless real; some of our social outlets are saturated with it. Try to have some empathy for the frustration.
 
 The only acceptable pro-AI response to the accusation of AI Slop is to join team Anti-Slop.
 
-# Have you considered writing?
+## Have you considered writing?
 
 The simplest way to avoid making people talk to your chatbot is this two-step process:
 
@@ -51,7 +51,7 @@ That first _figuring-out_ part is important. When you skip it, you undercut your
 
 Clear writing comes from clear thinking.
 
-# Bare minimum curation
+## Bare minimum curation
 
 > Omit needless words.
 >
@@ -66,7 +66,7 @@ These concepts of brevity and Journalism's [inverted pyramid](<https://en.wikipe
 
 If you apply _your_ awareness of what's important in a quick editing pass, you've got a good shot of coming out clean. It may not be award-winning prose, but by the standards of day-to-day technical writing, it does the job. It might even do it well.
 
-# Example: Pull request descriptions
+## Example: Pull request descriptions
 
 We increasingly use coding agents to create PRs. By default, they generate a PR description with their summary of everything. This has mixed results. It's decent as a change list, but it buries intention.
 
@@ -80,7 +80,7 @@ Another exception is when the change is completely routine. If you're bumping a 
 
 If you need precisely enforcable expectations, they won't be perfect wherever your draw the line. They're a best effort. Respect people's capacity and build habitable systems.
 
-# TLDR
+## TLDR
 
 The next time you `^V` paste, take a moment to ask yourself, "_Am I making someone else talk to my chatbot?_" A little consideration goes a long way.
 

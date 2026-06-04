@@ -17,7 +17,7 @@ I now work on AI agents full time, so obviously I feel this is a valuable direct
 
 If you'd like to discuss recent details, I'm easy to reach on LinkedIn. For today, I'll reiterate my position from April 2024 in "[Devin Dissected](https://www.youtube.com/watch?v=jhkY_BUDVcU)".
 
-# What is a Software Engineer?
+## What is a Software Engineer?
 
 Software Engineer was a term introduced by Margaret Hamilton for the Apollo Moon landing project in order to secure professional respect for her colleagues and to emphasize the disciplined practices they were developing. By consensus, the term's use in most of the industry remains somewhat aspirational, but with the world now running on software we have good reason to use it carefully.
 

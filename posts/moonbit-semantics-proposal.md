@@ -25,13 +25,13 @@ This project would formally define the operational semantics for the current Moo
 - A verified compiler
 - Compiler testing oracles that compare the reference implementation with the production version
 
-# Scope
+## Scope
 
 MoonBit's compiler includes these intermediate representations: AST, Typed-AST, Core, Mcore (monomorphized), Clam, and WASM.
 
 This project would aim to define semantics for at least two of these IRs, as well as prove their type soundness. That proof would be the first tangible result from this foundation. Type soundness consists of preservation and progress properties, which would each need theorems from minimal axioms.
 
-# Tech choices
+## Tech choices
 
 This is planned to be developed in the Lean theorem prover due to its recent strong ecosystem growth and investment into developer experience from the Lean FRO. CSLib's transition system would be used for semantics because that library is the emerging standard for computer science foundations within Lean.
 
@@ -45,12 +45,12 @@ An MCP server (Model Context Protocol), such as Numina, would be used to give th
 
 Model choice would include Claude Opus 4.6, which has been shown to perform well on proofs. See [VALS ProofBench](https://www.vals.ai/benchmarks/proof_bench).
 
-# Feasibility
+## Feasibility
 
 Benchmarks and anecdotal use have shown that coding agents are ready to contribute to formal verification projects of significant size. See Leonardo de Moura's post, [When AI Writes the World's Software, Who Verifies It?](https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/).
 
 However, it isn't yet a well-traveled path to use an agent to mechanize semantics based on compiler code. This is an experiment, and feasibility within the deadline is a hypothesis.
 
-# Why MoonBit
+## Why MoonBit
 
 MoonBit is exciting to me because it combines correctness with ergonomics. It draws from lessons of languages like Haskell and OCaml, such as type inference and algebraic datatypes, and puts them in a simple modern package. It's also early enough that there is still a chance to influence the future of the language and help create a bridge to formal verification.

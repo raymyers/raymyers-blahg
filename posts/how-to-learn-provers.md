@@ -11,7 +11,7 @@ added: 2026-06-02T05:00:00.000Z
 
 I love theorem provers, but their learning curve is notoriously steep. Here are the resources that helped make them click for me.
 
-# Start here
+## Start here
 
 One of my biggest hurdles getting started was simply understanding what tactics are. They cannot be read like normal code because they are a product of interaction with the prover. Ok, let's back up...
 
@@ -23,7 +23,7 @@ Seriously. Go beat 5 to 10 levels and come back.
 
 _Fields medalist Terence Tao [started learning Lean](https://mathstodon.xyz/@tao/111207815216351149) in 2023._
 
-# Surveying the space
+## Surveying the space
 
 Popular proof assistants include Lean, Rocq, Isabelle, ACL2, and Agda. [Lean](https://lean-lang.org/) is the easiest to get started with, as the community has invested heavily in developer experience and documentation.
 
@@ -33,7 +33,7 @@ In the formal methods toolbox, proof assistants can be considered the most gener
 - Hillel's [Let's Prove Leftpad](https://www.hillelwayne.com/post/lpl/) collection shows one simple function verified with many different tools. It's like a Rosetta stone.
 - [Leslie Lamport's TLA+ video course](https://lamport.azurewebsites.net/video/videos.html) covers formal specification of distributed systems. If this style seems interesting, I recommend also trying [Quint](https://quint.sh).
 
-# The deep end
+## The deep end
 
 So you're ready to try formal verification? Take a deep breath and start working through one of these.
 
@@ -44,13 +44,13 @@ So you're ready to try formal verification? Take a deep breath and start working
 
 Don't skip the exercises.
 
-# You're not dumb
+## You're not dumb
 
 I put this list together hoping you'll find the journey _easier_, but it won't be easy. That's not your fault.
 
 You may struggle at times. I struggled. I gave up. I came back. I tried a different book. I tried a different prover. I gave up again, and came back again. Finally I got it, and it was worth the effort. Abstract math changed how I see the world.
 
-# Bonus: Type theory
+## Bonus: Type theory
 
 > Types are the central organizing principle of the theory of programming languages.
 >
