@@ -67,54 +67,104 @@ This current version is maintained by aboutfeeds.com:
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 				<style type="text/css">
+					/* Source Serif 4 variable (weight axis), same source as the site */
+					@font-face {
+						font-family: "Source Serif 4";
+						font-style: normal;
+						font-display: swap;
+						font-weight: 200 900;
+						src: url(https://cdn.jsdelivr.net/fontsource/fonts/source-serif-4:vf@latest/latin-wght-normal.woff2)
+							format("woff2-variations");
+					}
+
 					:root {
-						--white: #faf5f6;
-						--transwhite: rgba(250, 245, 246, 0.7);
-						--moretranswhite: rgba(239, 239, 239, 0.1);
+						--page-field: #164260;
+						--page-field: oklch(36.5% 0.07 242);
+						--page-field-shade: #0a273a;
+						--page-field-shade: oklch(26% 0.05 242);
+						--paper-soft: #f8fbfb;
+						--paper-soft: oklch(98.5% 0.003 220);
 						--black: #252525;
-						--transblack: rgba(37, 37, 37, 0.7);
-						--moretransblack: rgba(37, 37, 37, 0.1);
-						--gray: #6b6b6b;
-						--highlight: #e5ffc3;
-						--red: #e4002b;
-						--green: #24d05a;
-						--pink: #eb4888;
-						--blue: #10a2f5;
-						--yellow: #e9bc3f;
+						--gray: #485256;
+						--gray: oklch(43% 0.014 225);
+						--accent: #364e5e;
+						--accent: oklch(41% 0.04 238);
+						--highlight: #c3e7f0;
+						--highlight: oklch(90.5% 0.04 215);
+						--rule: #8ca9bf;
+						--rule: oklch(72% 0.045 242);
+						--font-body: "Source Serif 4", Georgia, serif;
+						--font-heading:
+							ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+							"Segoe UI", sans-serif;
 					}
 
 					::selection {
 						background-color: var(--highlight);
 						color: var(--black);
 					}
-					html,
+					html {
+						margin: 0;
+						padding: 0;
+						background: var(--page-field);
+					}
 					body {
-						margin: auto;
-						padding: 20px;
-						max-width: 70ch;
-						background-color: var(--white);
+						box-sizing: border-box;
+						min-height: 100vh;
+						min-height: 100svh;
+						margin-block: 0;
+						margin-inline: auto;
+						padding: clamp(1.25rem, 1.1rem + 0.95vw, 1.875rem);
+						max-width: min(calc(70ch + 3.75rem), calc(100% - 24px));
+						background-color: var(--paper-soft);
+						box-shadow: 0 2px 14px var(--page-field-shade);
 						word-wrap: break-word;
 						overflow-wrap: break-word;
 						color: var(--black);
 						line-height: 1.6;
+						font-family: var(--font-body);
+						font-size: 1.0625rem;
+						font-weight: 360;
+						font-kerning: normal;
+						font-optical-sizing: auto;
 					}
 
-					html,
-					body,
-					button,
-					code,
-					input {
-						font-family: monospace;
+					h1, h2, h3, h4, h5, h6 {
+						font-family: var(--font-heading);
+						color: var(--black);
+						line-height: 1.1;
+					}
+					h1 {
+						font-size: clamp(1.65rem, 1.48rem + 0.85vw, 2.15rem);
+						font-weight: 400;
+						line-height: 1;
+					}
+					h2 {
+						font-size: 1.5rem;
+						font-weight: 500;
+					}
+					h3 {
+						font-size: 1.125rem;
+						font-weight: 500;
+						margin-bottom: 0.25rem;
 					}
 
-					h2, h3,	h4,	h5, h6 {
-						color: var(--gray);
+					hr {
+						border: none;
+						border-top: 1px solid var(--rule);
+						margin: 1rem 0;
 					}
 
 					a {
-						color: var(--pink);
-						text-decoration-thickness: 0.3ex;
+						color: var(--black);
+						text-decoration-color: var(--accent);
+						text-decoration-thickness: 0.15ex;
 						text-underline-offset: 0.3ex;
+					}
+
+					small {
+						font-style: italic;
+						color: var(--gray);
 					}
 				</style>
 			</head>
@@ -124,7 +174,7 @@ This current version is maintained by aboutfeeds.com:
 						<xsl:attribute name="href">
 							<xsl:value-of select="/rss/channel/link"/>
 						</xsl:attribute>
-						&#x2190; Go back to your website
+						&#x2190; Back to the website
 					</a>
 					<p>
 						<strong>This is a web feed,</strong> also known as an RSS feed. You can <strong>subscribe</strong> by copying the URL from the address bar into your newsreader.
@@ -165,7 +215,7 @@ This current version is maintained by aboutfeeds.com:
 							<xsl:attribute name="href">
 								<xsl:value-of select="/rss/channel/link"/>
 							</xsl:attribute>
-							&#x2190; Go back to your website
+							&#x2190; Back to the website
 						</a>
 					</header>
 
