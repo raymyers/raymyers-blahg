@@ -143,7 +143,7 @@ For the aspiring tech leads out there: When you skimp on these ingredients, espe
 
 It feels dishonest.
 
-# All pros no cons
+## All pros no cons
 
 Rather than a real tradeoff comparison, we get a "Bun is better in Rust" section covering only upsides. A change like this always has trade-offs, an obvious one would be build time.
 
