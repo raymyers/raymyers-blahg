@@ -211,7 +211,7 @@ Is code for people or isn't it? If code is not for people, why are we worried ab
 
 I could take or leave this example as being a legit readability problem, I just want some consistency from AI companies on the *fact* that concerns like readability still exist. They are cagey about it because it contradicts their prophesy of the end software engineering.
  
-It would also be inconvenient if maintainability still mattered because their products default to making it worse.
+It would also be inconvenient if maintainability still mattered because their products default to [making it worse](https://www.openhands.dev/blog/evoclaw-benchmark).
 # Admit that AI is not enough
 
 Returning to the narrative. The technical improvements were ultimately a side benefit of this agentic rewrite. The real business function was *publicity*. It helped Anthropic tell the story it needs to tell, the story that "AI is enough". You can accept that framing if you like.
