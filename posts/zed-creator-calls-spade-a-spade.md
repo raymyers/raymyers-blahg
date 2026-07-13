@@ -62,7 +62,7 @@ Just to catch you up...
 * Bun claims [near 100%](https://x.com/jarredsumner/status/2054525268296118363) AI contributions.
 * Zig allows [0%](https://ziglang.org/code-of-conduct/) AI contributions.
 * Bun was acquired by Anthropic, a leading AI model lab.
-* Bun founder experimented with a massive agentic rewrite from Zig to [unsafe](https://bun.com/bun-unsafe-audit) Rust.
+* Bun's founder experimented with a massive agentic rewrite from Zig to unsafe Rust.
 * That experiment was merged days later and is now the official version.
 
 This is situation is controversial on a few fronts, though apparently no one involved actually wants Bun to stay in Zig. The drama lives purely in the meta-discussion. The migration process itself is pretty interesting, I would consider doing something similar in the right situation.
@@ -113,13 +113,13 @@ In Andrew's piece, he summarizes what he's heard from the grapevine of the Bun t
 
 I mean... of course it was. The hearsay is essentially repeating what was announced publicly. Their job listing might as well have said, "now seeking applicants for total shit show". It's bad form for us to say this out loud. We're supposed to let the Tech Bros go on about how cutting corners is some genius productivity hack. Then the people that listen to them can eventually call us in to fix the results. It would be a great arrangement if I cared less about outcomes. It's quite lucrative.
 
-FWIW, I've used Bun a few times and liked it well enough. Cool tech is often produced in spite of bad work environments. I'm not the one saying that their environment resulted in a buggy unmaintainable mess, *Bun is saying that*.
+FWIW, I've used Bun a few times and liked it well enough. Cool tech is often produced in spite of bad work environments. I'm not the one saying that their environment resulted in a buggy unmaintainable mess, *Bun is the one saying that*.
 
 # Say something nice
 
 The piece about the migration process is very cool, with details that are reusable. No complaints, I think that's the real contribution here. I particularly like the honesty in explaining that this was a port to [unsafe](https://bun.com/bun-unsafe-audit) Rust, allowing a literal file-by-file migration to minimize risk, paving the way for redesign in future steps. That's a sensible move explained well.
 
-There's some truth to the idea that language choice is becoming more reversible. This method will take it's place among other types of rewrite automation with [pros and cons](https://tomassetti.me/ai-rpg-migration-semantic-gap/). These techniques can work together and be further hardened with Formal Methods. Darpa's [TRACTOR](https://www.darpa.mil/research/programs/translating-all-c-to-rust) (Translating All C to Rust) research program published a [report](https://github.com/DARPA-TRACTOR-Program/Reports/blob/main/First_TRACTOR_Evaluation_Report.pdf) this year which should reflect the state of the art.
+There's some truth to the idea that language choice is becoming more reversible. This method will take it's place among other types of rewrite automation with [pros and cons](https://tomassetti.me/ai-rpg-migration-semantic-gap/). These techniques can be combined and further hardened with Formal Methods. Darpa's [TRACTOR](https://www.darpa.mil/research/programs/translating-all-c-to-rust) (Translating All C to Rust) research program published a [report](https://github.com/DARPA-TRACTOR-Program/Reports/blob/main/First_TRACTOR_Evaluation_Report.pdf) this year which should cover the state of the art.
 
 My favorite book on software modernization projects is [Kill It With Fire](https://nostarch.com/kill-it-fire) by Marianne Bellotti. As agents allow us more moves we can make with old code, we still need good judgement and communication in deciding where to go. Let's talk about that next.
 
@@ -147,13 +147,13 @@ It feels dishonest.
 
 Rather than a real tradeoff comparison, we get a "Bun is better in Rust" section covering only upsides. A change like this always has trade-offs, an obvious one would be build time.
 
-Typically when you use Rust for a large codebase, you are buying safety and paying in slower compilation. There's not shame in that, it can be a winning bargain. In that past this factor was important enough to Bun that they [forked the Zig compiler](https://ziggit.dev/t/bun-s-zig-fork-got-4x-faster-compilation-times/15183/19) to try and improve it. If we're right that the Rust port increased build time for contributors, why not disclose that? It comes off as more credible to own the impact and the priorities that make it right move overall.
+Typically when you use Rust for a large codebase, you are buying safety and paying in slower compilation. There's no shame in that, it can be a winning bargain. In that past, this factor was important enough to Bun that they [forked the Zig compiler](https://ziggit.dev/t/bun-s-zig-fork-got-4x-faster-compilation-times/15183/19) to try and improve it. If we're right that the Rust port increased build time for contributors, why not disclose that? It comes off as more credible to own the impact and the priorities that make it right move overall.
 
 They also seem to be padding the list by mixing in other improvements they've made after the rewrite that aren't really related to it.
 
 ## They didn't try a style guide?
 
-Recall that the motivation was memory bugs. Definitely not their only source of bugs but a frequent one, causing four fix commits per week by my count. Painful.
+Recall that the motivation was memory bugs. Definitely not Bun's only source of bugs but a frequent one, causing four fix commits per week by my count. Painful.
 
 Theoretically, every memory bug represents a violation of some convention - an expectation of how this kind of object should be dealt with. Therefore it behooves us to establish a clear idea of what's expected in what circumstance. We should try to use any language effectively for that matter, Rust [style guides](https://rust-lang.github.io/api-guidelines/)  are a thing too, but manual memory management adds scope to the expectations we need.
 
@@ -169,13 +169,13 @@ Clearly, if we're weighing a rewrite in Rust, we'd first consider if we should u
 
 I expected the next sentence to discuss Bun's style guide, why it wasn't working, perhaps how it evolved over time... nope. They seem to just pay lip-service the primary way the community addresses their problem, shrug their shoulders and move on. Did I miss something? Over four years on a project of this size, it's surprising they didn't seriously attempt this if they experienced these problems. It's almost like the project was run by someone who tries to [hold all the context in their head and never have meetings](https://x.com/jarredsumner/status/1544821137128927232).
 
-What's more bewildering is that they dismiss style guides with hesitations that are *refuted within their own article*. Consider that classic objection that the guides are hard to enforce. Fair, though maybe an odd barrier for a team advanced enough to fork the compiler they use. Here's the thing, they already claim to have solved the enforcement problem because they use agentic review. `PORTING.md` is itself a style guide, scoped to the migration process. They have just conducted an agentic review of their entire rewritten codebase against stringent guidelines and declared it a success.
+What's more bewildering is that they dismiss style guides with hesitations that are *refuted within their own article*. Consider that classic objection that guides are hard to enforce. Fair, though maybe an odd barrier for a team advanced enough to fork the compiler they use. Here's the thing, they already claim to have solved the enforcement problem because they use agentic review. `PORTING.md` is itself a style guide, scoped to the migration process. They have just conducted an agentic review of their entire rewritten codebase against stringent guidelines and declared it a success.
 
-This doesn't make sense. Let's assume agentic review works, I think it [can](https://beyond.minimumcd.org/docs/agentic-cd/) under the right circumstances. That includes design and well-thought guidelines. I think they were simply more excited about putting that mental energy to a rewrite than a re-architecture, for any number of unstated reasons. It may have been the right choice.
+This doesn't make sense. Let's assume agentic review works, I think it [can](https://beyond.minimumcd.org/docs/agentic-cd/) under the right circumstances. That would require design and well-thought guidelines. I think they were simply more excited about putting that mental energy into a rewrite than a re-architecture, for any number of unstated reasons. It may have been the right choice.
 
 ## We're still worried about syntax?
 
-There's one more bit I want nitpick, a common cognitive dissonance in discussions about agent-first coding. Bun's piece briefly dives into to the weeds of what a "style guide option" might look like.
+There's one more bit I want to nitpick, a common cognitive dissonance in discussions about agent-first coding. Bun's piece briefly dives into to the weeds of what a "style guide option" might look like.
 
 > Having a rigid style guide with clear ownership expectations explicitly spelled out in the type system was a real option for Bun. Since Zig has no operator overloading, we would likely end up with a lot of code looking something like this:
 
@@ -225,7 +225,7 @@ The same events can also support the opposite narrative.
 * While researching this, I caught 50 bugs in the Zig version of Bun using a hybrid approach because AI isn't enough (Project Bunsen).
 * Open Source maintainers [are](https://www.reddit.com/r/opensource/comments/1q3f89b/open_source_is_being_ddosed_by_ai_slop_and_github/) [overwhelmed](https://kristoff.it/blog/contributor-poker-and-ai/) [sifting](https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md) [useful](https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source/) contributions from low effort slop because AI isn't enough.
 
-Anthropic needs people to believe that all problems can be solved by adding more agents, even the problems that agents introduce. Instead of better tools we buy tokens. Instead of learning skills we paste a `SKILL.md`. Instead of reading about [The Psychology of Software Teams]( https://www.drcathicks.com/) we call some parallel agent sessions a [Team](https://code.claude.com/docs/en/agent-teams).
+Anthropic needs people to believe that all problems can be solved by adding more agents, even the problems that agents introduce. Instead of better tools we buy tokens. Instead of learning skills we paste a `SKILL.md`. Instead of reading about [The Psychology of Software Teams](https://www.drcathicks.com/) we call some parallel agent sessions a [Team](https://code.claude.com/docs/en/agent-teams).
 
 Anthropic's campaign to end software engineering is counter-productive for everyone involved. You can adopt coding agents without making the [Dark Software Factory](https://news.ycombinator.com/item?id=46801848) your platonic ideal, I promise. I'll expand on this position with a direction for programming language design at [Software Should Work](https://softwareshould.work/) conference next week.
 
