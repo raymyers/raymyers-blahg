@@ -5,6 +5,10 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://raymyers.org/",
   base: "/",
+  redirects: {
+    "/post/zed-creator-calls-spade-a-spade":
+      "/post/zig-creator-calls-spade-a-spade",
+  },
   integrations: [sitemap()],
   markdown: {
     shikiConfig: {

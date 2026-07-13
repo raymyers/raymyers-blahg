@@ -1,6 +1,6 @@
 ---
 title: Zig Creator Calls Spade a Spade, Anthropic Blows Smoke
-slug: zed-creator-calls-spade-a-spade
+slug: zig-creator-calls-spade-a-spade
 description: >-
   Programming language drama ensues as tech bros oversell the end of software engineering.
 tags:
