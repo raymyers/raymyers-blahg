@@ -1,6 +1,6 @@
 ---
 title: Zig Creator Calls Spade a Spade, Anthropic Blows Smoke
-slug: projects-agile-again
+slug: zed-creator-calls-spade-a-spade
 description: >-
   Programming language drama ensues as tech bros oversell the end of software engineering.
 tags:
@@ -11,7 +11,6 @@ tags:
   - anthropic
 added: 2026-07-12T18:55:30.703Z
 ---
-
 
 > I harass the sea with my tiny boat and am called a pirate, you do it with a great fleet and are called a king.
 
