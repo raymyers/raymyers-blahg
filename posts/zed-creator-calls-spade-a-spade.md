@@ -50,7 +50,8 @@ On my best days I'd aspire to something like [Buddhist right speech](https://tas
 * Is it kind?
 * Is it *from* kindness?
 
-We're breaking decorum a little, straying into "true, but unkind" territory. I'm defending someones choice to do that. I don't do that lightly, and I hope it's helpful.
+We're breaking decorum a little, straying into "true, but unkind" territory. I'm defending someone's choice to do that. I don't do that lightly, and I hope it's helpful.
+
 # Background
 
 Just to catch you up...
@@ -118,9 +119,9 @@ FWIW, I've used Bun a few times and liked it well enough. Cool tech is often pro
 
 The piece about the migration process is very cool, with details that are reusable. No complaints, I think that's the real contribution here. I particularly like the honesty in explaining that this was a port to [unsafe](https://bun.com/bun-unsafe-audit) Rust, allowing a literal file-by-file migration to minimize risk, paving the way for redesign in future steps. That's a sensible move explained well.
 
-There's some truth to the idea that language choice is becoming more reversible. This method will take it's place among other kinds rewrite automation with [pros and cons](https://tomassetti.me/ai-rpg-migration-semantic-gap/). These techniques can work together and be further hardened with Formal Methods. Darpa's [TRACTOR](https://www.darpa.mil/research/programs/translating-all-c-to-rust) (Translating All C to Rust) research program published a [report](https://github.com/DARPA-TRACTOR-Program/Reports/blob/main/First_TRACTOR_Evaluation_Report.pdf) this year which should reflect the state of the art.
+There's some truth to the idea that language choice is becoming more reversible. This method will take it's place among other types of rewrite automation with [pros and cons](https://tomassetti.me/ai-rpg-migration-semantic-gap/). These techniques can work together and be further hardened with Formal Methods. Darpa's [TRACTOR](https://www.darpa.mil/research/programs/translating-all-c-to-rust) (Translating All C to Rust) research program published a [report](https://github.com/DARPA-TRACTOR-Program/Reports/blob/main/First_TRACTOR_Evaluation_Report.pdf) this year which should reflect the state of the art.
 
-My favorite book on software modernization projects is [Kill It With Fire](https://nostarch.com/kill-it-fire) by Marianne Bellotti. As agents allow us more moves we can make with old code, we still need good judgement and communication in deciding where to do. Let's talk about that next.
+My favorite book on software modernization projects is [Kill It With Fire](https://nostarch.com/kill-it-fire) by Marianne Bellotti. As agents allow us more moves we can make with old code, we still need good judgement and communication in deciding where to go. Let's talk about that next.
 
 
 # The rewrite rationale is fluff
