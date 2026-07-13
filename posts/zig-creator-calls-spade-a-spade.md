@@ -209,9 +209,9 @@ Regardless of what the best Zig idioms might be here, or whether operator overlo
 
 Is code for people or isn't it? If code is not for people, why are we worried about an occasional `SharedPtr` wrapper hurting our eyes?
 
-I could take or leave this example as being a legit readability problem, I just want some consistency from AI companies on the *fact* that the concerns like readability still exist. They are cagey about it because it contradicts their prophesy of the end software engineering. 
+I could take or leave this example as being a legit readability problem, I just want some consistency from AI companies on the *fact* that concerns like readability still exist. They are cagey about it because it contradicts their prophesy of the end software engineering.
  
-It would be inconvenient if maintainability still mattered because their products default to making it worse.
+It would also be inconvenient if maintainability still mattered because their products default to making it worse.
 # Admit that AI is not enough
 
 Returning to the narrative. The technical improvements were ultimately a side benefit of this agentic rewrite. The real business function was *publicity*. It helped Anthropic tell the story it needs to tell, the story that "AI is enough". You can accept that framing if you like.
