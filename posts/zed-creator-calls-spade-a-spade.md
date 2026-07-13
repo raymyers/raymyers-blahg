@@ -65,7 +65,7 @@ Just to catch you up...
 * Bun's founder experimented with a massive agentic rewrite from Zig to unsafe Rust.
 * That experiment was merged days later and is now the official version.
 
-This is situation is controversial on a few fronts, though apparently no one involved actually wants Bun to stay in Zig. The drama lives purely in the meta-discussion. The migration process itself is pretty interesting, I would consider doing something similar in the right situation.
+This situation is controversial on a few fronts, though apparently no one involved actually wants Bun to stay in Zig. The drama lives purely in the meta-discussion. The migration process itself is pretty interesting, I would consider doing something similar in the right situation.
 
 # Who to believe
 
