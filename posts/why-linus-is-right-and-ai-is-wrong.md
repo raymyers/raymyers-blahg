@@ -122,7 +122,7 @@ That is a completely mainstream stance, though in other situations it would be b
 
 # The right of refusal
 
-I respect the decisions of maintainers who deal with the outcomes to decide which portions of their code will support agentic development. That includes middle-ground policies like [Ghostty's](https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md) (minus the ridicule). And of course I also respect Zig's more stringent choice of avoiding LLMs completely, which they [explained](https://kristoff.it/blog/contributor-poker-and-ai/) the history and pragmatics of.
+I respect the decisions of maintainers who deal with the outcomes to decide which portions of their code will support agentic development. That includes middle-ground policies like [Ghostty's](https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md) (minus the ridicule). And of course I also support Zig's more stringent choice of avoiding LLMs completely, which they [explained](https://kristoff.it/blog/contributor-poker-and-ai/) the history and pragmatics of.
 
 Even people with a vested commercial interest should support right of refusal. During the entire time I worked for a coding agent startup, I publicly defended users' ability to critique or opt-out of the product space. I'm happy to say that the company never hinted that I should stop or that it could hurt sales. It builds trust. Trust is good for business.
 
@@ -191,7 +191,7 @@ Since we're using the technical terms today, what I'm calling here is... [Bullsh
 
 # On target
 
-Anthropic CEO Dario Amodei is safe to criticize, he is *not* a king. I would mention Claude Opus 4.5 with more respect than I'd show Dario at this point. (Cheers, Opus)
+Anthropic CEO Dario Amodei is safe to criticize, he is **not a king**. I would mention Claude Opus 4.5 with more respect than I'd show Dario at this point. (Cheers, Opus)
 
 > One of the most deceitful companies I have ever seen. - [The Primeagen](https://www.youtube.com/watch?v=6QryFk4RYaM)
 
@@ -235,7 +235,7 @@ Next, recall that we value people's agency. Naturally then, we resist *language 
 * Adapt or die 
 * Luddite
 
-They sound like attempts to intimidate people into doing something that's bad for them. There are better ways to [negotiate conflict](https://www.youtube.com/watch?v=wP1vD2pguvs). Try substituting language that respects ownership and choice.
+They sound like attempts to intimidate people into doing something that's bad for them. There are better ways to [negotiate conflict](https://www.youtube.com/watch?v=wP1vD2pguvs). Try substituting language of ownership and choice.
 
 Finally, I will *never* refer to a computer program as a Team, Teammate, Coworker, [Engineer](https://www.youtube.com/watch?v=jhkY_BUDVcU), [Doctor](https://www.youtube.com/watch?v=kOxpn_m3wIY), or [Lawyer](https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires). I consider that an act of violence.
 
@@ -249,13 +249,13 @@ What we don't need to do is pretend that the hands-on-keyboard devs trying to ma
 
 The average dev may come off as "pro-AI" on any given day but that's just a shibboleth everyone's expected to say now. To even discuss the tradeoffs people feel a need to preface it with "I'm not Anti-AI, but...", to display an acceptable level of compliance with the token vendor's marketing strategy. It's messed up, but we're all doing our best.
 
-Many people became AI critical on issues like ecological impact and funding the arts because of their personal ethics and were disappointed that other people didn't seem to respect that. Still, there's every reason to be AI critical based on [professional ethics](https://www.acm.org/code-of-ethics) too. That means *there are allies all around us*. More than we realize. 
+Many people became AI critical on issues like ecological impact and funding the arts because of their personal ethics and were disappointed that other people didn't seem to care. Still, there's every reason to be AI critical based on [professional ethics](https://www.acm.org/code-of-ethics). That means *there are allies all around us*. More than we realize. 
 
 Here are some healthy choices I'm trying to make:
 
 * I will be happy for the people excited about exciting stuff.
 * I will offer solutions instead of gatekeeping for Vibe Coders when they get stuck.
 * I will recognize today's conversation isn't yesterday's.
-* I will not read the Hacker News comments ;)
+* I will not read the Hacker News comments on my articles, to respect your privacy ;)
 
 Thank you for reading my second epistle.
