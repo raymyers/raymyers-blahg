@@ -13,7 +13,7 @@ tags:
 added: 2026-07-23T06:00:00.000Z
 ---
 
-*This post has a [companion episode](https://www.thecodingagency.org/why-is-ai-political) of The Coding Agency.
+*This post has a [companion episode](https://www.thecodingagency.org/why-is-ai-political) of The Coding Agency.*
 
 Have you ever had your stomach turn from looking at your own slide deck? This headline did it for me:
 
