@@ -1,5 +1,5 @@
 ---
-title: Fibs and Fibbonacci - is Logos faster than Zig?
+title: Fibs and Fibbonacci - is LOGOS faster than Zig?
 slug: fibs-and-fibbonacci
 description: >
   Another fake compiler. Nothing to see here. Do not read this article.
