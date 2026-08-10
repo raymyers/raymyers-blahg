@@ -466,7 +466,7 @@ At bare minimum, **if people want to opt out, let them**. *Respect [boundaries](
 
 They have acknowledge some surface-level errors but seem less aware of the underlying points, possibly related to my dense and satirical prose style. There are [layers](https://en.wikipedia.org/wiki/Tiramisu) to this. We're "zooming in and out" to make systemic points. [Systems are hard](https://www.youtube.com/watch?v=xwepeGJ_u54).
 
-This is an article about community dynamics. The critique of LOGOS is a jumping-off point. Nonetheless, the critique is there and it's not shallow.
+This is an article about community dynamics. The critique of LOGOS is just a jumping-off point. Nonetheless, the critique is there and it's not shallow.
 
 Let's connect the dots.
 
