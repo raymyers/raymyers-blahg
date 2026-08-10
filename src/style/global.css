@@ -23,7 +23,7 @@
   --rule: oklch(72% 0.045 242);
   --quote-bg: color-mix(in oklch, var(--paper-soft) 82%, var(--accent));
   --quote-border: oklch(68.5% 0.045 242);
-  --code-bg: color-mix(in oklch, var(--paper-soft) 72%, var(--black));
+  --code-bg: color-mix(in oklch, var(--paper-soft) 92%, var(--black));
   --font-body: "Source Serif 4", Georgia, serif;
   --font-heading:
     ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -63,7 +63,7 @@ body {
   /* The frame-gap term keeps a sliver of the field visible on narrow
      viewports, where the centered column would otherwise fill the screen. */
   max-width: min(
-    calc(80ch + 2 * var(--page-pad)),
+    calc(92ch + 2 * var(--page-pad)),
     calc(100% - 2 * var(--frame-gap))
   );
   background-color: var(--paper-soft);
