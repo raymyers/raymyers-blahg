@@ -439,7 +439,7 @@ Back in 2007, I tried to introduce a new term for tail calls, "booty calls". It 
 
 People always want to tell me what agents *might have done* when I'm discussing what's actually happening. The distinction is important.
 
-Today's coding agents are of course capable of catching various problems with these benchmarks. I tried it, you can too. The question is **why didn't they**? [Agentic Review](https://www.oreilly.com/radar/agentic-code-review/) kinda works, but LOGOS's 3 Max subscriptions didn't do it on their own.
+Today's coding agents are of course capable of catching various problems with these benchmarks. I tried it, you can too. The question is **why didn't they**? [Agentic Review](https://www.oreilly.com/radar/agentic-code-review/) kinda works, but LOGOS' 3 Max subscriptions didn't do it on their own.
 
 So what actually happened? The user had the option to confirm their claims, but they decided to print them on snazzy pamphlets instead. As a result, if we're going to know what's actually going on, it falls on someone like me to *foolishly* spend hours vetting stuff that was obviously sketchy from the get go. To quote my inner monologue:
 
@@ -456,13 +456,32 @@ I've talked to people who don't like these decisions. That's understandable, it'
 
 At bare minimum, **if people want to opt out, let them**. *Respect [boundaries](https://www.youtube.com/watch?v=9WuikEKhGcw)*. That's so easy and so helpful right now.
 
-# Intermission
+# Update
 
-Everyone besides the "protesters" can skip this section.
+**Update**: The LOGOS author has taken this post [in good cheer](https://www.linkedin.com/posts/cadrlife_i-need-a-favor-dont-read-my-new-blog-share-7492429366841200641-R5EH) and has asked their chatbot to review it.
 
-*Tristen, I hope you find some of this enlightening. I'm being as civil as I can given the amount of intentional disrespect you showed up with. I see potential in you or I wouldn't be responding at all.*
+![Claude Code reading this post to try and fix the compiler](/images/posts/fib/chatbot-reads-blog.png)
 
-*That said, I booked [Ness Lee vs Chilla Jones](https://www.youtube.com/watch?v=jrSzpxus5Z8). Do you really want to try that beeftrack cosplay with me that you're trying on Isaac? Don't do that. I'm offering an olive branch. Take it.*
+> ❤️ ragebaiting works! Thanks for all these lovely things to go iterate and fix. I knew I could count on others to do hard work for me finding flaws. Work smarter not harder!
+
+They have acknowledge some surface-level errors but seem less aware of the underlying points, possibly related to my dense and satirical prose style. There are [layers](https://en.wikipedia.org/wiki/Tiramisu) to this. We're "zooming in and out" to make systemic points. [Systems are hard](https://www.youtube.com/watch?v=xwepeGJ_u54).
+
+This is an article about community dynamics. The critique of LOGOS is a jumping-off point. Nonetheless, the critique is there and it's not shallow.
+
+Let's connect the dots.
+
+* The examples I zoomed in on were not random, there were natural double-clicking on the first claims presented.
+  * Fastest language in the world
+  * "LOGOS > Zig" pamphlet
+  * The website's benchmark page
+  * First listed example, recursive Fibonacci, and its iterative partner
+* When the first evidence for the first claim is dubious, it undermines trust.
+* Looking at the totality of other examples that show speedup, I did not see evidence of a useful optimizing compiler.
+* I note design choices that are likely to undermine performance in practice.
+* Taken together, these are red flags suggesting inability to reason about or communicate these kinds of engineering decisions.
+* Surveying the other language features, I describe a "hodge-podge" of cool ideas with no clear audience or value proposition.
+
+Hope that helps.
 
 # Nothing happens in a vacuum
 
