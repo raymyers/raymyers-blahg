@@ -458,7 +458,7 @@ At bare minimum, **if people want to opt out, let them**. *Respect [boundaries](
 
 # Update
 
-**Update**: The LOGOS author has taken this post [in good cheer](https://www.linkedin.com/posts/cadrlife_i-need-a-favor-dont-read-my-new-blog-share-7492429366841200641-R5EH) and has asked their chatbot to review it.
+The LOGOS author has taken this post [in good cheer](https://www.linkedin.com/posts/cadrlife_i-need-a-favor-dont-read-my-new-blog-share-7492429366841200641-R5EH) and asked their chatbot to review it.
 
 ![Claude Code reading this post to try and fix the compiler](/images/posts/fib/chatbot-reads-blog.png)
 
@@ -468,7 +468,7 @@ They have acknowledge some surface-level errors but seem less aware of the under
 
 This is an article about community dynamics. The critique of LOGOS is just a jumping-off point. Nonetheless, the critique is there and it's not shallow.
 
-Let's connect the dots.
+Let's connect the dots:
 
 * The examples I zoomed in on were not random, there were natural double-clicking on the first claims presented.
   * Fastest language in the world
