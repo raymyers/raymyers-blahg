@@ -175,6 +175,7 @@ Whoops. Hey, there are **lots of factors** here. People took it out of context. 
 > * You can’t stop reading about it in the news; there’s nowhere to hide from it.
 > * Panicking CEOs are leaning in hard to AI, often whiplashing it into their orgs.
 > * Companies are capitalistic extraction machines and literally don’t know how to ease up.
+>
 > -- Steve Yegge in [The AI Vampire](https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163)
 
 Wow this guy knows his stuff.
@@ -185,21 +186,20 @@ Paul Graham used to write about code, now he writes about [how to earn a billion
 
 All I know about Paul Graham's stance on developing software comes from when he was still in the game. Fresh from selling Viaweb to Yahoo, on a mission to build an Arc to last [100 years](https://paulgraham.com/hundred.html). [Ranting](https://www.paulgraham.com/icad.html) that management forced naive uninformed visions on us. You know, programmer stuff. 
 
-I mention this because he's also getting quoted now on the topics like whether we should generate [50K lines of code in a day](https://digg.com/tech/0wlddu78). (Also clarified it an apparent maximum possible not normal work, separate tweet.) Understand, he's not speaking as the `pg` that used to recommend coding strategies. He's wearing his **Venture Capitalist** hat. 
-
-Unnamed startup founder bragged to the founder of the Y-Combinator fund. Think of the power dynamics. This was not a conversation meant to convey an accurate picture of their dev process. By construction alone, this would be one of the most unreliable transfers of information since naming Claude after [Claude Shannon](https://simons.berkeley.edu/news/inside-information-theory-0).
-
+I mention this because he's also getting quoted now on the topics like whether we should push [50K lines of code in a day](https://digg.com/tech/0wlddu78). Understand, he's not speaking as the `pg` that used to recommend coding strategies. He's wearing his **Venture Capitalist** hat. 
 
 > That's not a reliable source.
 > -- Cardi B
 
-These anecdotes are selective reporting of selective reporting. It reinforces his model that [founders are bulldozers](https://charity.wtf/p/founder-mode-and-the-art-of-mythmaking) and everyone else in the way. It's not like he's going to hear these things and have a retro sitdown with the platform team about what they'd do differently. "Hey, it's Paul again. Last week your CEO just yeeted another huge vibe fix, any thoughts on that?". No.
+Unnamed startup founder bragged to the founder of the Y-Combinator fund. Think of the power dynamics. This was not a conversation meant to convey a complete picture of their dev process. By construction alone, this would be one of the most unreliable transfers of information since naming Claude after [Claude Shannon](https://simons.berkeley.edu/news/inside-information-theory-0).
+
+These anecdotes are selective reporting *of* selective reporting. In this case, it reinforces his model that [founders are bulldozers](https://charity.wtf/p/founder-mode-and-the-art-of-mythmaking) and everyone else in the way. It's not like he's going to hear these things and have a retro sitdown with the platform team about what they'd do differently. "Hey, it's Paul again. Last week your CEO just yeeted another huge vibe fix, any thoughts on that?". No.
 
 Whereas I *was* in outage postmortems matching that description, if we're keeping score. Do you think founders tell VCs the good news and bad news in equal measure? No. They promised VCs a Superintelligence, remember?
 
 Proximity to the pager is reality.
 
-People who followed Paul Graham in old days will remember, he was *inordinately* concerned with having as **little code as possible**, so he could **fit it in his head**. These are good things to care about. He was perhaps known to even go overboard with it.
+People who followed Paul Graham in old days will remember, he was *inordinately* concerned with having as **little code as possible**, so he could **fit it in his head**. These are good things to care about. He was known to maybe go overboard with it.
 
 * [Being popular](https://paulgraham.com/popular.html), 2001
 * [Succinctness is Power](https://paulgraham.com/power.html), 2002
