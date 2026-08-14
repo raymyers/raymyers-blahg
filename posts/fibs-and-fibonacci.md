@@ -9,7 +9,7 @@ tags:
   - zig
   - compilers
   - beef
-added: 2026-08-03T18:55:30.703Z
+added: 2026-08-10T18:55:30.703Z
 ---
 
 A **fib** is a trivial or childish lie.
