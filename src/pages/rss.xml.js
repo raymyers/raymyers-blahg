@@ -1,11 +1,11 @@
 import rss from "@astrojs/rss";
-import { getCollection } from "astro:content";
+import getPublishedPosts from "../scripts/getPublishedPosts";
 import {
   title as SITE_TITLE,
   subtitle as SITE_DESCRIPTION,
 } from "../settings/settings.json";
 
-let posts = await getCollection("posts");
+let posts = await getPublishedPosts();
 
 posts = posts.sort(
   (a, b) =>

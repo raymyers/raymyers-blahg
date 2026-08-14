@@ -7,7 +7,12 @@ import {
   ahrefsAnalyticsKey as AHREFS_KEY,
 } from "../settings/settings.json";
 
-const { title, description, image = "/weblog-card-2.png" } = Astro.props;
+const {
+  title,
+  description,
+  image = "/weblog-card-2.png",
+  noindex = false,
+} = Astro.props;
 ---
 
 <head>
@@ -18,6 +23,7 @@ const { title, description, image = "/weblog-card-2.png" } = Astro.props;
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="alternate icon" href="/favicon.ico" />
   <meta name="generator" content={Astro.generator} />
+  {noindex && <meta name="robots" content="noindex, nofollow" />}
 
   <!-- Primary Meta Tags -->
   <title>{title}</title>

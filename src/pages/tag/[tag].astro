@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import getPublishedPosts from "../../scripts/getPublishedPosts";
 import BaseHead from "../../components/BaseHead.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
@@ -11,7 +11,7 @@ import {
 } from "../../settings/settings.json";
 
 export async function getStaticPaths() {
-  let posts = await getCollection("posts");
+  let posts = await getPublishedPosts();
   const tags = posts.reduce((allTags, post) => {
     const postTags = post.data.tags;
     if (postTags) {
