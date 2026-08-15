@@ -90,7 +90,7 @@ He said that in a video called [4 Words Triggered a War](https://www.youtube.com
 
 Allow me to use technology to simulate how this interaction would go in a less charged environment.
 
-![Someone reads the code, we move on](/images/posts/reading-code/i-read-thumbs-up.jmp)
+![Someone reads the code, we move on](/images/posts/reading-code/i-read-thumbs-up.jpg)
 
 Hashimoto's response subverted expectations because he was talking about agent orchestration, which is often seen as a way to avoid human involvement - to forget the details. He was explaining his new workflow based on the latest models:
 
@@ -147,13 +147,13 @@ Anyone talking about how to build a Dark Software Factory will name a bunch of t
 
 When we find ourselves citing exclusively men, something may have gone wrong. That makes me want to do a gut-check in case I'm missing part of the picture. Unfortunately, this post happens to be looking for people who engage with an "AI Bro"-aligned story.
 
-I see this as a well-funded narrative that exaggerates LLM capabilities and negates the vast scope and nuances of industrial software. For whatever cultural reasons, the people boosting it are also overwhelmingly men. I'm not the one who should try to guess why. See also, The Superintelligence.
+I see this as a well-funded narrative that exaggerates LLM capabilities and negates the vast scope and nuances of industrial software. For whatever cultural reasons, the people boosting it are also overwhelmingly men. I'm not the one who should try to guess why. Does being marginalized affect someone's [perpective](https://chelseatroy.com/2021/07/30/the-oxymoron-of-data-driven-innovation/) on the nature of innovation? See also, The Superintelligence.
 
 > Nothing that *only* men like is cool.
 >
 > -- Liz Martinez, co-host of [The Coding Agency](https://thecodingagency.org/)
 
-Chelsea Troy works in Machine Learning Operations at Mozilla. She is a credible expert in both GenAI and legacy code. Probably more so than me on both counts, which is saying something. Here's some stuff she said last year.
+Chelsea Troy works in Machine Learning operations at Mozilla. She is a credible expert in both GenAI and legacy code. Probably more so than me on both counts, which is saying something. Here's some stuff she said last year.
 
 * [How to survive the apocalypse: a conversation with Tim O’Reilly about Generative AI](https://chelseatroy.com/2025/06/25/how-to-survive-the-apocalypse-a-conversation-with-tim-oreilly-about-generative-ai/)
 * [What can we expect of LLMs as Software Engineers?](https://chelseatroy.com/2025/07/14/what-can-we-expect-of-llms-as-software-engineers/)
@@ -164,9 +164,9 @@ Liz Fong-Jones (ex-Google, Technical Fellow at Honeycomb), echoes our consensus 
 
 > I don't read code looking for obvious bugs any more, the robots are perfectly good at that. I do read the code looking for design and maintainability and readability issues.
 
-The DevOps pioneers like Fong-Jones and others we'll mention are well aware of what we sometimes call the [Ironies of Automation](https://ferd.ca/notes/paper-ironies-of-automation.html). The term was coined in a landmark 1983 [paper](https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf) by cognitive psychologist Lisanne Bainbridge. The work are famous for being [shockingly](https://www.usenix.org/conference/srecon19asia/presentation/lund-comedy) [evergreen](https://carlhendrick.substack.com/p/ai-brain-fry-workslop-and-the-ironies) as new generations of automators rediscover it and learn to compensate. That's because the observations are primarily about people, not about specific machines.
+The DevOps/SRE pioneers like Fong-Jones and others we'll mention are well aware of what we call the [Ironies of Automation](https://ferd.ca/notes/paper-ironies-of-automation.html). The term was coined in a landmark 1983 [paper](https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf) by cognitive psychologist Lisanne Bainbridge. The paper is famous for being [shockingly](https://www.usenix.org/conference/srecon19asia/presentation/lund-comedy) [evergreen](https://carlhendrick.substack.com/p/ai-brain-fry-workslop-and-the-ironies) as new generations of automators rediscover it and learn to compensate. That's because the observations are ultimately about people, not about specific machines.
 
-Bainbridge said this in 2021 when [revisting](https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html) the work four decades later.
+Bainbridge said this in 2021 when [revisting](https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html) the work four decades later:
 
 > This was unusual among my papers.  Most of the 'big' papers took months of total concentration to write (the marvellous long vacation) - first coming up with relevant points, then mulling over the issues and helping them to emerge into a coherent framework, then translating that into a linear form which could be expressed in sentences.
 >
@@ -493,3 +493,7 @@ It is, isn't it :)
 ---
 
 ![Someone does not read the code, we move on](/images/posts/reading-code/i-dont-read-thumbs-up.jpg)
+
+Thank you for reading. We cover more riddles of modern software in my podcast, [The Coding Agency](https://www.thecodingagency.org/).
+
+---
