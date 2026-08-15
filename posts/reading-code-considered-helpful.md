@@ -36,7 +36,7 @@ If you think these behaviors undermine trust, then... `You're absolutely right!`
 
 There's a subtle quirk in MIT Sloan School of Management's [coverage](https://mitsloan.mit.edu/ideas-made-to-matter/how-generative-ai-persuasion-bombs-users-and-how-to-fight-back) of the persuasion bombing study that you'll see everywhere once you look for it. The article explains how this research is fatal to a layperson's understanding of "*human in the loop*" - that organizations can manage LLM risk with a simple approval gate.
 
-> “When they were talking about adoption within their organizations, they were saying, ‘Well, we have humans in the loop, so what’s the big deal?’ The assumption is that if people are in the workflow, then the risk is neutralized,”[Steven] Randazzo said. “But now we see that this safety check is prone to persuasion bombing, where an LLM campaigns for its position with escalating rhetoric, and the human is persuaded — or just simply beaten down enough — to accept the output.”
+> “When they were talking about adoption within their organizations, they were saying, ‘Well, we have humans in the loop, so what’s the big deal?’ The assumption is that if people are in the workflow, then the risk is neutralized,” [Steven] Randazzo said. “But now we see that this safety check is prone to persuasion bombing, where an LLM campaigns for its position with escalating rhetoric, and the human is persuaded — or just simply beaten down enough — to accept the output.”
 
 The title of the article was, "**How generative AI ‘persuasion bombs’ users — and how to fight back**".
 Let's look at the proposed solutions (emphasis mine).
@@ -89,6 +89,10 @@ He said that in a video called [4 Words Triggered a War](https://www.youtube.com
 
 "**I read the code**" is an I-Statement. The fact that the venerable Mitchell Hashimoto managed to set off an explosion with such a mild remark says a lot about the tension in the air.
 
+Allow me to use technology to simulate how interaction would go in a less charged environment.
+
+![Someone reads the code, we move on](/images/posts/reading-code/i-read-thumbs-up.jmp)
+
 Hashimoto's response subverted expectations because he was talking about agent orchestration, which is often seen as a way to avoid human involvement - to forget about the details. He was explaining his new workflow based on the latest models:
 
 1. Fable 5 with xhigh effort as planner
@@ -135,9 +139,9 @@ There is a [comment thread](https://www.linkedin.com/posts/cadrlife_i-spent-thre
 
 Bryan Finster is [pretty close](https://bryanfinster.substack.com/p/is-code-review-dead) to an Anti-Reader stance. Then again, he also mentions some kinds of code you should **always read** and rigorous foundational practices (his [definition of Continious Delivery](https://minimumcd.org/)).
 
-I have no disagreement with Finster. I already [signed](https://github.com/Minimum-CD/cd-manifesto/pull/171) his manifesto in 2021. The first signature was Dave Farley, co-author of [Continous Delivery](https://martinfowler.com/books/continuousDelivery.html) and author of [Modern Software Engineering](https://www.davefarley.net/?p=352).
+I have no disagreement with Finster. I already [signed](https://github.com/Minimum-CD/cd-manifesto/pull/171) his manifesto in 2021. The first signature was from Dave Farley, co-author of [Continous Delivery](https://martinfowler.com/books/continuousDelivery.html) and author of [Modern Software Engineering](https://www.davefarley.net/?p=352).
 
-Anyone talking about how to build a Dark Software Factory will name a bunch of those CD practices. If it's useful for you to rebrand The Work as "agent enablement", go for it.
+Anyone talking about how to build a Dark Software Factory will name a bunch of the CD practices. If it's useful for you to rebrand The Work as "agent enablement", go for it.
 
 
 # Where are the women?
@@ -474,3 +478,5 @@ In fact, I find that most arguments we've heard for the last 3 years that declar
 It is, isn't it :)
 
 ---
+
+![Someone does not read the code, we move on](/images/posts/reading-code/i-dont-read-thumbs-up.jpg)
