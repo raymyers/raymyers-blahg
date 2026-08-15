@@ -174,7 +174,7 @@ The AI discourse is an absolute mess, as you are *painfully aware*. I hate seein
 
 **Anthropic is actively campaigning to end software engineering to support a trillion dollar IPO.**
 
-Look, I have practical needs. I do not want my DevTool vendors to falsely advertise the [impending end of my field](). I believe that to be counterproductive.
+Look, I have practical needs. I do not want my DevTool vendors to falsely advertise the [impending end of my field](https://www.youtube.com/watch?v=J2w9-4sa1_c). I believe that to be counterproductive.
 
 And yes, I'm aware that the campaign will eventually fail on its surface goals. Then again, that depends what success means. Another potential outcome is a huge trainwreck that consolidates power around a few AI labs.
 
