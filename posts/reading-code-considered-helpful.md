@@ -124,7 +124,7 @@ I thought of him when I saw a second take on LinkedIn, seemingly taunting us tha
 
 Honestly, I wouldn't have noticed they were the same person if I wasn't out here trying to do field anthropology like a lunatic.
 
-It's possible that many people in this mess are just out of their depth and saying whatever sounds good at the moment. This is an incredibly difficult thing to weigh in on, especially in speaking in universals. All the best to the GitHub DevRel. Keep building the [Copilot demos](https://www.linkedin.com/posts/this-demo-from-burke-holland-really-shows-ugcPost-7420217688549085184-TMAU/).
+It's possible that many people in this mess are just out of their depth and saying whatever sounds good at the moment. This is a difficult thing to weigh in on, especially speaking in universals. All the best to the GitHub DevRel. Keep building the [Copilot demos](https://www.linkedin.com/posts/this-demo-from-burke-holland-really-shows-ugcPost-7420217688549085184-TMAU/).
 
 # The Illusive Anti-Readers
 
