@@ -9,8 +9,7 @@ tags:
   - communication
   - coding-agents
   - advice
-added: 2026-08-11T18:55:30.703Z
-draft: true
+added: 2026-08-15T18:55:30.703Z
 ---
 
 > More is not better. Faster is not better. Better is better.
@@ -87,25 +86,25 @@ He said that in a video called [4 Words Triggered a War](https://www.youtube.com
 
 ![Hashimoto reads the code](/images/posts/reading-code/i-read-the-code.png)
 
-"**I read the code**" is an I-Statement. The fact that the venerable Mitchell Hashimoto managed to set off an explosion with such a mild remark says a lot about the tension in the air.
+"**I read the code**" is an I-Statement. The fact that the venerable Mitchell Hashimoto managed to set off an explosion with such a mild remark says a lot about the state of the dialogue.
 
-Allow me to use technology to simulate how interaction would go in a less charged environment.
+Allow me to use technology to simulate how this interaction would go in a less charged environment.
 
 ![Someone reads the code, we move on](/images/posts/reading-code/i-read-thumbs-up.jmp)
 
-Hashimoto's response subverted expectations because he was talking about agent orchestration, which is often seen as a way to avoid human involvement - to forget about the details. He was explaining his new workflow based on the latest models:
+Hashimoto's response subverted expectations because he was talking about agent orchestration, which is often seen as a way to avoid human involvement - to forget the details. He was explaining his new workflow based on the latest models:
 
 1. Fable 5 with xhigh effort as planner
 2. GPT 5.5, xhigh effort, as coder
 3. Fable 5 xhigh effort again as "judge" (first critique)
 
-But then what? People expected him to do some fancy [loop engineering](https://github.com/cobusgreyling/loop-engineering). Walk away for hours and have it cleared to ship. That requires you to solve a bunch more problems and anticipate how things might go off track. He cut through all that headache with a habit that had such simplicity.
+But then what? People expected him to do some fancy [loop engineering](https://github.com/cobusgreyling/loop-engineering). Walk away for hours and have it cleared to ship. That requires you to solve a bunch more problems and anticipate how things might go off track. He cut through all of that headache with a habit that was brilliant in its simplicity.
 
 4. He reads the code.
 
-He doesn't go faster than he needs to. He streamlines the work that needs doing and then doesn't try to make up more. Novel.
+He doesn't go faster than he needs to. He streamlines the work that needs doing and then doesn't try to make up more. [Novel](https://www.tocinstitute.org/the-goal-summary.html).
 
-From the other side, Cousin Bill the Patriarch of Codified [Cleanliness](https://www.linkedin.com/pulse/clean-code-critics-do-get-point-thank-you-ray-myers-hin6c/) (not his real name) recently caused another huge stir. **He stopped reading the code!** His story was also I-Statement, not explicity recommending other people do the same, just sharing his current habits. Cousin Bill also outlined an elaborate harness of automated metrics and quality checks he constructed to avoid making a mess. Cool.
+From the other side, Cousin Bill the Patriarch of Codified [Cleanliness](https://www.linkedin.com/pulse/clean-code-critics-do-get-point-thank-you-ray-myers-hin6c/) (not his real name) recently caused another huge stir. **He stopped reading the code!** His story was also an I-Statement, not explicity recommending other people do the same, just sharing his current habits. Cousin Bill also outlined an elaborate harness of automated metrics and quality checks he constructed to avoid making a mess. Cool.
 
 These are both experienced people and **their needs are completely different**. Hashimoto is doing systems programming. He's building Ghostty, a cross-platform GPU-accelerated terminal emulator with millions of users.
 
@@ -160,6 +159,20 @@ Chelsea Troy works in Machine Learning Operations at Mozilla. She is a credible 
 * [What can we expect of LLMs as Software Engineers?](https://chelseatroy.com/2025/07/14/what-can-we-expect-of-llms-as-software-engineers/)
 
 > I think this is true of software engineers attempting to operate with AI tooling on relatively complex code bases, or possibly really any code base. We say the same about "magic" in frameworks, like Rails or Django or Spring. Engineers will use the term "magic" as a pejorative sometimes to describe how these frameworks just solve certain problems for them, because everything’s fine until it's not. Once it's not fine, the precise location and nature of the problem is not explicitly there in the code, so you have to understand what's happening under the hood to find and fix the issue.
+
+Liz Fong-Jones (ex-Google, Technical Fellow at Honeycomb), echoes our consensus that life is non-binary.
+
+> I don't read code looking for obvious bugs any more, the robots are perfectly good at that. I do read the code looking for design and maintainability and readability issues.
+
+The DevOps pioneers like Fong-Jones and others we'll mention are well aware of what we sometimes call the [Ironies of Automation](https://ferd.ca/notes/paper-ironies-of-automation.html). The term was coined in a landmark 1983 [paper](https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf) by cognitive psychologist Lisanne Bainbridge. The work are famous for being [shockingly](https://www.usenix.org/conference/srecon19asia/presentation/lund-comedy) [evergreen](https://carlhendrick.substack.com/p/ai-brain-fry-workslop-and-the-ironies) as new generations of automators rediscover it and learn to compensate. That's because the observations are primarily about people, not about specific machines.
+
+Bainbridge said this in 2021 when [revisting](https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html) the work four decades later.
+
+> This was unusual among my papers.  Most of the 'big' papers took months of total concentration to write (the marvellous long vacation) - first coming up with relevant points, then mulling over the issues and helping them to emerge into a coherent framework, then translating that into a linear form which could be expressed in sentences.
+>
+> Writing about this topic was unusual in that I felt so strongly about the issues the paper emerged almost fully formed.
+
+See also: [Joint Cognitive Systems](https://github.com/lorin/cognitive-systems-engineering).
 
 # Code Abolitionists
 
