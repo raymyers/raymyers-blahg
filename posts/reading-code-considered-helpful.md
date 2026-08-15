@@ -160,7 +160,7 @@ Chelsea Troy works in Machine Learning operations at Mozilla. She is a credible 
 
 > I think this is true of software engineers attempting to operate with AI tooling on relatively complex code bases, or possibly really any code base. We say the same about "magic" in frameworks, like Rails or Django or Spring. Engineers will use the term "magic" as a pejorative sometimes to describe how these frameworks just solve certain problems for them, because everything’s fine until it's not. Once it's not fine, the precise location and nature of the problem is not explicitly there in the code, so you have to understand what's happening under the hood to find and fix the issue.
 
-Liz Fong-Jones (ex-Google, Technical Fellow at Honeycomb), echoes our consensus that life is non-binary.
+Liz Fong-Jones (ex-Google, Technical Fellow at Honeycomb), [echoes](https://www.linkedin.com/feed/update/urn:li:activity:7494278517199781888/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287494363535548801024%2Curn%3Ali%3Aactivity%3A7494278517199781888%29) our consensus that life is non-binary.
 
 > I don't read code looking for obvious bugs any more, the robots are perfectly good at that. I do read the code looking for design and maintainability and readability issues.
 
