@@ -106,7 +106,7 @@ He doesn't go faster than he needs to. He streamlines the work that needs doing 
 
 From the other side, Cousin Bill the Patriarch of Codified [Cleanliness](https://www.linkedin.com/pulse/clean-code-critics-do-get-point-thank-you-ray-myers-hin6c/) (not his real name) recently caused another huge stir. **He stopped reading the code!** His story was also an I-Statement, not explicity recommending other people do the same, just sharing his current habits. Cousin Bill also outlined an elaborate harness of automated metrics and quality checks he constructed to avoid making a mess. Cool.
 
-These are both experienced people and **their needs are completely different**. Hashimoto is doing systems programming. He's building Ghostty, a cross-platform GPU-accelerated terminal emulator with millions of users.
+These are both experienced people and **their needs are completely different**. Hashimoto is doing systems programming. He's building [Ghostty](https://github.com/ghostty-org/ghostty), a cross-platform GPU-accelerated terminal emulator with millions of users.
 
 Meanwhile, Cousin Bill appears to be solo-building a Clojure remake of Atari Missile Command with no significant user base. That is a very low-stakes environment to experiment with these more hands-off approaches. Another thing that makes his project unusual is Bill's carefully refined quality safety net. That is often discussed as a [best practice](https://beyond.minimumcd.org/docs/agentic-cd/) for agentic engineering, but relatively few teams [actually](https://codescene.com/customers/loveholidays) [do it](https://ai-coding-patterns.dev/patterns/habit-hooks/) or even understand the principles to apply if they did.
 
@@ -166,7 +166,7 @@ Liz Fong-Jones (ex-Google, Technical Fellow at Honeycomb), echoes our consensus 
 
 The DevOps/SRE pioneers like Fong-Jones and others we'll mention are well aware of what we call the [Ironies of Automation](https://ferd.ca/notes/paper-ironies-of-automation.html). The term was coined in a landmark 1983 [paper](https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf) by cognitive psychologist Lisanne Bainbridge. The paper is famous for being [shockingly](https://www.usenix.org/conference/srecon19asia/presentation/lund-comedy) [evergreen](https://carlhendrick.substack.com/p/ai-brain-fry-workslop-and-the-ironies) as new generations of automators rediscover it and learn to compensate. That's because the observations are ultimately about people, not about specific machines.
 
-Bainbridge said this in 2021 when [revisting](https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html) the work four decades later:
+Bainbridge [revisted](https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html) the work four decades later saying this:
 
 > This was unusual among my papers.  Most of the 'big' papers took months of total concentration to write (the marvellous long vacation) - first coming up with relevant points, then mulling over the issues and helping them to emerge into a coherent framework, then translating that into a linear form which could be expressed in sentences.
 >
@@ -271,7 +271,7 @@ Even if I believed either of those things, the conditions on the ground won't su
 
 [Anthropic](https://snowan.gitbook.io/study-notes/ai-blogs/dario-amodei-end-of-exponential-dwarkesh-2026#key-themes) and [OpenAI](https://openai.com/index/how-enterprises-put-ai-to-work/) have sold ~~a Layoff Machine~~ labor automation. They have sold that it must center around their single unique offering, the frontier language model. They must narcissistically defend that component as the solution to all problems, while insisting no one else be allowed to run one.
 
-They then hand those constraints down to our department to ~~do their homework for them~~ work out the details. Design a system that's **fully agentic**. The stated goal is whatever we'll believe at the moment. ~~Labor automation~~ "Augmentation not replacement". We'll still need you because you have "taste". Definitely not a layoff machine. Be sure to document all your SKILLS. The problem is, these are **bad constraints** even if the premise were honest.
+They then hand those constraints down to our department to ~~do their homework for them~~ work out the details. Design a system that's **fully agentic**. The stated goal is whatever we'll believe at the moment. ~~Labor automation~~ "Augmentation not replacement". We'll still need you because you have "taste". Definitely not a layoff machine. Be sure to document all your SKILLS. The problem is, these are **bad constraints** even if the premise were honest. This seems very disorganized. I'll add some links about organizing at the end.
 
 I would be happy to discuss more technically plausible ways of automating me out of a job. They just wouldn't be conveniently centered around the model lab's only moat. So tell me, am I the one trying to justify my existence or are they?
 
@@ -490,10 +490,19 @@ In fact, I find that most arguments we've heard for the last 3 years that declar
 
 It is, isn't it :)
 
----
-
 ![Someone does not read the code, we move on](/images/posts/reading-code/i-dont-read-thumbs-up.jpg)
 
 Thank you for reading. We cover more riddles of modern software in my podcast, [The Coding Agency](https://www.thecodingagency.org/).
+
+Addendum:
+
+* [Forming a union at a non-union workplace](https://www.worker.gov/form-a-union/)
+* [OpenAI is a threat to labor, but its employees staged one of the most successful collective actions in tech](https://www.wbur.org/cognoscenti/2023/12/06/artificial-intelligence-tech-workers-collective-action-sam-altman-ethan-marcotte)
+* [How AI may drive union-resistant tech workers to the bargaining table](https://www.theguardian.com/technology/2026/jul/21/ai-tech-workers-unionize)
+* [Meet the Google engineer getting its workers ready to strike](https://www.fastcompany.com/90275462/meet-the-google-engineer-getting-its-workers-ready-to-strike)
+* [ACM code of ethics](https://www.acm.org/code-of-ethics)
+* [Software as a profession](https://jolt.law.harvard.edu/assets/articlePDFs/v33/33HarvJLTech557.pdf)
+
+*Dark Factory Considered Harmful.*
 
 ---

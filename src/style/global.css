@@ -239,6 +239,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+article img {
+  border: 1px solid var(--quote-border);
+}
 code {
   padding: 2px 5px;
   background-color: var(--code-bg);
