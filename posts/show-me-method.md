@@ -51,7 +51,7 @@ When we talking about coding "more" agentically, we're roughly talking about thi
 3. Agents write, people read at-a-glance
 4. Agents write, nobody reads
 
-Remember, these are not like the levels of a video game where the goal to get to the end. More agentic is not necessary better! When we decide the level, that's a judgement of what kind of code we're dealing with.
+Remember, more agentic is not necessary better! These are not like the levels of a video game where the goal to get to the end. When we decide the level, that's a judgement of what kind of code we're dealing with.
 
 * Code worth writing (0, 1)
 * Code worth reading (2, 3)
