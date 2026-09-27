@@ -9,9 +9,9 @@ tags:
 added: 2026-09-27T19:08:51.613Z
 ---
 
-The post outlines the common sense pattern for coding agent adoption. I call it The Show-Me Method, as in [The Show-Me State](https://www.sos.mo.gov/symbol/motto) or "show me the code".
+The post outlines a common sense pattern for coding agent adoption. I call it The Show-Me Method, as in [The Show-Me State](https://www.sos.mo.gov/symbol/motto) or "show me the code". The Show-Me Method is *pluralistic*, endorsing multiple levels of agentic adoption, and the judgement to chose which is appropriate.
 
-I first presented this in my talk "Code Worth Writing" at [Software Should Work](https://softwareshould.work/) conference. I'll expand further in "Dark Factory Considered Harmful" at [AI DevCon New York](https://tessl.io/devcon) in November.
+*I first presented this in my talk "Code Worth Writing" at [Software Should Work](https://softwareshould.work/) conference. I'll expand further in "Dark Factory Considered Harmful" at [AI DevCon New York](https://tessl.io/devcon) in November.*
 
 # The impossible question
 
@@ -40,6 +40,22 @@ Since we aim to support both people and agents as maintainers, we can't improve 
 ![Show Me Method: showing that both agents and people use the same tools](/images/posts/show-me-method/show-me-method-tools.svg)
 
 Some examples of tool investments are Formal Methods and safer programming languages.
+
+# Level of adoption
+
+When we talking about coding "more" agentically, we're roughly talking about this spectrum.
+
+0. Manual coding
+1. Auto-complete (LLM-based)
+2. Agents write, people read closely
+3. Agents write, people read at-a-glance
+4. Agents write, nobody reads
+
+Remember, these are not like the levels of a video game where the goal to get to the end. More agentic is not necessary better! When we decide the level, that's a judgement of what kind of code we're dealing with.
+
+* Code worth writing (0, 1)
+* Code worth reading (2, 3)
+* Code worth forgetting (4)
 
 # Needs are different
 
