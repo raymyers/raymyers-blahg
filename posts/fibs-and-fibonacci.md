@@ -1,5 +1,5 @@
 ---
-title: Fibs and Fibbonacci - is LOGOS faster than Zig?
+title: Fibs and Fibonacci - is LOGOS faster than Zig?
 slug: fibs-and-fibbonacci
 description: >
   Another fake compiler. Nothing to see here. Do not read this article.
@@ -28,12 +28,12 @@ For disambiguation, we're speaking of the LOGOS at `logicaffeine.com`, *not* the
 
 # Is LOGOS the world's fastest programming language?
 
-No. We are well within [Betteridge's law of headlines](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines). My assessement:
+No. We are well within [Betteridge's law of headlines](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines). My assessment:
 
 * There is no general concept of a "fastest programming language", just the fastest for specific jobs.
 * LOGOS helpfully provides full details of their [benchmark runs](https://logicaffeine.com/benchmarks) ([archive](https://web.archive.org/web/20260419184020/https://logicaffeine.com/benchmarks)).
 * The examples are not realistic workloads, they are algorithm teaching examples.
-* As a basline, LOGOS performs like Rust because it generates Rust code.
+* As a baseline, LOGOS performs like Rust because it generates Rust code.
 * LOGOS claims speedup in a handful of the examples in these ways:
 	* Implementing well-known optimizations that systems languages deliberately leave to the programmer, like [Memoization](https://aclanthology.org/J91-1004/).
 	* Replacing loops with [closed-form](https://github.com/Brahmastra-Labs/logicaffeine/blob/ca89b6f/crates/logicaffeine_compile/src/optimize/closed_form.rs) solutions that directly target these toy benchmark problems.
@@ -509,7 +509,7 @@ This is the third in my series of exploratory writing on the surreal conflicts w
 * [Zig Creator Calls Spade a Spade, Anthropic Blows Smoke](https://raymyers.org/post/zig-creator-calls-spade-a-spade/)
 * [Why Linus is Right and AI is Wrong](https://raymyers.org/post/zig-creator-calls-spade-a-spade/)
 
-I'm glad that some people have found this helpful. Maybe [redicule is praxis](https://www.404media.co/ridicule-as-praxis-with-emily-bender-and-alex-hanna/), as Emily Bender says. Maybe it's just catharsis. Both are needed. Either way, I don't want to let myself become defined by opposition.
+I'm glad that some people have found this helpful. Maybe [ridicule is praxis](https://www.404media.co/ridicule-as-praxis-with-emily-bender-and-alex-hanna/), as Emily Bender says. Maybe it's just catharsis. Both are needed. Either way, I don't want to let myself become defined by opposition.
 
 Loris Cro illustrates how to turn a negative reaction into a positive mission. In his 2021 piece [Playing the Open Source Game](https://kristoff.it/blog/the-open-source-game), he didn't just say why software sucks. He coined the term [Software You Can Love](https://softwareyoucan.love/), which became its own conference - the next one is October in Vancouver.
 

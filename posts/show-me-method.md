@@ -9,7 +9,7 @@ tags:
 added: 2026-09-27T19:08:51.613Z
 ---
 
-The post outlines a common sense pattern for coding agent adoption. I call it The Show-Me Method, as in [The Show-Me State](https://www.sos.mo.gov/symbol/motto) or "show me the code". The Show-Me Method is *pluralistic*, endorsing multiple levels of agentic adoption, and the judgement to chose which is appropriate.
+The post outlines a common sense pattern for coding agent adoption. I call it The Show-Me Method, as in [The Show-Me State](https://www.sos.mo.gov/symbol/motto) or "show me the code". The Show-Me Method is *pluralistic*, endorsing multiple levels of agentic adoption, and the judgement to choose which is appropriate.
 
 *I first presented this in my talk "Code Worth Writing" at [Software Should Work](https://softwareshould.work/) conference. I'll expand further in "Dark Factory Considered Harmful" at [AI DevCon New York](https://tessl.io/devcon) in November.*
 
@@ -27,7 +27,7 @@ In practice, this informs how we address the **[code review bottleneck](https://
 # The flexible approach
 
 
-The **Show-Me Method** embraces that the ideal level of agentic adoption varies and encourages creating a deliberate boundary between heavily agentic code and code thats needs closer review. The boundary is renegotiated over time as your situation changes.
+The **Show-Me Method** embraces that the ideal level of agentic adoption varies and encourages creating a deliberate boundary between heavily agentic code and code that needs closer review. The boundary is renegotiated over time as your situation changes.
 
 ![Show Me Method showing a boundary between agentically maintained and human maintained](/images/posts/show-me-method/show-me-method.svg)
 
@@ -75,7 +75,7 @@ In Healthcare we will often see more measured agent use because the risk is rela
 
 # Changing the tradeoffs
 
-Obviosly risk depends on factors other than your domain, and some of the factors are in your control. When we are skilled at managing risk that can enable more agentic coding. See [MinimumCD](https://beyond.minimumcd.org/docs/start-here/) for more discussion as it relates to [Continuous Delivery](https://beyond.minimumcd.org/docs/start-here/) practices.
+Obviously risk depends on factors other than your domain, and some of the factors are in your control. When we are skilled at managing risk that can enable more agentic coding. See [MinimumCD](https://beyond.minimumcd.org/docs/start-here/) for more discussion as it relates to [Continuous Delivery](https://beyond.minimumcd.org/docs/start-here/) practices.
 
 # Why not Dark Factory?
 

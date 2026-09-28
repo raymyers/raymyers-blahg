@@ -78,7 +78,7 @@ While not perfect, the human summary pattern is a simple behavior that nudges pe
 
 Another exception is when the change is completely routine. If you're bumping a dependency and it's clear why it's being bumped, we don't really need to see a human prelude to that. Our attention isn't being taxed.
 
-If you need precisely enforcable expectations, they won't be perfect wherever your draw the line. They're a best effort. Respect people's capacity and build habitable systems.
+If you need precisely enforceable expectations, they won't be perfect wherever you draw the line. They're a best effort. Respect people's capacity and build habitable systems.
 
 ## TLDR
 

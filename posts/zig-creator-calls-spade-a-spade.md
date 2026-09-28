@@ -163,7 +163,7 @@ Here's a taste of TigerStyle. Not every application can copy-and-paste this exac
 
 > All memory must be statically allocated at startup. **No memory may be dynamically allocated (or freed and reallocated) after initialization.** This avoids unpredictable behavior that can significantly affect performance, and avoids use-after-free. As a second-order effect, it is our experience that this also makes for more efficient, simpler designs that are more performant and easier to maintain and reason about, compared to designs that do not consider all possible memory usage patterns upfront as part of the design.
 
-Clearly, if we're weighing a rewrite in Rust, we'd first consider if we should use the current language differently. Hear's how Bun's write-up presents that option.
+Clearly, if we're weighing a rewrite in Rust, we'd first consider if we should use the current language differently. Here's how Bun's write-up presents that option.
 
 > Many projects opt to answer these kinds of questions through a style guide. TigerBeetle's [TigerStyle](https://tigerstyle.dev/) is an example in Zig and Google's 31,000 word [C++ style guide](https://google.github.io/styleguide/cppguide.html) is another. The challenge with style guides is enforcement. How do you make sure the style guide is followed? Historically, code review was the answer with best-effort enforcement via linters & static analyzers.
 
