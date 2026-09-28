@@ -31,7 +31,7 @@ The **Show-Me Method** embraces that the ideal level of agentic adoption varies 
 
 ![Show Me Method showing a boundary between agentically maintained and human maintained](/images/posts/show-me-method/show-me-method.svg)
 
-When this is successful, we can picture moving that boundary further to the right and to be closer to the Dark Factory. However I expect it will usually be more desireable that some portion of critical code remains "visible".
+When this is successful, we can picture moving that boundary further to the right and to be closer to the Dark Factory. However I expect it will usually be more desirable that some portion of critical code remains "visible".
 
 ![Show Me Method: heavy agentic](/images/posts/show-me-method/show-me-method-heavy-agentic.svg)
 

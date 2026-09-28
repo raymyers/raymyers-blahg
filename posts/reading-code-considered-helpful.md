@@ -147,7 +147,7 @@ Anyone talking about how to build a Dark Software Factory will name a bunch of t
 
 When we find ourselves citing exclusively men, something may have gone wrong. That makes me want to do a gut-check in case I'm missing part of the picture. Unfortunately, this post happens to be looking for people who engage with an "AI Bro"-aligned story.
 
-I see this as a well-funded narrative that exaggerates LLM capabilities and negates the vast scope and nuances of industrial software. For whatever cultural reasons, the people boosting it are also overwhelmingly men. I'm not the one who should try to guess why. Does being marginalized affect someone's [perpective](https://chelseatroy.com/2021/07/30/the-oxymoron-of-data-driven-innovation/) on the nature of innovation? See also, The Superintelligence.
+I see this as a well-funded narrative that exaggerates LLM capabilities and negates the vast scope and nuances of industrial software. For whatever cultural reasons, the people boosting it are also overwhelmingly men. I'm not the one who should try to guess why. Does being marginalized affect someone's [perspective](https://chelseatroy.com/2021/07/30/the-oxymoron-of-data-driven-innovation/) on the nature of innovation? See also, The Superintelligence.
 
 > Nothing that *only* men like is cool.
 >
