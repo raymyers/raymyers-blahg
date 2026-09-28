@@ -19,7 +19,13 @@
       in
       {
         devShells.default = pkgs.mkShell {
-          packages = [ pkgs.nodejs_22 ];
+          packages = [
+            pkgs.nodejs_22
+            # scripts/spellcheck.sh
+            pkgs.codespell
+            pkgs.pandoc
+            (pkgs.hunspell.withDicts (d: [ d.en_US ]))
+          ];
         };
       }
     );

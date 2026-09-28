@@ -22,6 +22,6 @@ I also have these outlets which will continue.
 - [Empathy in Tech podcast](https://empathyintech.com/)
 - [raymyers on GitHub](https://github.com/raymyers)
 
-We're trying out Cassidy Willams' [template](https://github.com/cassidoo/blahg), which uses Astro, Netlify, and TinaCMS. At least until the day where you can [blog in a theorem prover](https://github.com/leanprover/verso/tree/main?tab=readme-ov-file).
+We're trying out Cassidy Williams' [template](https://github.com/cassidoo/blahg), which uses Astro, Netlify, and TinaCMS. At least until the day where you can [blog in a theorem prover](https://github.com/leanprover/verso/tree/main?tab=readme-ov-file).
 
 With patience, the most tangled cord may be undone. - Lao Tzu

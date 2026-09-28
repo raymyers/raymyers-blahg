@@ -104,7 +104,7 @@ But then what? People expected him to do some fancy [loop engineering](https://g
 
 He doesn't go faster than he needs to. He streamlines the work that needs doing and then doesn't try to make up more. [Novel](https://www.tocinstitute.org/the-goal-summary.html).
 
-From the other side, Cousin Bill the Patriarch of Codified [Cleanliness](https://www.linkedin.com/pulse/clean-code-critics-do-get-point-thank-you-ray-myers-hin6c/) (not his real name) recently caused another huge stir. **He stopped reading the code!** His story was also an I-Statement, not explicity recommending other people do the same, just sharing his current habits. Cousin Bill also outlined an elaborate harness of automated metrics and quality checks he constructed to avoid making a mess. Cool.
+From the other side, Cousin Bill the Patriarch of Codified [Cleanliness](https://www.linkedin.com/pulse/clean-code-critics-do-get-point-thank-you-ray-myers-hin6c/) (not his real name) recently caused another huge stir. **He stopped reading the code!** His story was also an I-Statement, not explicitly recommending other people do the same, just sharing his current habits. Cousin Bill also outlined an elaborate harness of automated metrics and quality checks he constructed to avoid making a mess. Cool.
 
 These are both experienced people and **their needs are completely different**. Hashimoto is doing systems programming. He's building [Ghostty](https://github.com/ghostty-org/ghostty), a cross-platform GPU-accelerated terminal emulator with millions of users.
 
@@ -136,9 +136,9 @@ There is a [comment thread](https://www.linkedin.com/posts/cadrlife_i-spent-thre
 
 **What we're looking for is simple**: A credible developer with proximity to the pager (exposure to outcomes), who openly recommends we stop reading code on real production systems.
 
-Bryan Finster is [pretty close](https://bryanfinster.substack.com/p/is-code-review-dead) to an Anti-Reader stance. Then again, he also mentions some kinds of code you should **always read** and rigorous foundational practices (his [definition of Continious Delivery](https://minimumcd.org/)).
+Bryan Finster is [pretty close](https://bryanfinster.substack.com/p/is-code-review-dead) to an Anti-Reader stance. Then again, he also mentions some kinds of code you should **always read** and rigorous foundational practices (his [definition of Continuous Delivery](https://minimumcd.org/)).
 
-I have no disagreement with Finster. I already [signed](https://github.com/Minimum-CD/cd-manifesto/pull/171) his manifesto in 2021. The first signature was from Dave Farley, co-author of [Continous Delivery](https://martinfowler.com/books/continuousDelivery.html) and author of [Modern Software Engineering](https://www.davefarley.net/?p=352).
+I have no disagreement with Finster. I already [signed](https://github.com/Minimum-CD/cd-manifesto/pull/171) his manifesto in 2021. The first signature was from Dave Farley, co-author of [Continuous Delivery](https://martinfowler.com/books/continuousDelivery.html) and author of [Modern Software Engineering](https://www.davefarley.net/?p=352).
 
 Anyone talking about how to build a Dark Software Factory will name a bunch of the CD practices. If it's useful for you to rebrand The Work as "agent enablement", go for it.
 
@@ -166,7 +166,7 @@ Liz Fong-Jones (ex-Google, Technical Fellow at Honeycomb), [echoes](https://www.
 
 The DevOps/SRE pioneers like Fong-Jones and others we'll mention are well aware of what we call the [Ironies of Automation](https://ferd.ca/notes/paper-ironies-of-automation.html). The term was coined in a landmark 1983 [paper](https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf) by cognitive psychologist Lisanne Bainbridge. The paper is famous for being [shockingly](https://www.usenix.org/conference/srecon19asia/presentation/lund-comedy) [evergreen](https://carlhendrick.substack.com/p/ai-brain-fry-workslop-and-the-ironies) as new generations of automators rediscover it and learn to compensate. That's because the observations are ultimately about people, not about specific machines.
 
-Bainbridge [revisted](https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html) the work four decades later saying this:
+Bainbridge [revisited](https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html) the work four decades later saying this:
 
 > This was unusual among my papers.  Most of the 'big' papers took months of total concentration to write (the marvellous long vacation) - first coming up with relevant points, then mulling over the issues and helping them to emerge into a coherent framework, then translating that into a linear form which could be expressed in sentences.
 >
@@ -181,21 +181,21 @@ I want to separate the Anti-Readers from the Code Abolitionists.
 * Anti-Readers want you to stop reading *today*.
 * Code Abolitionists believe that code will go away *eventually*.
 
-In terms of what actions we should take *now*, these are completely different points of view. They look directionally similar, and the Code Abolitions *inspire* the Anti-Readers. The difference is that many Code Abolitions have **a plan**. Many don't, like [Anthropic CEO Dario Amodei](https://darioamodei.com/essay/machines-of-loving-grace), but the serious ones have a plan.
+In terms of what actions we should take *now*, these are completely different points of view. They look directionally similar, and the Code Abolitionists *inspire* the Anti-Readers. The difference is that many Code Abolitionists have **a plan**. Many don't, like [Anthropic CEO Dario Amodei](https://darioamodei.com/essay/machines-of-loving-grace), but the serious ones have a plan.
 
-People with a plan include [Erik Meijer](https://en.wikipedia.org/wiki/Erik_Meijer_(computer_scientist)) designing [Universalis](https://queue.acm.org/detail.cfm?id=3746223) and my good friend Jim White (ex-Google) designing [Wiki 3 AI](https://docs.google.com/document/d/1ut0YoDlzE-51QN2FNvtBT5Ppz98TF3PlswCfqov64_c/edit?tab=t.0#heading=h.krvfcams61xg). Both of them independantly arrived at directions to deeply redesign the way programming works with formal verification and other mechanics. In that way they hope to abolish direct code maintainance for a huge slice of use cases.
+People with a plan include [Erik Meijer](https://en.wikipedia.org/wiki/Erik_Meijer_(computer_scientist)) designing [Universalis](https://queue.acm.org/detail.cfm?id=3746223) and my good friend Jim White (ex-Google) designing [Wiki 3 AI](https://docs.google.com/document/d/1ut0YoDlzE-51QN2FNvtBT5Ppz98TF3PlswCfqov64_c/edit?tab=t.0#heading=h.krvfcams61xg). Both of them independently arrived at directions to deeply redesign the way programming works with formal verification and other mechanics. In that way they hope to abolish direct code maintenance for a huge slice of use cases.
 
 I'm more interested in adding formal verification to our toolbox while leaving code visible, so from my perspective we mostly agree on what's happening and the differences are in the weeds.
 
 Having a plan involves identifying what isn't working. If Erik Meijer thought we were on a plausible path to the Anti-Reader position under current assumptions, he wouldn't be building Universalis.
 
-Theorizing about how the Unplanned Code Abolitions are messing things up for the Planned Code Abolitions is left as an exercise.
+Theorizing about how the Unplanned Code Abolitionists are messing things up for the Planned Code Abolitionists is left as an exercise.
 
 # The vibes
 
 Vibe coding is the poster child for not reading code. It's literally "forget the code is even there".
 
-Yet someone that vibe codes isn't typically *against* reading code. They are just ignoring the code during their present task. Not even Karpathy is an Anti-Reader. When he *coined the term* vibe coding, it was "quite amusing" for "throwaway weekend projects". He even followed up [clarifing again](https://x.com/karpathy/status/1915581920022585597?lang=en) that it wasn't for his load-bearing professional work.
+Yet someone that vibe codes isn't typically *against* reading code. They are just ignoring the code during their present task. Not even Karpathy is an Anti-Reader. When he *coined the term* vibe coding, it was "quite amusing" for "throwaway weekend projects". He even followed up [clarifying again](https://x.com/karpathy/status/1915581920022585597?lang=en) that it wasn't for his load-bearing professional work.
 
 > Noticing myself adopting a certain rhythm in AI-assisted coding (i.e. code I actually and professionally care about, contrast to vibe code). *\[ explains a 7-step process ]*
 
@@ -324,7 +324,7 @@ What about the Prompts-as-Code hypothesis? Would he buy the Code Abolitionist's 
 >
 > -- Paul Graham, [Being Popular](https://paulgraham.com/popular.html)
 
-One thing you can say for him, he doesn't like noise and he doesn't like [spam](https://paulgraham.com/spam.html). Whatever his thoughts are today on code he doesn't have to deal with, his reaction when he *does* have to see LLM output is pointed enough to have triggered the Businesss Insider headline, [Don't use AI when emailing Paul Graham](https://www.businessinsider.com/paul-graham-email-y-combinator-dont-use-ai-writing-2026-5).
+One thing you can say for him, he doesn't like noise and he doesn't like [spam](https://paulgraham.com/spam.html). Whatever his thoughts are today on code he doesn't have to deal with, his reaction when he *does* have to see LLM output is pointed enough to have triggered the Business Insider headline, [Don't use AI when emailing Paul Graham](https://www.businessinsider.com/paul-graham-email-y-combinator-dont-use-ai-writing-2026-5).
 
 We'll table the whole Venture Capitalist conversation because their place in this circus is far too big to unpack. They are in the business of gambling, running massive experiments on humans without IRB approval. 
 
@@ -376,7 +376,7 @@ The Linux kernel developers are an example of a highly credible software enginee
 
 > If understanding code proved software worked, we'd stop after code review. We don't.
 
-True, but does't fully support the conclusion. Understanding code could be necessary but not sufficient.
+True, but doesn't fully support the conclusion. Understanding code could be necessary but not sufficient.
 
 > We don't even trust the engineer who wrote and understood the code to tell us it works.
 
@@ -425,7 +425,7 @@ True.
 
 Changed it how? Is the implication that verifying it got easier?
 
-The way coding agents were rolled out *notoriously* made verification harder. Hence a hundred think peices titled, "[Verification Is The New Bottleneck](https://www.google.com/search?q=Verification+Is+The+New+Bottleneck)". That was not solely due to coding agents, because technology does not make decisions. It was driven by the incentives of the AI Gold Rush.
+The way coding agents were rolled out *notoriously* made verification harder. Hence a hundred think pieces titled, "[Verification Is The New Bottleneck](https://www.google.com/search?q=Verification+Is+The+New+Bottleneck)". That was not solely due to coding agents, because technology does not make decisions. It was driven by the incentives of the AI Gold Rush.
 
 If we want to talk about what *could* be happening instead of what *is* happening. Yes, it can go much better. It's likely that some fraction of organizations are having these better results, though many are exaggerating and telling the public only the good news.
 
