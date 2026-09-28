@@ -9,7 +9,8 @@
 		"preview": "astro preview",
 		"astro": "astro",
 		"format": "prettier --ignore-unknown --write .",
-		"format:check": "prettier --ignore-unknown --check ."
+		"format:check": "prettier --ignore-unknown --check .",
+		"spellcheck": "scripts/spellcheck.sh"
 	},
 	"devDependencies": {
 		"@astrojs/rss": "^4.0.18",

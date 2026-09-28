@@ -38,5 +38,23 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`     | Starts local dev server at `localhost:4321`  |
 | `npm run build`   | Build your production site to `./dist/`      |
 | `npm run preview` | Preview your build locally, before deploying |
+| `npm run spellcheck` | Spell checks `posts/` (see below)            |
+
+## Spell check
+
+The spell checker needs `codespell`, `hunspell` (with the `en_US` dictionary) and `pandoc`, all of which come with the Nix dev shell:
+
+```sh
+nix develop -c npm run spellcheck
+```
+
+It makes two passes over `posts/*.md`:
+
+- **codespell** looks for known misspellings. It rarely has false positives, so treat anything it reports as a real typo. If it flags a word on purpose, add the word in lowercase to `data/codespell-ignore.txt`.
+- **hunspell** checks the prose against a full dictionary, ignoring code and URLs. It flags every name and piece of jargon, so the script reports only words that aren't already in `data/dictionary.txt`.
+
+Fix the typos, then add the remaining legitimate words to `data/dictionary.txt`, one per line. Read each word before you add it: once a word is in the dictionary it is never flagged again, even if it is a typo.
+
+The script exits non-zero if either pass finds something.
 
 **Have fun!**
