@@ -20,7 +20,7 @@ In literary terms, Anthropic is an *unreliable narrator*.
 
 One of their key narratives is: [Coding is going away, then the rest of software engineering](https://youtu.be/02YLwsCKUww?si=NCcT1_VEm4g4NjZw&t=97), and eventually [most other human labor](https://www.cfr.org/event/ceo-speaker-series-dario-amodei-anthropic). This kind of money behind this kind of story has an impact, regardless of how true we think the story is. 
 
-People will make architecture, product, and staffing decisions based on these events. Many of those decisions will be based on fear - fear of layoffs, rapture-esk warnings of being "Left Behind", [Doom Trolling](https://www.nytimes.com/2026/06/17/opinion/ai-dangerous-openai-anthropic.html?eafs_enabled=false), etc...
+People will make architecture, product, and staffing decisions based on these events. Many of those decisions will be based on fear - fear of layoffs, rapture-esque warnings of being "Left Behind", [Doom Trolling](https://www.nytimes.com/2026/06/17/opinion/ai-dangerous-openai-anthropic.html?eafs_enabled=false), etc...
 
 To make good decisions we need to think clearly, which is hard right now. Put on your skeptical hat.
 

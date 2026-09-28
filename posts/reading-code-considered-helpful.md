@@ -181,7 +181,7 @@ I want to separate the Anti-Readers from the Code Abolitionists.
 * Anti-Readers want you to stop reading *today*.
 * Code Abolitionists believe that code will go away *eventually*.
 
-In terms of what actions we should take *now*, these are completely different points of view. They look directionally similar, and the Code Abolitions *inspire* the Anti-Readers. The difference is that many Code Abolitions have **a plan**. Many don't, like [Anthropic CEO Dario Amodei](https://darioamodei.com/essay/machines-of-loving-grace), but the serious ones have a plan.
+In terms of what actions we should take *now*, these are completely different points of view. They look directionally similar, and the Code Abolitionists *inspire* the Anti-Readers. The difference is that many Code Abolitionists have **a plan**. Many don't, like [Anthropic CEO Dario Amodei](https://darioamodei.com/essay/machines-of-loving-grace), but the serious ones have a plan.
 
 People with a plan include [Erik Meijer](https://en.wikipedia.org/wiki/Erik_Meijer_(computer_scientist)) designing [Universalis](https://queue.acm.org/detail.cfm?id=3746223) and my good friend Jim White (ex-Google) designing [Wiki 3 AI](https://docs.google.com/document/d/1ut0YoDlzE-51QN2FNvtBT5Ppz98TF3PlswCfqov64_c/edit?tab=t.0#heading=h.krvfcams61xg). Both of them independently arrived at directions to deeply redesign the way programming works with formal verification and other mechanics. In that way they hope to abolish direct code maintenance for a huge slice of use cases.
 
@@ -189,7 +189,7 @@ I'm more interested in adding formal verification to our toolbox while leaving c
 
 Having a plan involves identifying what isn't working. If Erik Meijer thought we were on a plausible path to the Anti-Reader position under current assumptions, he wouldn't be building Universalis.
 
-Theorizing about how the Unplanned Code Abolitions are messing things up for the Planned Code Abolitions is left as an exercise.
+Theorizing about how the Unplanned Code Abolitionists are messing things up for the Planned Code Abolitionists is left as an exercise.
 
 # The vibes
 
