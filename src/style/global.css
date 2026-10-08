@@ -340,3 +340,60 @@ ul li time {
     padding: 0 8px 0 0;
   }
 }
+
+.blog-post .person {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+}
+
+@media (min-width: 600px) {
+  .blog-post .person {
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 599px) {
+  .blog-post table:has(.person) thead {
+    display: none;
+  }
+
+  .blog-post table:has(.person) tr,
+  .blog-post table:has(.person) td {
+    display: block;
+  }
+
+  .blog-post table:has(.person) td {
+    padding-inline-end: 0;
+    border: none;
+  }
+
+  .blog-post table:has(.person) td:first-child {
+    padding-block-end: 0.25em;
+  }
+
+  .blog-post table:has(.person) tr {
+    border-block-end: 1px solid var(--moretransblack);
+  }
+}
+
+.blog-post .avatar {
+  width: 48px;
+  min-width: 48px;
+  max-width: none;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.blog-post table {
+  border-collapse: collapse;
+}
+
+.blog-post th,
+.blog-post td {
+  padding: 0.75em 1.5em 0.75em 0;
+  text-align: start;
+  vertical-align: middle;
+  border-block-end: 1px solid var(--moretransblack);
+}
