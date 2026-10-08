@@ -45,17 +45,17 @@ Some examples of tool investments are Formal Methods and safer programming langu
 
 When we talking about coding "more" agentically, we're roughly talking about this spectrum.
 
-0. Manual coding
-1. Auto-complete (LLM-based)
+0. Agents write, nobody reads
+1. Agents write, people read at-a-glance
 2. Agents write, people read closely
-3. Agents write, people read at-a-glance
-4. Agents write, nobody reads
+3. Auto-complete (LLM-based)
+4. Manual and [algorithmic](https://martinfowler.com/articles/refactoringRubicon.html) edits only
 
-Remember, more agentic is not necessary better! These are not like the levels of a video game where the goal to get to the end. When we decide the level, that's a judgement of what kind of code we're dealing with.
+I've ordered these so that higher numbers indicate levels of *caution* rather than higher agent-use. More agentic is not necessary better! These are not like the levels of a video game where the goal to get to the end. When we decide our level, that's a judgement of what kind of code we're dealing with.
 
-* Code worth writing (0, 1)
-* Code worth reading (2, 3)
-* Code worth forgetting (4)
+* Code worth writing (3, 4)
+* Code worth reading (1, 2, 3, 4)
+* Code worth forgetting (0)
 
 # Needs are different
 
