@@ -32,6 +32,8 @@ const tags = getTags(posts);
         </div>
 
         <HomePosts allPosts={posts} />
+
+        <p class="all-posts"><a href="/posts">All posts →</a></p>
       </section>
 
       <div class="home-more">
@@ -103,6 +105,10 @@ const tags = getTags(posts);
 
   .home-writing :global(.post-heading time) {
     font-size: 0.95rem;
+  }
+
+  .all-posts {
+    margin-block: 0;
   }
 
   .home-follow p {
