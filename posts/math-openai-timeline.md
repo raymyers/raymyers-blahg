@@ -279,6 +279,8 @@ Buzzard responded with "[FLT: Anthropic has beaten me to it](https://xenaproject
 > What this work does tell us, however, is what is possible in the field of autoformalization. If thousands of pages of the literature can be formalized end-to-end by some kind of AI swarm in an 11 day period now, then in the future we will start to see formalization of modern research being done on the fly.
 > \[...]
 > The ability to autoformalize hard material will ultimately make the review process for mathematics papers far less painful. It will also keep us honest — there are papers out there which assume results which are “known to the experts” and it will be interesting to see exactly what is being assumed in the proofs of various important results in my field. This is why I am so excited about the news!
+>
+> -- Kevin Buzzard
 
 ### Navier–Stokes Controversy Ignites The Powder Keg
 
@@ -290,7 +292,7 @@ On September 8th, OpenAI announced a solution to the Navier–Stokes Millennium 
 
 
 
-Mathematicians Tristan Buckmaster (New York University) and Levent Alpöge (Anthropic) were independently near a solution building on work by Diego Córdoba and Luis Martínez-Zoroa. Buckmaster was in communication with OpenAI before their announcements. After coordination broke down, he disclosed his results early, apologizing for the quality because agents don't do the full job.
+Mathematicians Tristan Buckmaster (New York University) and Levent Alpöge (Anthropic) were independently near a solution building on work by Diego Córdoba and Luis Martínez-Zoroa. Buckmaster was in communication with OpenAI before their announcements. After talks broke down, he disclosed his results early, apologizing for the quality because agents don't do the full job.
 
 > Ideally, we would have preferred to spend weeks turning the LLM generated proofs into something readable from the very first page. This level of care is what these problems and the community devoted to these problems deserves. The various Boussinesq and Euler write-ups in particular are much closer to what models produce under human direction than to a paper written by a person. The Euler writeup, in particular, can only be described as AI slop. I am sorry for this. The reasons are below, and they involve our being pressured by outside factors.
 > -- Tristan Buckmaster, [Sep 6, 2026 statement](https://cims.nyu.edu/~tristanb/statement.pdf)
