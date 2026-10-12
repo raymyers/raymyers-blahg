@@ -232,6 +232,18 @@ He was as "on board" as you could ask anyone to be. Albeit he seems less happy i
 
 Tao points out the pitfalls as we have optimized some of the process but not others. He explains this as proof digestion. We were generating proofs without integrating them into our understanding. Most of this increased output was **not advancing Math**.
 
+> Perhaps surprisingly, this massive acceleration in proof generation has not actually produced significant acceleration in mathematical progress itself \[...]
+>
+> Just as modern societies no longer consider raw food ingredients as constituting a meal, I predict that mathematical research culture will cease considering "raw", "undigested" proofs as constituting a solution to a problem, and focus more on how the field as a whole, as opposed to just the problem itself, is enriched by the contribution.
+> 
+> Tao, [April 2026 Thread](https://mathstodon.xyz/@tao/116477351524980995)
+
+> I have recently made the point that out of three major components of the mathematical problem solving process - proof generation, proof verification, and proof digestion - the first two are being automated far more successfully than the third, leading to a new experience of "proof indigestion" in which proofs are being generated and even verified without being digested.
+>
+>It has been proposed that the solution to this is simply to automate the third component as well - for instance by training AI to write mathematical proofs at a higher level of exposition.  This will help to some extent, especially as AI capabilities continue to improve; but blindly optimizing various metrics for "digestibility", such as rubrics for mathematical exposition, can make the final product *worse* when viewed holistically.
+>
+> -- Tao, [May 2026 Thread](https://mathstodon.xyz/@tao/116551624228986501)
+
 This would have been a perfect signal for the model labs to pick up on, if they wanted to address the actual needs.
 
 ![Terence Tao post on the transition in proof generation](/images/posts/math-openai-timeline/2026-04-tao-proof-transition-post.png)
@@ -246,7 +258,7 @@ This would have been a perfect signal for the model labs to pick up on, if they 
 
 ![Anthropic: Formalizing Fermat's Last Theorem](/images/posts/math-openai-timeline/2026-09-anthropic-fermats-last-theorem.png)
 
-Anthropic announces [Formalizing Fermat's Last Theorem](https://www.anthropic.com/research/formalizing-fermats-last-theorem), reconstructing the 1993 Andrew Wiles proof in 13 million lines of Lean code.
+Anthropic announces [Formalizing Fermat's Last Theorem](https://www.anthropic.com/research/formalizing-fermats-last-theorem), reconstructing the 1995 Andrew Wiles proof in 13 million lines of Lean code.
 
 This is impressive but not categorically different from what had already been achieved. It's the last of the [top 100 of mathematical theorems](https://www.cs.ru.nl/~freek/100/) to be formalized in a prover. The other 99 had already been done by 2024 with people and provers, without LLMs. However FLT was undoubtedly the hardest, and this accelerates the process.
 
