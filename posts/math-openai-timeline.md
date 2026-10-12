@@ -296,7 +296,7 @@ Mathematicians Tristan Buckmaster (New York University) and Levent Alpöge (Anth
 > 
 > -- Tristan Buckmaster, [Sep 6, 2026 statement](https://cims.nyu.edu/~tristanb/statement.pdf)
 
-Since Buckmaster's group used tools from both labs that train on user data, some suspect that OpenAI's unreleased model used in the solution was trained on the other group's prompts. OpenAI initially confirmed this as a possibility but later claimed to have ruled it out.
+Since Buckmaster's group used tools from both labs that train on user data, some suspect that OpenAI's unreleased model was trained on the other group's prompts. OpenAI initially confirmed this as a possibility but later claimed to have ruled it out.
 
 > While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models.
 >
