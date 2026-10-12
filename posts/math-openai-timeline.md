@@ -2,7 +2,7 @@
 title: Why Math Dumped OpenAI
 slug: math-dumped-openai
 description: >-
-  It's not your fault, Math. You will never be enough.
+  Honest people cannot "embrace change" when that change is a lie.
 tags:
   - ai
   - math
@@ -10,7 +10,7 @@ tags:
   - lean
   - labor
 draft: false
-added: 2026-10-09T00:00:00.000Z
+added: 2026-10-11T00:00:00.000Z
 ---
 
 Don't let anyone call the mathematicians Luddites. **No.**
@@ -101,7 +101,7 @@ Not now, Dario, we're trying to be serious.
 
 Yet another group of domain experts is experiencing a trust breakdown with the US models labs.
 
-The constuents are making their needs clear that things need to change. They are setting boundaries after numerous softer attempts failed.
+The constituents are making their needs clear that things need to change. They are setting boundaries after numerous softer attempts failed.
 
 This is the story of how the **greatest ally** of AI in Math wound up promoting these letters (signing the first).
 
@@ -130,7 +130,7 @@ He's pictured above in 2014, the year he said:
 
 Although there were already programming languages capable of doing this, such as [Isabelle](https://isabelle.in.tum.de/), they were considered obscure and hard to use. Tao was being extremely progressive in anticipating they could catch on for working mathematicians.
 
-Today, when we speak of "AI doing Math" at advanced levels, the most common setup is an LLM-based agent driving a traditional proof assistant (Lean) building on a curated library of already formalized results (MathLib).
+Today, when we speak of "AI doing Math" at advanced levels, the most common setup is an LLM-based agent driving a traditional proof assistant (Lean) building on a curated library of already formalized results (Mathlib).
 
 For more, see [How Terry Tao Became an Evangelist for AI in Math](https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608/) article by Kevin Hartnett or his new book [The Proof in the Code](https://www.quantabooks.org/books/the-proof-in-the-code/) about the creation of Lean prover. Highly recommended.
 
@@ -140,7 +140,7 @@ I first heard of Lean in this 2019 Kevin Buzzard talk: "[The Future of Mathemati
 
 ![Kevin Buzzard: The Future of Mathematics?](/images/posts/math-openai-timeline/2019-10-kevin-buzzard-future-of-mathematics.png)
 
-He called out a key challenge: to become exciting to the field, we needed to be able to formalize *new results*. They depend on many old results, not yet formalized -- a classic bootstrapping problem. He illustrated this on **Fermat's Last Theorem**, the defacto "final boss" of Number Theory results, which Andrew Wiles famously proved in 1995 after it went unsolved for *300 years* because it required ideas not yet invented. Formalizing the FLT proof is *hard*.
+He called out a key challenge: to become exciting to the field, we needed to be able to formalize *new results*. They depend on many old results, not yet formalized -- a classic bootstrapping problem. He illustrated this on **Fermat's Last Theorem**, the de facto "final boss" of Number Theory results, which Andrew Wiles famously proved in 1995 after it went unsolved for *300 years* because it required ideas not yet invented. Formalizing the FLT proof is *hard*.
 
 > Give me 100 million dollars and 10 years and I believe I could get a team together to formalize a proof of Fermat's Last Theorem. No Mathematician I have met disputes this.
 >
@@ -160,7 +160,7 @@ In March 2023, in response OpenAI's release of GPT-4, I wrote the Mechanized Men
 * Conventional Algorithms
 * People
 
-This was a counter-narrative to the idea that Large Language Models are a direct replacement for people or algorithms. These each have different strengths and weaknesses that we need to understand to build good systems. I did not yet understand that magnitude of the vested interests trying to making LLMs *appear* more human-equivelant than they actually were. That was naive of me.
+This was a counter-narrative to the idea that Large Language Models are a direct replacement for people or algorithms. These each have different strengths and weaknesses that we need to understand to build good systems. I did not yet understand that magnitude of the vested interests trying to making LLMs *appear* more human-equivalent than they actually were. That was naive of me.
 
 I began looking for balanced systems that leveraged the strengths of each element, to show the way.
 
@@ -246,9 +246,9 @@ This would have been a perfect signal for the model labs to pick up on, if they 
 
 Anthropic announces [Formalizing Fermat's Last Theorem](https://www.anthropic.com/research/formalizing-fermats-last-theorem), reconstructing the 1993 Andrew Wiles proof in 13 million lines of Lean code.
 
-This is impressive but not catagorically different from what had already been achieved. It's the last of the [top 100 of mathematical theorems](https://www.cs.ru.nl/~freek/100/) to be formalized in a prover. The other 99 had already been done by 2024 with people and provers, without LLMs. However FLT was undoubtedly the hardest, and this accelerates the process.
+This is impressive but not categorically different from what had already been achieved. It's the last of the [top 100 of mathematical theorems](https://www.cs.ru.nl/~freek/100/) to be formalized in a prover. The other 99 had already been done by 2024 with people and provers, without LLMs. However FLT was undoubtedly the hardest, and this accelerates the process.
 
-Remember, Kevin Buzzard explained how to do this twelve years ago, it just wasn't funded.
+Remember, Kevin Buzzard explained how to do this years ago, it just wasn't funded.
 
 ## Buzzard is a Good Sport
 
@@ -276,12 +276,12 @@ On September 8th, OpenAI announced a solution to the Navier–Stokes Millennium 
 
 
 
-Mathematicians Tristan Buckmaster (New York University) and Levent Alpöge (Anthropic) were independantly near a solution building on work by Diego Córdoba and Luis Martínez-Zoroa. Buckmaster was in communication with OpenAI before their announcements. After coordination brokedown, he disclosed his results early, apologizing for the quality because agents don't do the full job.
+Mathematicians Tristan Buckmaster (New York University) and Levent Alpöge (Anthropic) were independently near a solution building on work by Diego Córdoba and Luis Martínez-Zoroa. Buckmaster was in communication with OpenAI before their announcements. After coordination broke down, he disclosed his results early, apologizing for the quality because agents don't do the full job.
 
 > Ideally, we would have preferred to spend weeks turning the LLM generated proofs into something readable from the very first page. This level of care is what these problems and the community devoted to these problems deserves. The various Boussinesq and Euler write-ups in particular are much closer to what models produce under human direction than to a paper written by a person. The Euler writeup, in particular, can only be described as AI slop. I am sorry for this. The reasons are below, and they involve our being pressured by outside factors.
 > -- Tristan Buckmaster, [Sep 6, 2026 statement](https://cims.nyu.edu/~tristanb/statement.pdf)
 
-Since Buckmaster's group used tools from both labs and they train on user data, some suspect that OpenAI's unreleased model used in the solution was trained on the other group's prompts. OpenAI initially confirms this as a posibility but later claims to have ruled it out.
+Since Buckmaster's group used tools from both labs and they train on user data, some suspect that OpenAI's unreleased model used in the solution was trained on the other group's prompts. OpenAI initially confirms this as a possibility but later claims to have ruled it out.
 
 > While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models.
 >
@@ -306,7 +306,7 @@ Priority dispute aside, I think it makes more sense to view these tensions as a 
 * Experts can direct that combination to close vast Lean proofs with novel results.
 * The process still produces an unreadable mess that must be massaged into clear insights.
 * The model labs create spectacle by brute-force, outspending what other researchers have access to.
-* The model labs train on the past and present work of mathematicans to achieve these results.
+* The model labs train on the past and present work of mathematicians to achieve these results.
 
 **I don't believe OpenAI *directly* stole** an incomplete Millennium Prize result through their model training on user inputs. I believe they are in an overall campaign of **devaluing labor** starting from their founding charter around automating "most economically valuable work".
 
@@ -427,6 +427,6 @@ Thank you for reading my fourth epistle.
 Here are some more cheerful books about the world of Math.
 
 * [Is Math Real?: How Simple Questions Lead Us to Mathematics' Deepest Truths](https://eugeniacheng.com/math/books/) by Eugenia Cheng
-* [The Proof in the Code](https://www.quantabooks.org/books/the-proof-in-the-code/) by Kevin Harnet
+* [The Proof in the Code](https://www.quantabooks.org/books/the-proof-in-the-code/) by Kevin Hartnett
 * [Mathematica: A Secret World of Intuition and Curiosity](https://yalebooks.yale.edu/book/9780300270884/mathematica/) by David Bessis
 * [Logicomix: An Epic Search for Truth](https://www.amazon.com/Logicomix-search-truth-Apostolos-Doxiadis/dp/1596914521) by Apostolos Doxiadis and Christos Papadimitriou

@@ -1,0 +1,181 @@
+
+In [Why Software Factories Fail](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md). 
+
+
+
+
+https://www.linkedin.com/pulse/building-software-factory-aint-hard-greg-ceccarelli-t5vve/
+
+
+
+Git
+
+- "a builder in one phase ran `git add -A` and staged half built files from a neighbour phase"
+- "a committer with no worktree argument committed into the operator's checkout at `/Users/gdc/gmux`"
+* "the second to commit rebased over the first and lost its edits"
+* "Two rungs fixed the same false sentence independently" (merge conflict)
+* "No trailers of any kind" (Commit message Authored-By:)
+* "the operator's repos are read-only" (use temp repos in tests)
+*  "Never does: Pushes"
+
+What is `git add -A`
+What is staging?
+What is a worktree?
+What is a merge conflict?
+What is a commit message and why add Authored-By metadata?
+What is a push?
+What is a remote?
+Why not push to the remote?
+
+* "The subject is `type(scope): summary` (conventional commits)"
+
+What is a conventional commit? Why use them?
+What is a type?
+
+
+"3 phases spent agents building 'Phase undefined'" (JavaScript template interpolation, showed undefined instead of throwing)
+
+What is a JavaScript template?
+What is interpolation?
+What is undefined in JavaScript? How is it different from null?
+What is a silent failure?
+What is throwing an exception?
+How do you know if a thrown exception is handled properly?
+What is a call stack?
+
+"A broken escape survived the check" ("\n")
+
+What is an escape sequence?
+When would you double escape?
+What does `node --check` cover, what does it miss?
+
+"rollup deleted the `if` statement from `out/main/index.js`"
+
+What is rollup?
+What is dead code?
+What is bundling a module?
+How might it's dead code detection backfire?
+
+"Runs `npm run typecheck` and `npm test` before it returns"
+
+What is  npm?
+What is the typescript compiler?
+What could happen if we skip type checking vs skipping the tests?
+
+"reported exit 0 while dying halfway through"
+
+What is an exit status?
+What exit status means success?
+Why might a script incorrectly return a successful exit code?
+What is a bash pipe?
+What is the pipefail option?
+Bonus: What is [unofficial bash strict mode](http://redsymbol.net/articles/unofficial-bash-strict-mode/)
+`set -euo pipefail`
+`IFS=$'\n\t'`
+
+"Two CI failures this run were the runner, not the tree"
+
+What is a CI runner?
+What is a docker container?
+What is the source tree?
+How do you distinguish when the runner is the failure, not the code?
+
+"a SKIP row is not a PASS row" (tests)
+
+
+What is a skipped test?
+What are the legitimate reasons to skip one.
+What what might the skip count indicate?
+
+"Phase 48 was committed on a `null` verdict, and the re-verify in the next phase found 15 defects in it" (check for pass not absence of fail)
+
+How are the test results reported, and how might they misreport?
+
+"A verifier that only reads code has not verified"
+"The schema has no field for 'looks good'"
+
+What is a schema?
+
+"Most \[probe scripts] are not wired as gates and will drift if nobody runs them"
+
+What is drift and why avoid it?
+What are gates?
+
+"84.7% of the run is the workload waiting for a marker on a pane"
+
+What is profiling?
+What is a race condition?
+How might you identify one?
+How might you prevent a data race?
+
+"an absolute argv\[0] made every durable gmux agent the one process on the machine that `pkill -f \"$(command -v claude)\"` matches"
+"Never `pkill`"
+
+What are CLI arguments?
+What is the argv variable?
+What is a process?
+What is a process signal?
+What is a process id (PID)?
+What is the difference between `kill` and `pkill`?
+Why is killing by process id safer than `pkill` by pattern?
+Bonus: what is the difference between SIGTERM and SIGKILL
+
+ "the product added three lines to the operator's `~/.ssh/known_hosts`"
+ 
+What is SSL?
+What is SSH?
+What is a hostname?
+What is an IP address?
+What is DNS resolution?
+What is the known_host file?
+What is domain hijacking?
+
+"One probe reported 996 ms for something that actually takes 47 ms"
+
+
+What is electron?
+What is chromium?
+What is throttling?
+
+"never DOM-drawn context menus"
+
+What is the Document Object Model?
+Why is web browser technology involved in cross-platform desktop apps?
+What is native UI?
+What are the tradeoffs?
+
+"Never move durability-critical state into the app"
+
+Why not?
+
+"updates the native menus in the same commit"
+
+What is coupling?
+
+"no hardcoded literals outside theme constant files" (like `#ff0000`)
+What is a literal?
+What does "hardcoded" mean?
+What is CSS?
+What is hex color code?
+Why would we keep color code literals in theme files separate from other code?
+
+"Don't use a hard line limit, use TypeScript best practices"
+
+In TypeScript, a module is a file that does one job and declares what it imports and exports. Cutting at a line count splits one piece of logic across files and tangles the imports.
+
+"Assemble, never reimplement" (library use)
+What is a library dependency?
+What are the pros and cons of using them?
+What kinds of libraries might present a higher maintenance risk?
+
+"Grep for an existing helper before writing one"
+"scan for duplicated 10+ line blocks and extract"
+
+What is a regular expression?
+What is grep?
+How does duplication create coupling?
+What is the DRY principle and what are exceptions to it?
+
+"If a proposal begins "we will expose an interface so extensions can…", it is this refusal"
+
+What is an API boundary?
