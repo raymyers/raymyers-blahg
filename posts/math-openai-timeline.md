@@ -293,9 +293,10 @@ On September 8th, OpenAI announced a solution to the Navier–Stokes Millennium 
 Mathematicians Tristan Buckmaster (New York University) and Levent Alpöge (Anthropic) were independently near a solution building on work by Diego Córdoba and Luis Martínez-Zoroa. Buckmaster was in communication with OpenAI before their announcements. After talks broke down, he disclosed his results early, apologizing for the quality because agents don't do the full job.
 
 > Ideally, we would have preferred to spend weeks turning the LLM generated proofs into something readable from the very first page. This level of care is what these problems and the community devoted to these problems deserves. The various Boussinesq and Euler write-ups in particular are much closer to what models produce under human direction than to a paper written by a person. The Euler writeup, in particular, can only be described as AI slop. I am sorry for this. The reasons are below, and they involve our being pressured by outside factors.
+> 
 > -- Tristan Buckmaster, [Sep 6, 2026 statement](https://cims.nyu.edu/~tristanb/statement.pdf)
 
-Since Buckmaster's group used tools from both labs and they train on user data, some suspect that OpenAI's unreleased model used in the solution was trained on the other group's prompts. OpenAI initially confirms this as a possibility but later claims to have ruled it out.
+Since Buckmaster's group used tools from both labs that train on user data, some suspect that OpenAI's unreleased model used in the solution was trained on the other group's prompts. OpenAI initially confirmed this as a possibility but later claimed to have ruled it out.
 
 > While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models.
 >
@@ -305,7 +306,7 @@ Since Buckmaster's group used tools from both labs and they train on user data, 
 >
 > -- OpenAI's [updated statement](https://openai.com/index/navier-stokes-solution/)
 
-Buckmaster also alleges that OpenAI's Sébastien Bubeck asked for Alpöge's name to be removed in order to make a joint announcement without crediting Anthropic. *If* virtually anything quoted from Bubeck is accurate than he's a serious asshole. We [don't know](https://x.com/dheeraj_nagaraj/status/2097266146445774924) exactly what happened here. I tend to agree with Harris's summary:
+Buckmaster also alleged that OpenAI's Sébastien Bubeck asked for Alpöge's name to be removed in order to make a joint announcement without crediting Anthropic. *If* virtually anything quoted from Bubeck is accurate than he's a serious asshole. We [don't know](https://x.com/dheeraj_nagaraj/status/2097266146445774924) exactly what happened here. I tend to agree with Harris's summary:
 
 > The AI industry is using prominent mathematicians as extras in a marketing operation masquerading as a drama, and that even the most sophisticated among the mathematicians play their roles, naively imagining that the drama is about them.
 > -- Michael Harris, Professor of Mathematics at Columbia University, article: ["If you don’t want me to be nice, then I don't have to be nice"](https://siliconreckoner.substack.com/p/if-you-dont-want-me-to-be-nice-then)
