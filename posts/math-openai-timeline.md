@@ -376,6 +376,8 @@ The next day, the recently-formed **Association for Human Mathematics** issues t
 >
 > -- [AHM Statement on OpenAI’s October 6 Release of Mathematical Documents](https://www.ahmath.org/statements)
 
+*Update*: Terence Tao has now shared a [selection of peer's statements](https://terrytao.wordpress.com/2026/10/12/additional-recent-pieces-on-math-and-ai/) and presented his current vision in the [Math 2.0](https://terrytao.wordpress.com/2026/10/10/math-2-0/) talk. I encourage hearing from them directly.
+
 # Act III - Severance
 
 ## Constituencies
