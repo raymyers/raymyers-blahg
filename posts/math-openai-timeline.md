@@ -309,6 +309,7 @@ Since Buckmaster's group used tools from both labs that train on user data, some
 Buckmaster also alleged that OpenAI's Sébastien Bubeck asked for Alpöge's name to be removed in order to make a joint announcement without crediting Anthropic. *If* virtually anything quoted from Bubeck is accurate than he's a serious asshole. We [don't know](https://x.com/dheeraj_nagaraj/status/2097266146445774924) exactly what happened here. I tend to agree with Harris's summary:
 
 > The AI industry is using prominent mathematicians as extras in a marketing operation masquerading as a drama, and that even the most sophisticated among the mathematicians play their roles, naively imagining that the drama is about them.
+>
 > -- Michael Harris, Professor of Mathematics at Columbia University, article: ["If you don’t want me to be nice, then I don't have to be nice"](https://siliconreckoner.substack.com/p/if-you-dont-want-me-to-be-nice-then)
 
 ### Back to the big picture
