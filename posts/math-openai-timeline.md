@@ -421,9 +421,9 @@ Why is **The Association for Human Mathematics** read as "Anti-AI"? They have su
 
 OpenAI's October 6th announcement titled "Sharing AI progress in mathematics" was deceptive and disrespectful in the context of the ongoing situation, which established why the move was counter-productive to progress. They are counting on press coverage to miss the nuances, which is a good bet.
 
-The AHM is calling for the Math community to go [no-contact](https://www.youtube.com/watch?v=Ecnw8nqpsOk) with OpenAI. I find their reasoning impeccable, and fully supported by the previous statements by the credible parties. I've tried to gather enough context so that any curious person with common sense could understand why.
+The AHM is calling for the Math community to go [no-contact](https://www.youtube.com/watch?v=Ecnw8nqpsOk) with OpenAI. I find their reasoning impeccable, and fully supported by the previous statements of the credible parties. I've tried to gather enough context so that any curious person with common sense could understand why.
 
-**If we care about Math progress we could fund Math** instead of defunding it. *Just an idea*. They could use some of that money to buy tools that help them, and we'll see who wants to run an honest business supporting experts who get to choose.
+**If we care about Math progress we could fund Math** instead of defunding it -- *just an idea*. They could use some of that money to buy tools that help them, and we'll see who wants to run an honest business supporting experts who get to choose.
 
 This is not just about Math. The right of refusal is being contested everywhere. Throughout our industries, well-meaning people have heard gossip and drawn whatever conclusion. Plenty of people are just trying to get things done and don't understand why they've walked into a minefield.
 
