@@ -86,9 +86,9 @@ Does any of this sound familiar?
 
 In this analogy, AI Boosters are Flying Monkeys. They might mean well, and are confused at how people react to their insistence that we make peace with the abuser (which, again, is impossible). They wonder how these Anti-AI people got so mean.
 
-**DARVO** is an acronym for `Deny`, `Attack`, and `Reverse Victim and Offender`.
+**DARVO** is an acronym for `Deny`, `Attack`, and `Reverse Victim and Offender`. [Reactive abuse](https://www.youtube.com/watch?v=JbY2WV_haC8) is intentionally triggering a reaction in order to blame the victim for aggression and make seem like the problem.
 
-[Reactive abuse](https://www.youtube.com/watch?v=JbY2WV_haC8) is intentionally triggering a reaction in order to blame the victim for aggression and make seem like the problem.
+Professor Olivia Guest explains a DARVO example [here](https://bsky.app/profile/olivia.science/post/3mugkyxy4vc2o). Her approach to [critical AI literacy](https://olivia.science/ai/) frequently draws this kind of attack. It's a lopsided game where Machine Learning experts are taken more seriously about everyone else's field, e.g. Cognitive Science.
 
 Another tactic that pairs well here is to act like the conflict is literally with the machines no matter how many times we explain that we are criticizing specific *people* for their *actions*.
 
