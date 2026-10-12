@@ -314,7 +314,7 @@ Buckmaster also alleged that OpenAI's Sébastien Bubeck asked for Alpöge's name
 
 ### Back to the big picture
 
-Priority dispute aside, I think it makes more sense to view these tensions as a blip in the overall broader breakdown in trust.
+Priority dispute aside, I think it makes more sense to view these tensions as a blip in the larger breakdown in trust.
 
 **These points are undisputed**:
 
