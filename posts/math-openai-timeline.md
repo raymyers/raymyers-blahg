@@ -288,9 +288,7 @@ Buzzard responded with "[FLT: Anthropic has beaten me to it](https://xenaproject
 
 ![OpenAI: On the Navier-Stokes Millennium Prize Problem](/images/posts/math-openai-timeline/2026-09-openai-navier-stokes.png)
 
-On September 8th, OpenAI announced a solution to the Navier–Stokes Millennium Prize Problem. The [Millennium Prize Problems](https://www.claymath.org/millennium-problems/) are highly prestigious and carry $1 Million USD prize. OpenAI spent an [estimated](https://simonwillison.net/2026/Sep/8/on-navier-stokes/) $15 Million in tokens on the effort.
-
-
+On September 8th, OpenAI announced a solution to the Navier–Stokes Millennium Prize Problem. The [Millennium Prize Problems](https://www.claymath.org/millennium-problems/) are highly prestigious and carry a $1 Million USD prize. OpenAI spent an [estimated](https://simonwillison.net/2026/Sep/8/on-navier-stokes/) $15 Million in tokens on the effort.
 
 Mathematicians Tristan Buckmaster (New York University) and Levent Alpöge (Anthropic) were independently near a solution building on work by Diego Córdoba and Luis Martínez-Zoroa. Buckmaster was in communication with OpenAI before their announcements. After talks broke down, he disclosed his results early, apologizing for the quality because agents don't do the full job.
 
