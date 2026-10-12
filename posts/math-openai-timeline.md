@@ -188,7 +188,7 @@ To get the best results from LLMs, we need to understand their weaknesses. Unfor
 
 Within a year of ChatGPT's release, my attempts to advocate balanced solutions had left me so alienated from the "AI-first" business world that I "took back" the term Luddite and vowed to take it as complement and an aspiration.
 
-To me, being a Luddite in the useful sense would not mean we oppose new technology in general, but specifically when its introduction is:
+To me, being a Luddite in the useful sense would not mean we oppose new technology in general, but specifically oppose its introduction when it's:
 
 * Deceptive
 * Degrades product quality
