@@ -101,7 +101,7 @@ Not now, Dario, we're trying to be serious.
 
 # Boundaries
 
-Yet another group of domain experts is experiencing a trust breakdown with the US models labs.
+Yet another group of domain experts is experiencing a trust breakdown with the US model labs.
 
 The constituents are making their needs clear that things need to change. They are setting boundaries after numerous softer attempts failed.
 
