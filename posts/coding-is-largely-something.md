@@ -80,7 +80,7 @@ In the last section, Alex chose to argue point 1 directly, answering "coding is 
 
 His piece got to `#2` on Hacker News with mostly positive feedback, showing that people are more than ready for some reality checks. I had similar success with my [July piece on the Bun rewrite](https://raymyers.org/post/zig-creator-calls-spade-a-spade/). The support is there. For anyone who feels alone, you are not alone.
 
-As I said, my answer to whether "coding is solved" is usually that it's a completely ill-defined question, just like arguing whether the stuff coming out of token nozzle is [intelligence](https://olivia.science/ai/).
+As I said, my answer to whether "coding is solved" is usually that it's a completely ill-defined question, just like arguing whether the stuff coming out of the token nozzle is [intelligence](https://olivia.science/ai/).
 
 Since we're already here brainstorming though, I'll try out another approach. You deserve a treat for showing up.
 
