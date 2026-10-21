@@ -98,7 +98,7 @@ Since the American token sellers do not like to share the spotlight, we're talki
 
 Survivorship bias aside, it's *highly suspicious* that we've suddenly become so fixated on abstraction while forgetting all of our previous discourse on when abstraction helps, when it hurts, and our established ways of achieving it. Things are being erased from the conversation. *I wonder who else is being erased*.
 
-See? Coding *is* solved but the gold rush ignores the solution. LLMs are not the new compilers and they don't need to be because **compilers are the new compilers**! Now that we've cleared that up, I will be speaking about what remains unsolved at [AI DevCon New York](https://aidevcon.io/) November 2-4 with my talk [Dark Factory Considered Harmful](https://youtu.be/FcIYAkvMuIY).
+See? Coding *is* solved, we've just overlooked the solution. We don't need to pretend LLMs are the new compilers because *compilers* are the new compilers*! Now that we've cleared that up, I will be speaking about what remains unsolved at [AI DevCon New York](https://aidevcon.io/) November 2-4 with my talk [Dark Factory Considered Harmful](https://youtu.be/FcIYAkvMuIY).
 
 *Unfortunately, no one will be speaking at Grace Hopper Conference this year because it was defunded.*
 
