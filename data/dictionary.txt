@@ -49,6 +49,7 @@ Cro
 Córdoba
 DARVO
 DSD
+DSL
 DSLs
 DSM
 Darpa's
@@ -65,6 +66,7 @@ EPSRC
 Eisegesis
 Elon
 EvoClaw
+Ewerlöf
 FRO's
 Feldman
 Finster
@@ -97,6 +99,7 @@ LD
 LaTeX
 Lada
 Lamport's
+LangDev
 Leftpad
 Levent
 Liber
@@ -153,10 +156,12 @@ Rustaceans
 SRE
 SWE
 Sashiko
+Shili
 Siek
 Strunk
 Suckage
 Superintelligence
+Survivorship
 Synergizing
 Sébastien
 TLA
@@ -179,6 +184,7 @@ VALS
 VC
 VCs
 Viaweb
+Voelter's
 Völter
 WASM
 Wardley

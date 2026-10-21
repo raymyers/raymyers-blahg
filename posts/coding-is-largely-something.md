@@ -1,7 +1,7 @@
 ---
 title: "\"Coding\" is Largely \"Solved\""
 slug: coding-is-largely-something
-description: Suppliments advertise boosting your immune system because it's not a medical claim. 
+description: Supplements advertise boosting your immune system because it's not a medical claim. 
 tags:
   - work
   - agents
@@ -63,7 +63,7 @@ If this describes you, you are now an AI critic -- welcome to the club! When you
 
 This is obviously not some feud with the machines. When I say I'm critical of AI, I'm talking about the actions of specific people and companies during the AI Gold Rush. Still, some of these companies are so influential that questioning them **feels Anti-AI**. That's a problem, because we all know they habitually blow smoke.
 
-So you call something out, but this social force then [compels people](https://www.verywellmind.com/narcissists-and-flying-monkeys-7552473) to show up and paint you as anti-technology, or anti-progress, or whatever Anti-AI means that day. You try to explain that you aren't Anti-AI. You even start leading with it, but you're discovering your Anti-Something. There's some sort of high-control funny business going on.
+So you call something out, but this social force then [compels people](https://www.verywellmind.com/narcissists-and-flying-monkeys-7552473) to show up and paint you as anti-technology, or anti-progress, or whatever Anti-AI means that day. You try to explain that you aren't Anti-AI. You even start leading with it, but you're discovering you're Anti-Something. There's some sort of high-control funny business going on.
 
 At some point you might stop saying you're *exhausted from the hype* and say it more directly. **I'm tired of the lies**.
 
@@ -73,11 +73,11 @@ At some point you might stop saying you're *exhausted from the hype* and say it 
 
 # Picking an angle
 
-In the last section, Alex chose to argue point 1 directly, answering "coding is solved" with "coding is NOT solved". I've explained why I'm not going that route, but the deck is stacked so whose to say what works? Do what you can, I thank you for it.
+In the last section, Alex chose to argue point 1 directly, answering "coding is solved" with "coding is NOT solved". I've explained why I'm not going that route, but the deck is stacked so who's to say what works? Do what you can, I thank you for it.
 
-His piece got to `#2` on HackerNews with mostly positive feedback, showing that people are more than ready for some reality checks. I had similar success with my [July piece on the Bun rewrite](https://raymyers.org/post/zig-creator-calls-spade-a-spade/). The support is there. For anyone who feels alone, you are not alone.
+His piece got to `#2` on Hacker News with mostly positive feedback, showing that people are more than ready for some reality checks. I had similar success with my [July piece on the Bun rewrite](https://raymyers.org/post/zig-creator-calls-spade-a-spade/). The support is there. For anyone who feels alone, you are not alone.
 
-As I said, my answer is whether "coding is solved" is usually that it's a completely ill-defined question, just like arguing whether the stuff coming out of token nozzle is [intelligence](https://olivia.science/ai/).
+As I said, my answer to whether "coding is solved" is usually that it's a completely ill-defined question, just like arguing whether the stuff coming out of token nozzle is [intelligence](https://olivia.science/ai/).
 
 Since we're already here brainstorming though, I'll try out another approach. You deserve a treat for showing up.
 
@@ -87,11 +87,11 @@ I declare coding solved. What do I win?
 
 Coding was solved in principle by compilers circa 1952 due to the work of Grace Hopper and others. That solution was perfected over time by **Domain-Specific Languages**, which raise the level of abstraction in a robust way.
 
-If we had to pick a point at which coding was firmly "solved" (which does not mean anything), we could say 2013 with the Markus Voelter's [DSL Engineering](https://voelter.de/books.html) book. LLMs and agents are able to further streamline the process, as explored in the [LangDev](https://langdevcon.org/2026/program_) conferences from 2024 onward.
+If we had to pick a point at which coding was firmly "solved" (which does not mean anything), we could say 2013 with Markus Voelter's [DSL Engineering](https://voelter.de/books.html) book. LLMs and agents are able to further streamline the process, as explored in the [LangDev](https://langdevcon.org/2026/program_) conferences from 2024 onward.
 
 People are amplified for saying that prompts are the new code and LLMs are the new compilers, the new engineers, the new everything! This is a weight of expectations no single technology could bear, even if you put it in an agent loop. 
 
-Since the american token sellers do not like to share the spotlight, we're talking very little about DSLs and a lot about Markdown files. This is sold as moving up to a **higher level of abstraction**, with a bunch of dubious historical precedents like compilers and punch cards.
+Since the American token sellers do not like to share the spotlight, we're talking very little about DSLs and a lot about Markdown files. This is sold as moving up to a **higher level of abstraction**, with a bunch of dubious historical precedents like compilers and punch cards.
 
 Survivorship bias aside, it's *highly suspicious* that we've suddenly become so fixated on abstraction while forgetting all of our previous discourse on when abstraction helps, when it hurts, and our established ways of achieving it. Things are being erased from the conversation. *I wonder who else is being erased*.
 
@@ -115,7 +115,7 @@ I wouldn't even talk about these in terms of being solved or unsolved. That's a 
 
 I don't mind that there's work to do. I love fixing things. I hate when I can't. I hate even more when my friends are afraid of losing their jobs because the market burped.
 
-To be productive, we need to feel safe. Agents can be made reliable, but **AI does not feel safe**. That is a cultural problem. Plenty of the critics have ideas and can help if you let them. Some would rather be left alone and I support that to.
+To be productive, we need to feel safe. Agents can be made reliable, but **AI does not feel safe**. That is a cultural problem. Plenty of the critics have ideas and can help if you let them. Some would rather be left alone and I support that too.
 
 I don't want to be a cynic. I want to find my patience again. I want to wake up in the morning hopeful about finding a chance to help someone. I'm trying.
 
