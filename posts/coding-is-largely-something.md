@@ -87,7 +87,7 @@ I declare coding solved. What do I win?
 
 Coding was solved in principle by compilers circa 1952 due to the work of Grace Hopper and others. That solution was perfected over time by **Domain-Specific Languages**, which raise the level of abstraction in a robust way.
 
-If we had to pick a point at which coding was firmly "solved" (which does not mean anything), we could say 2013 with Markus Voelter's [DSL Engineering](https://voelter.de/books.html) book. LLMs and agents are able to further streamline the process, as explored in the [LangDev](https://langdevcon.org/2026/program_) conferences from 2024 onward.
+If we had to pick a point at which coding was firmly "solved" (which does not mean anything), we could say 2013 with Markus Voelter's [DSL Engineering](https://voelter.de/books.html) book. LLMs and agents are able to further streamline the process, as explored in the [LangDev](https://langdevcon.org/2026/program) conferences from 2024 onward.
 
 People are amplified for saying that prompts are the new code and LLMs are the new compilers, the new engineers, the new everything! This is a weight of expectations no single technology could bear, even if you put it in an agent loop. 
 
