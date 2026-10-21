@@ -43,7 +43,7 @@ A vital function of the **criticism** in this conversation is to help solve thes
 
 # AI Critics
 
-Tomorrow I'm taking part in a panel by JetBrains, "[Engineers face-off: AI pilled vs skeptics](https://luma.com/join/g-8VDTVx4bdJlrRhW)." I'm on the skeptic's side (*surprise*). What does that mean?
+Tomorrow I'm taking part in a panel by JetBrains, "[Engineers face-off: AI pilled vs skeptics](https://luma.com/odimoyka)." I'm on the skeptic's side (*surprise*). What does that mean?
 
 To me, being skeptical means being open to evidence but requiring it. [Engineers](https://www.hillelwayne.com/post/are-we-really-engineers/) are skeptics by nature, one would hope.
 
@@ -61,7 +61,7 @@ A thoughtful person finds themself in a predicament. Put yourself in Alex's shoe
 
 If this describes you, you are now an AI critic -- welcome to the club! When you realized that pushing back would look Anti-AI, you recognized we were being taken on a ride you weren't comfortable with. Perhaps it went against your [ethics](https://www.acm.org/code-of-ethics), because you are a [professional](https://jolt.law.harvard.edu/assets/articlePDFs/v33/33HarvJLTech557.pdf).
 
-This is obviously not some feud with the machines. When I say I'm critical of AI, I'm talking about the actions of specific people and companies during the AI Gold Rush. Still, some of these companies are so influential that questioning them **feels Anti-AI**. That's a problem, because we all know they habitually blow smoke.
+This is obviously not some feud with the machines. When I say I'm critical of AI, I'm talking about the actions of specific people and companies during the AI Gold Rush. Some of these companies are so influential that questioning them **feels Anti-AI**. That's a problem, because we all know they habitually blow smoke.
 
 So you call something out, but this social force then [compels people](https://www.verywellmind.com/narcissists-and-flying-monkeys-7552473) to show up and paint you as anti-technology, or anti-progress, or whatever Anti-AI means that day. You try to explain that you aren't Anti-AI. You even start leading with it, but you're discovering you're Anti-Something. There's some sort of high-control funny business going on.
 
