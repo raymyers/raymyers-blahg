@@ -86,7 +86,7 @@ Since we're already here brainstorming though, I'll try out another approach. Yo
 
 # Conceding the point
 
-I declare coding solved. What do I win?
+**I declare coding solved.** What do I win?
 
 Coding was solved in principle by compilers circa 1952 due to the work of Grace Hopper and others. That solution was perfected over time by **Domain-Specific Languages**, which raise the level of abstraction in a robust way.
 
