@@ -119,7 +119,7 @@ To be productive, we need to feel safe. Agents can be made reliable, but **AI do
 
 I don't want to be a cynic. I want to find my patience again. I want to wake up in the morning hopeful about finding a chance to help someone. I'm trying.
 
-But I swear if I hear the words *[Left Behind](https://www.imdb.com/list/ls003291543/)* **one more time**... ;)
+But I swear if I hear the words [Left Behind](https://www.imdb.com/list/ls003291543/) *one more time*... ;)
 
 ---
 
