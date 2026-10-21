@@ -62,7 +62,7 @@ A thoughtful person finds themself in a predicament. Put yourself in Alex's shoe
 * You feel social pressure to always signal as Pro-AI. 
 * You defensively begin your response by explaining you are **not Anti-AI**.
 
-If this describes you, you are now an AI critic -- welcome to the club! When you realized that pushing back would look Anti-AI, you recognized we were being taken on a ride you weren't comfortable with. Perhaps it went against your [ethics](https://www.acm.org/code-of-ethics), because you are a [professional](https://jolt.law.harvard.edu/assets/articlePDFs/v33/33HarvJLTech557.pdf).
+If this describes you, you are now an AI critic -- welcome to the club! When you realized that pushing back on certain narratives would look Anti-AI, you identified we were being taken on a ride you weren't comfortable with. Perhaps that narrative went against your [ethics](https://www.acm.org/code-of-ethics), because you are a [professional](https://jolt.law.harvard.edu/assets/articlePDFs/v33/33HarvJLTech557.pdf).
 
 This is obviously not some feud with the machines. When I say I'm critical of AI, I'm talking about the actions of specific people and companies during the AI Gold Rush. Some of these companies are so influential that questioning them **feels Anti-AI**. That's a problem, because we all know they habitually blow smoke.
 
