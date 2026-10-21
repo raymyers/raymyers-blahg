@@ -25,6 +25,9 @@ It's hard for us to do the work of making coding agents successful when people a
 
 * [My Top 10 Thinkers in Agentic Coding](https://raymyers.org/post/10-thinkers-in-agentic-coding/)
 * [Coding Agents 2.0](https://github.com/raymyers/coding-agents-2.0)
+
+Once we embrace that people are part of the system, Lorin Hochstein's reading list on [Cognitive Systems Engineering](https://github.com/lorin/cognitive-systems-engineering) also becomes extremely relevant. I hope to be back with some highlights soon.
+
 # Misdirection
 
 "Coding" is an ambiguous term for many tasks and responsibilities. There is no agreed upon boundary at which point it will be "solved". Consider these three cliches making the rounds now:
