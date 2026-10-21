@@ -94,7 +94,7 @@ If we had to pick a point at which coding was firmly "solved" (which does not me
 
 People are amplified for saying that prompts are the new code and LLMs are the new compilers, the new engineers, the new everything! This is a weight of expectations no single technology could bear, even if you put it in an agent loop. 
 
-Since the American token sellers do not like to share the spotlight, we're talking very little about DSLs and a lot about Markdown files. This is sold as moving up to a **higher level of abstraction**, with a bunch of dubious historical precedents like compilers and punch cards.
+Since the American token sellers do not like to share the spotlight, we're talking very little about DSLs and a lot about Markdown files. This is sold as moving up to a **higher level of abstraction**, with a bunch of dubious historical comparisons like compilers and punch cards held up as precedents.
 
 Survivorship bias aside, it's *highly suspicious* that we've suddenly become so fixated on abstraction while forgetting all of our previous discourse on when abstraction helps, when it hurts, and our established ways of achieving it. Things are being erased from the conversation. *I wonder who else is being erased*.
 
