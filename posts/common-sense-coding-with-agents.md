@@ -36,12 +36,12 @@ added: 2026-10-27T12:55:51.831Z
 
 ## Books
 
-- *Observability Engineering* (new edition)
-- *Site Reliability Engineering* (new edition)
-- *Continuous Delivery* - Dave Farley and Jez Humble
-- *Modern Software Engineering* - Dave Farley
-- *Working Effectively With Legacy Code* - Michael Feathers
-- [*Psychology of Software Teams*](https://www.drcathicks.com/) - Dr. Cat Hicks, 2026
+- [*Observability Engineering*](https://www.honeycomb.io/observability-engineering-oreilly-book) (2nd edition) - Charity Majors, Liz Fong-Jones, and George Miranda, 2026
+- [*Site Reliability Engineering*](https://www.oreilly.com/library/view/site-reliability-engineering/9798341607675/) (2nd edition) - Betsy Beyer, Chris Jones, Christof Leng, David Huska, Jennifer Petoff, and Niall Richard Murphy, 2026
+- [*Continuous Delivery*](https://martinfowler.com/books/continuousDelivery.html) - Jez Humble and Dave Farley
+- [*Modern Software Engineering*](https://www.davefarley.net/?p=352) - Dave Farley
+- [*Working Effectively With Legacy Code*](https://www.oreilly.com/library/view/working-effectively-with/0131177052/) - Michael Feathers
+- [*The Psychology of Software Teams*](https://www.routledge.com/The-Psychology-of-Software-Teams/Hicks/p/book/9781032963389) - Dr. Cat Hicks, 2026
 
 ## From my blog
 
