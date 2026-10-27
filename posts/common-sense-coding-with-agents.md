@@ -9,6 +9,12 @@ tags:
 added: 2026-10-27T12:55:51.831Z
 ---
 
+## From my blog
+
+- [Reading Code Considered Helpful](https://raymyers.org/post/reading-code-considered-helpful/)
+- [The Show Me Method](https://raymyers.org/post/show-me-method/)
+- [My Top 10 Thinkers in Agentic Coding](https://raymyers.org/post/10-thinkers-in-agentic-coding/)
+
 ## Articles
 
 - [MinimumCD](https://minimumcd.org/) - Continuous Delivery definition and guide
@@ -42,9 +48,3 @@ added: 2026-10-27T12:55:51.831Z
 - [*Modern Software Engineering*](https://www.davefarley.net/?p=352) - Dave Farley
 - [*Working Effectively With Legacy Code*](https://www.oreilly.com/library/view/working-effectively-with/0131177052/) - Michael Feathers
 - [*The Psychology of Software Teams*](https://www.routledge.com/The-Psychology-of-Software-Teams/Hicks/p/book/9781032963389) - Dr. Cat Hicks, 2026
-
-## From my blog
-
-- [My Top 10 Thinkers in Agentic Coding](https://raymyers.org/post/10-thinkers-in-agentic-coding/)
-- [The Show Me Method](https://raymyers.org/post/show-me-method/)
-- [Reading Code Considered Helpful](https://raymyers.org/post/reading-code-considered-helpful/)
