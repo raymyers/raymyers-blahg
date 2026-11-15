@@ -6,50 +6,136 @@ import {
   title as SITE_TITLE,
   subtitle as SITE_DESCRIPTION,
 } from "../settings/settings.json";
+import allTalks from "../data/talks.json";
 
-// Videos list - add your video entries here
-const videos = [
-  // { title: "Video Title", url: "https://youtube.com/...", date: "2024-01-01" },
+// Entries with "hidden": true are kept in the data but not listed.
+const talks = allTalks.filter((t) => !t.hidden);
+
+const REPO = "https://github.com/raymyers/Talks";
+const slidesUrl = (t) =>
+  t.slides.startsWith("/") ? t.slides : `${REPO}/blob/main/Slides/${t.slides}`;
+const MONTHS = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ];
+// "2026-11" -> "November 2026"; "2026" stays as-is
+const formatDate = (d) => {
+  const [year, month] = d.split("-");
+  return month ? `${MONTHS[Number(month) - 1]} ${year}` : year;
+};
+const resourcesUrl = (t) => `${REPO}/blob/main/${t.resources}`;
 ---
 
-<!doctype html>
 <html lang="en-us">
   <BaseHead title={`Talks - ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
   <body>
     <Header />
     <main>
-      <section>
-        <h2>Slides</h2>
-        <p>
-          Check out my presentation slides on <a
-            href="https://github.com/raymyers/Talks"
-            target="_blank"
-            rel="noopener noreferrer">GitHub</a
-          >.
-        </p>
-      </section>
-
-      <section>
-        <h2>Videos</h2>
+      <ul class="talks">
         {
-          videos.length > 0 ? (
-            <ul>
-              {videos.map((video) => (
-                <li>
-                  <a href={video.url} target="_blank" rel="noopener noreferrer">
-                    {video.title}
-                  </a>
-                  {video.date && <span> - {video.date}</span>}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p>Videos coming soon!</p>
-          )
+          talks.map((t) => (
+            <li class="talk">
+              {t.video && (
+                <a
+                  class="thumb"
+                  href={`https://www.youtube.com/watch?v=${t.video}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Watch video: ${t.title}`}
+                >
+                  <img
+                    src={`https://i.ytimg.com/vi/${t.video}/hqdefault.jpg`}
+                    alt=""
+                    loading="lazy"
+                    width="480"
+                    height="360"
+                  />
+                </a>
+              )}
+              <div class="info">
+                <h2>{t.title}</h2>
+                <p class="meta">
+                  {[t.event, formatDate(t.date)].filter(Boolean).join(" · ")}
+                </p>
+                <p class="links">
+                  <a href={slidesUrl(t)}>Slides</a>
+                  {t.video && (
+                    <a href={`https://www.youtube.com/watch?v=${t.video}`}>
+                      Video
+                    </a>
+                  )}
+                  {t.resources && <a href={resourcesUrl(t)}>Resources</a>}
+                </p>
+              </div>
+            </li>
+          ))
         }
-      </section>
+      </ul>
+      <p>
+        More videos on the <a
+          href="https://www.youtube.com/@craftvscruft8060/videos"
+          target="_blank"
+          rel="noopener noreferrer">Craft vs Cruft YouTube channel</a
+        >.
+      </p>
     </main>
     <Footer />
   </body>
 </html>
+
+<style>
+  .talks {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 1.5rem;
+  }
+  .talk {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  .thumb {
+    flex: 0 0 9rem;
+  }
+  .thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 2px;
+  }
+  .info h2 {
+    margin: 0 0 0.25rem;
+    font-size: 1.25rem;
+  }
+  .meta {
+    margin: 0;
+    color: var(--gray);
+  }
+  .links {
+    margin: 0.4rem 0 0;
+    display: flex;
+    gap: 1rem;
+  }
+  @media (max-width: 30rem) {
+    .talk {
+      flex-direction: column;
+    }
+    .thumb {
+      flex-basis: auto;
+      width: 100%;
+    }
+  }
+</style>

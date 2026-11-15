@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Dark Factory Considered Harmful",
+    "event": "AI DevCon",
+    "date": "2026-11",
+    "slides": "/slides/Dark-Factory-Considered-Harmful-Ray-Myers-AI-DevCon-Nov-2026.pdf",
+    "video": "iS8NbFAcGYA"
+  },
+  {
+    "title": "AI Hates Legacy Code",
+    "date": "2026-05",
+    "slides": "AI%20Hates%20Legacy%20Code%20-%20Ray%20Myers%20-%20May%202026.pdf",
+    "hidden": true
+  },
+  {
+    "title": "Code Worth Writing: Software Should Work",
+    "date": "2026-07",
+    "slides": "code-worth-writing-ray-myers-2026-software-should-work.pdf",
+    "event": "Software Should Work",
+    "video": "mZgglPK8Rg0"
+  },
+  {
+    "title": "The Ralph Wiggum Phenomenon: Evolving Agentic Coding",
+    "date": "2026-02",
+    "slides": "Ralph%20Wiggum-Phenomenon-Evolving-Agentic-Coding-Feb-2026.pdf",
+    "event": "OpenHands webinar",
+    "video": "5syeNjq2ZCU"
+  },
+  {
+    "title": "AI Hates Legacy Code",
+    "event": "AI Native DevCon, New York City",
+    "date": "2025-11",
+    "slides": "AI%20Hates%20Legacy%20Code%20-%20Ray%20Myers%20-%20November%202025.pdf",
+    "resources": "AI_Hates_Legacy_Code_November_2025.md",
+    "video": "E5u2qFX1aGM"
+  },
+  {
+    "title": "The Many Ends of Programming",
+    "event": "AI Native Dev",
+    "date": "2025-05",
+    "slides": "The-Many-Ends-of-Programming-May-2025-AI-Native-Dev.pdf",
+    "video": "KHGHylRhXFc"
+  },
+  {
+    "title": "Make Tools That Don't Break",
+    "event": "AI Native Dev Meetup, New York City",
+    "date": "2025-02",
+    "slides": "Make_Tools_That_Dont_Break_Feb_2025.pptx",
+    "resources": "Make_Tools_That_Dont_Break_Feb_2025.md",
+    "video": "YQGnJdgYBAo"
+  },
+  {
+    "title": "Code Mending in the AI Age",
+    "event": "Craft Conference",
+    "date": "2024-05",
+    "slides": "Code_Mending_in_the_AI_Age_Craft_2024.pptx",
+    "resources": "Code_Mending_in_the_AI_Age_Craft_2024.md",
+    "video": "-r1yB6wCRP8"
+  }
+]
